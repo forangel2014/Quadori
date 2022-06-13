@@ -26,26 +26,6 @@ FILES = {
 }
 
 
-if not os.path.exists('logs/'):
-    os.mkdir('logs/')
-
-logging.basicConfig(
-    filename='logs/evaluation-{}.log'.format(str(datetime.now())),
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
-    datefmt='%m/%d/%Y %H:%M:%S',
-    level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-
-def print_config(config):
-    config = vars(config)
-    logger.info("**************** MODEL CONFIGURATION ****************")
-    for key in sorted(config.keys()):
-        val = config[key]
-        keystr = "{}".format(key) + (" " * (25 - len(key)))
-        logger.info("{} -->   {}".format(keystr, val))
-    logger.info("**************** MODEL CONFIGURATION ****************")
-
 scorer = RougeScorer(['rougeL'], use_stemmer=True)
 
 def rouge(references, hypothesis):
@@ -65,6 +45,7 @@ class RelationExtractionEvaluator(object):
         self.args = args
         if self.args.inductor == 'rule':
             self.inductor = BartInductor(
+                device='cuda:' + self.args.device,
                 group_beam=self.args.group_beam,
                 continue_pretrain_instance_generator=self.args.mlm_training,
                 continue_pretrain_hypo_generator=self.args.bart_training,
@@ -246,8 +227,30 @@ if __name__ == '__main__':
     parser.add_argument("--bart_training", type=bool, default=False)
     parser.add_argument("--if_then", type=bool, default=False)
     parser.add_argument("--task", type=str, default='openrule155')
-
+    parser.add_argument("--log_name", type=str, default=False)
+    parser.add_argument("--device", type=str, default='0')
     args = parser.parse_args()
+
+    if not os.path.exists('logs/'):
+        os.mkdir('logs/')
+
+    logging.basicConfig(
+        filename='logs/'+args.log_name+'.log',
+        format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
+        datefmt='%m/%d/%Y %H:%M:%S',
+        level=logging.INFO)
+    logger = logging.getLogger(__name__)
+
+
+    def print_config(config):
+        config = vars(config)
+        logger.info("**************** MODEL CONFIGURATION ****************")
+        for key in sorted(config.keys()):
+            val = config[key]
+            keystr = "{}".format(key) + (" " * (25 - len(key)))
+            logger.info("{} -->   {}".format(keystr, val))
+        logger.info("**************** MODEL CONFIGURATION ****************")
+    
 
     print_config(args)
     evaluator = RelationExtractionEvaluator(args)

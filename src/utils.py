@@ -188,8 +188,8 @@ def align(tA, text):
     word1 = ' '.join(text_tokens[idx11:idx12])
     word2 = ' '.join(text_tokens[idx21:idx22])
 
-    print(tA)
-    print(text)
-    print([word1, word2])
+    #print(tA)
+    #print(text)
+    #print([word1, word2])
 
     return [word1, word2]

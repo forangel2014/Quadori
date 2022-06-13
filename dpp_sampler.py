@@ -1,7 +1,7 @@
 import torch
 from dpp.dpp import dpp
 from transformers import BertModel, BertTokenizer, GPT2LMHeadModel, GPT2Tokenizer
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, AgglomerativeClustering
 
 class DPPsampler():
 
@@ -35,6 +35,12 @@ class DPPsampler():
         return repr
 
     def Kmeans_clusting(self, sents, n_clusters=5):
+        repr = self.get_repr(sents)
+        kmeans = KMeans(n_clusters=n_clusters)
+        result = kmeans.fit(repr.detach().cpu().numpy())
+        return result.labels_
+
+    def Hierarchical_clusting(self, sents, n_clusters=5):
         repr = self.get_repr(sents)
         kmeans = KMeans(n_clusters=n_clusters)
         result = kmeans.fit(repr.detach().cpu().numpy())

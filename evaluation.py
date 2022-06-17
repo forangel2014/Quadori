@@ -10,7 +10,7 @@ from nltk import bleu, meteor
 from rouge_score.rouge_scorer import RougeScorer
 from tqdm import tqdm
 from src.distinct_n.distinct_n.metrics import distinct_n_corpus_level as distinct_n
-
+from entailment_eval import EntailmentScorer
 from inductor import BartInductor, CometInductor
 
 FILES = {
@@ -43,9 +43,11 @@ def rouge(references, hypothesis):
 class RelationExtractionEvaluator(object):
     def __init__(self, args):
         self.args = args
+        self.device = 'cuda:' + self.args.device
+        self.entailment_scorer = EntailmentScorer(self.device)
         if self.args.inductor == 'rule':
             self.inductor = BartInductor(
-                device='cuda:' + self.args.device,
+                device=self.device,
                 group_beam=self.args.group_beam,
                 continue_pretrain_instance_generator=self.args.mlm_training,
                 continue_pretrain_hypo_generator=self.args.bart_training,
@@ -88,6 +90,7 @@ class RelationExtractionEvaluator(object):
                 "bleu-1": [],
                 "METEOR": [],
                 "ROUGE-L": [],
+                "entailment score": [],
                 "self-BLEU-2": [],
             }
             with open(FILES[task], 'r', encoding='utf-8') as file:
@@ -196,6 +199,17 @@ class RelationExtractionEvaluator(object):
                                 except:
                                     logger.warning("Skip ROUGE-L in example: {}".format(inputs))
                                     pass
+
+                                
+                                try:
+                                    self.metrics['entailment score'].append(
+                                        self.entailment_scorer.scoring(inputs, hypo)
+                                    )
+                                except:
+                                    logger.warning("Skip entailment score in example: {}".format(inputs))
+                                    pass
+                                
+
                             try:
                                 self.metrics['self-BLEU-2'].append(
                                     self.self_bleu(
@@ -208,6 +222,36 @@ class RelationExtractionEvaluator(object):
                         # break
 
             self.print(task, self.metrics)
+
+    def eval_references(self, task):
+        with torch.no_grad():
+            entailment_score = []
+            with open(FILES[task], 'r', encoding='utf-8') as file:
+                data = file.readlines()
+                with tqdm(total=len(data)) as pbar:
+                    for row in data:
+                        pbar.update(1)
+                        row = row.strip().split('\t')
+                        inputs, head, tail, relations = row[0], row[1], row[2], row[3]
+                        inputs = inputs.strip()
+                        
+                        if relations.startswith('[') and relations.endswith(']'):
+                            inputs = re.sub("<A>|<B>", "<mask>", inputs)
+                            references = [relation.replace('<A>', '<mask>').replace('<B>', '<mask>').lower().strip() for relation in eval(relations)]
+                        else:
+                            references = [relations.replace('[X]', '<mask>').replace('[Y]', '<mask>').lower().strip()]
+                        references = self.clean_references(references)
+                            
+                        logger.info("***********Input************")
+                        logger.info(inputs)
+                        logger.info("*********References*********")
+                        logger.info(references)
+                        logger.info("****************************")
+                        
+                        for ref in references:
+                            entailment_score.append(self.entailment_scorer.scoring(inputs, ref))
+            
+            logger.info("reference entailment score: {}".format(str(np.mean(entailment_score))))
 
     def print(self, task, metrics):
         logger.info("Task: {}".format(str(task)))
@@ -255,3 +299,4 @@ if __name__ == '__main__':
     print_config(args)
     evaluator = RelationExtractionEvaluator(args)
     evaluator.evaluate(args.task)
+    #evaluator.eval_references(args.task)

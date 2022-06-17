@@ -67,3 +67,8 @@ class DPPsampler():
             score = self.rescorer(inputs, labels=inputs)[0]
             r.append(score.tolist())
         return rhs_ls
+
+if __name__ == "__main__":
+    sampler = DPPsampler(0)
+    res = sampler.dpp([["participate in", 1], ["will participate in", 1], ["has participated in", 1], ["how are you", 1]], 2)
+    print(res)

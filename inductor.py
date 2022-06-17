@@ -48,10 +48,11 @@ class BartInductor(object):
 
         if group_beam:
             self.orion_hypothesis_generator = BartForConditionalGeneration_GroupBeam.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval().half()
+            self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval().half()    
         else:
-            self.orion_hypothesis_generator = BartForConditionalGeneration.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval().half()
-        
-        self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval().half()
+            self.orion_hypothesis_generator = BartForConditionalGeneration.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval()#.half()
+            self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval()#.half()
+    
     
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large")
         self.word_length = 2
@@ -261,7 +262,7 @@ class BartInductor(object):
         words_prob_sorted = []
         for (words, probA, *_) in words_prob:
             tokenized_word = self.tokenizer(words[0])
-            words_prob_sorted.append([words,probA,len(tokenized_word['input_ids'])])
+            words_prob_sorted.append([words, probA, len(tokenized_word['input_ids'])])
         words_prob_sorted.sort(key=lambda x:x[2])
 
         batch_size = 8
@@ -331,7 +332,7 @@ class BartInductor(object):
                 templates.clear()
                 index_words.clear()
 
-        return ret #sorted(ret, key=lambda x: x[1], reverse=True) #ret
+        return ret #sorted(ret, key=lambda x: ret[x], reverse=True)
 
     def generate_rule(self, tA, k=10, print_it = False):
         tA = formalize_tA(tA)
@@ -368,15 +369,15 @@ class BartInductor(object):
 
         #r = tA.split('<mask>')[1]
         #sents = [[word[0][0] + r + word[0][1], 1] for word in words_prob]
-        sents = [[tA.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), 1] for word in words_prob]
+        sents = [[tA.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), word[1]] for word in words_prob]
 
         # -clusting
-        #rhs_scores = self.extract_templateBs_batch(words_prob, tA, k)
+        rhs_scores = self.extract_templateBs_batch(words_prob, tA, k)
         #rhs_scores = self.generate_rhs_group_beam(words_prob, tA, k)
 
-        
+        '''
         # method 1: clusting ins
-        n_clusters = 1
+        n_clusters = 10
         clusters = []
         labels = self.dpp_sampler.Kmeans_clusting(sents, n_clusters) if len(sents) > n_clusters else list(range(len(sents)))
         for n in range(n_clusters):
@@ -386,7 +387,8 @@ class BartInductor(object):
         for cluster in clusters:
             if len(cluster) > 0:
                 rhs_scores.update(self.extract_templateBs_batch(cluster, tA, k, softmax=True))
-        
+                rhs_scores.update(self.generate_rhs_group_beam(cluster, tA, k, softmax=True))
+        '''
 
         '''
         # method 2: sample typical ins through DPP
@@ -401,7 +403,7 @@ class BartInductor(object):
 
         rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key] > 0]
         rhs_text = [[t[0].replace('<ent0>','').replace('<ent1>',''), t[1]] for t in rhs_ls]
-
+        
         # rescoring!
         #rhs_ls = self.dpp_sampler.rescoring(rhs_text)
 

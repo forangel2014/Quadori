@@ -1,0 +1,767 @@
+07/05/2022 15:06:03 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/05/2022 15:06:03 - INFO - __main__ - bart_training             -->   True
+07/05/2022 15:06:03 - INFO - __main__ - device                    -->   5
+07/05/2022 15:06:03 - INFO - __main__ - group_beam                -->   False
+07/05/2022 15:06:03 - INFO - __main__ - if_then                   -->   False
+07/05/2022 15:06:03 - INFO - __main__ - inductor                  -->   rule
+07/05/2022 15:06:03 - INFO - __main__ - log_dir                   -->   logs_new/
+07/05/2022 15:06:03 - INFO - __main__ - log_name                  -->   semeval+abs+dpp
+07/05/2022 15:06:03 - INFO - __main__ - mlm_training              -->   True
+07/05/2022 15:06:03 - INFO - __main__ - task                      -->   semeval
+07/05/2022 15:06:03 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/05/2022 15:07:56 - INFO - __main__ - ***********Input************
+07/05/2022 15:07:56 - INFO - __main__ - much of the <mask> evaporated from the <mask> without ever reaching the ground .
+07/05/2022 15:07:56 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:07:56 - INFO - __main__ - <mask> is a young boy who is sent to <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask>'s father is a scientist who has been sent to <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask> is the only one of the group who has survived the crash and returns to <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask> was a member of the crew of the space shuttle enterprise, which crashed on <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask> is a planet orbiting the star <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask>, who has been sent to the future to find out what happened to <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask>'s mother, who is a former nurse, is a doctor on <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask> has a higher density of water than <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask>, in turn, is in the process of being eclipsed by <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - <mask> is an alien who has been sent to <mask>.
+07/05/2022 15:07:56 - INFO - __main__ - ****************************
+07/05/2022 15:07:56 - INFO - __main__ - *********References*********
+07/05/2022 15:07:56 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/05/2022 15:07:56 - INFO - __main__ - ****************************
+07/05/2022 15:08:10 - INFO - __main__ - ***********Input************
+07/05/2022 15:08:10 - INFO - __main__ - dolf oehler , a leader in the leftist <mask> of heine <mask> since the 1970s , gathered a group of likeminded critics for this symposium .
+07/05/2022 15:08:10 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:08:10 - INFO - __main__ - <mask>: the history of the reformation in <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask> and the "german school" in <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask>, and the rise of <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask> a major influence on <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask> was a major influence on <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask> was a major influence on the <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask>: a history of the church in <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask> and the rise of <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask> is a political party in <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - <mask>-wing parties were not allowed to participate in the elections in <mask>.
+07/05/2022 15:08:10 - INFO - __main__ - ****************************
+07/05/2022 15:08:10 - INFO - __main__ - *********References*********
+07/05/2022 15:08:10 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/05/2022 15:08:10 - INFO - __main__ - ****************************
+07/05/2022 15:08:21 - INFO - __main__ - ***********Input************
+07/05/2022 15:08:21 - INFO - __main__ - the cornish pirates have signed a <mask> to tackle <mask> as part of their commitment to save energy and reduce their environmental footprint .
+07/05/2022 15:08:21 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:08:21 - INFO - __main__ - <mask> to be a part of <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> was a member of the group <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> is a peer-reviewed scientific journal covering <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> was a member of the band <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> to the future: the impact of <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> to protect <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> to the <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> to the future: a new approach to <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask>'s research focuses on <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - <mask> is a compilation album by the band <mask>.
+07/05/2022 15:08:21 - INFO - __main__ - ****************************
+07/05/2022 15:08:21 - INFO - __main__ - *********References*********
+07/05/2022 15:08:21 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/05/2022 15:08:21 - INFO - __main__ - ****************************
+07/05/2022 15:08:31 - INFO - __main__ - ***********Input************
+07/05/2022 15:08:31 - INFO - __main__ - the <mask> of the <mask> is lined with more than 3 cm thick castable refractory material .
+07/05/2022 15:08:31 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:08:31 - INFO - __main__ - <mask> the only one of the group to have a <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask>'s is the only known example of a <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask> is a small, but very powerful, <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask> is a neighborhood in the city of <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask>'s is a small, but very active, <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask>, and the other members of the <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask> then sent to the other side of <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask>'s was a large and powerful <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask> of the city is home to the historic <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - <mask> is the location of the former <mask>.
+07/05/2022 15:08:31 - INFO - __main__ - ****************************
+07/05/2022 15:08:31 - INFO - __main__ - *********References*********
+07/05/2022 15:08:31 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/05/2022 15:08:31 - INFO - __main__ - ****************************
+07/05/2022 15:08:37 - INFO - __main__ - ***********Input************
+07/05/2022 15:08:37 - INFO - __main__ - the <mask> , made up of one or more <mask> , encloses an ovary that contains the ovules , or potential seeds .
+07/05/2022 15:08:37 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:08:37 - INFO - __main__ - <mask> glands are located on the <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask> cells are the cells that produce the <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask> glands are located on the underside of the <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask> cells are the cells that are produced by the <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask> gland cells are the cells that produce the <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask>s) is a genus of <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask> cells) are the cells that are produced by the <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask>) is a genus of mule <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask>) is a genus of <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - <mask>s are the most common type of <mask>.
+07/05/2022 15:08:37 - INFO - __main__ - ****************************
+07/05/2022 15:08:37 - INFO - __main__ - *********References*********
+07/05/2022 15:08:37 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/05/2022 15:08:37 - INFO - __main__ - ****************************
+07/05/2022 15:08:49 - INFO - __main__ - ***********Input************
+07/05/2022 15:08:49 - INFO - __main__ - <mask> appear by <mask> when circumstances prevent their appearance in person .
+07/05/2022 15:08:49 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:08:49 - INFO - __main__ - <mask> are both rendered in <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask>. and the team are now in <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask> can be used to communicate with other users via <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask> were both rendered in <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask>: the animated series is a series of animated films that use <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask> are able to communicate with their friends via <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask> are usually created using computer-generated imagery (<mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask>- the team are <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask>- and friends-super friends <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - <mask> can submit their compositions to the composer via <mask>.
+07/05/2022 15:08:49 - INFO - __main__ - ****************************
+07/05/2022 15:08:49 - INFO - __main__ - *********References*********
+07/05/2022 15:08:49 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/05/2022 15:08:49 - INFO - __main__ - ****************************
+07/05/2022 15:08:55 - INFO - __main__ - ***********Input************
+07/05/2022 15:08:55 - INFO - __main__ - most of the <mask> has been about the <mask> he used .
+07/05/2022 15:08:55 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:08:55 - INFO - __main__ - <mask>, the most important source of <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask> translations of the <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask>: a guide to the <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask> studies is a major part of the curriculum, and students are encouraged to study the entire <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask> studies are taught in the school, as well as <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask>: the new testament and <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask> translations are available in both greek and <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask>: a guide to the scriptures and <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask>: the most important source of knowledge is <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - <mask> and the law: a guide to <mask>.
+07/05/2022 15:08:55 - INFO - __main__ - ****************************
+07/05/2022 15:08:55 - INFO - __main__ - *********References*********
+07/05/2022 15:08:55 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/05/2022 15:08:55 - INFO - __main__ - ****************************
+07/05/2022 15:09:05 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:05 - INFO - __main__ - a <mask> of pygmy <mask> is now a critical economic mainstay , even as generations of migrants develop innovative tourism products and create new export markets .
+07/05/2022 15:09:05 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:05 - INFO - __main__ - <mask> village: a history of the native <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask>.: a history of the native <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask> island: a history of the island <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask>: the story of the great plains <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask> community: a history of the native americans. <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask>: a history of the native americans and <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask>.: a history of the native americans and <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask> was an important source of food for the local <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask> village and the village american <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - <mask>. a history of the native <mask>.
+07/05/2022 15:09:05 - INFO - __main__ - ****************************
+07/05/2022 15:09:05 - INFO - __main__ - *********References*********
+07/05/2022 15:09:05 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/05/2022 15:09:05 - INFO - __main__ - ****************************
+07/05/2022 15:09:14 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:14 - INFO - __main__ - a human <mask> was found in a <mask> of menudo soup .
+07/05/2022 15:09:14 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:14 - INFO - __main__ - <mask> version: a <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask> cup: a new <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask>.: a new american <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask>: a new american <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask> is a genus of <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask> south is a <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask>: the story of a <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask> melanogaster is a <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask>., and the other <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - <mask>. and the other <mask>.
+07/05/2022 15:09:14 - INFO - __main__ - ****************************
+07/05/2022 15:09:14 - INFO - __main__ - *********References*********
+07/05/2022 15:09:14 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/05/2022 15:09:14 - INFO - __main__ - ****************************
+07/05/2022 15:09:21 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:21 - INFO - __main__ - skype , a free software , allows a <mask> of multiple computer <mask> to join in an online conference call without incurring any telephone costs .
+07/05/2022 15:09:21 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:21 - INFO - __main__ - <mask> is a term used to refer to a group of <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask>: a user can create a group of <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask>'s name is a reference to the number of <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask>-based, or "user-centric" <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask> membership is open to all members, including non-members and <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask> and group-based <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask> members are usually referred to as group <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask>'s ip is a reference to the number of <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask> members are often referred to as "group members" by <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - <mask> members are referred to as <mask>.
+07/05/2022 15:09:21 - INFO - __main__ - ****************************
+07/05/2022 15:09:21 - INFO - __main__ - *********References*********
+07/05/2022 15:09:21 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/05/2022 15:09:21 - INFO - __main__ - ****************************
+07/05/2022 15:09:27 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:27 - INFO - __main__ - two of the <mask> resulted in fatal co <mask> ( cohb levels of 55 % and 49 % ) .
+07/05/2022 15:09:27 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:27 - INFO - __main__ - <mask> is the most common type of <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> has been shown to interact with <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> can be used to treat <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> is a major cause of <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> is a more common form of <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask>, which is a subunit of <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> is the most common cause of <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> can be used as a substitute for <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> can be used as a treatment for <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - <mask> has been shown to increase the expression of <mask>.
+07/05/2022 15:09:27 - INFO - __main__ - ****************************
+07/05/2022 15:09:27 - INFO - __main__ - *********References*********
+07/05/2022 15:09:27 - INFO - __main__ - ['<mask> causes <mask>.']
+07/05/2022 15:09:27 - INFO - __main__ - ****************************
+07/05/2022 15:09:37 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:37 - INFO - __main__ - both her and her <mask> of pampered beverly hills <mask> learn valuable lessons in character , courage , and friendship with a super happy ending .
+07/05/2022 15:09:37 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:37 - INFO - __main__ - <mask>., the name of the tribe of <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>. and, in the past, <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>. is a series of books about <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>, and the people who live in the area are called <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>, in the area was a small community of <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>.house. people.house in <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>, and was a member of the band of <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>) of the iroquois <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>'s name is derived from the name of the local <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - <mask>, and was killed by <mask>.
+07/05/2022 15:09:37 - INFO - __main__ - ****************************
+07/05/2022 15:09:37 - INFO - __main__ - *********References*********
+07/05/2022 15:09:37 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/05/2022 15:09:37 - INFO - __main__ - ****************************
+07/05/2022 15:09:46 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:46 - INFO - __main__ - yet this signing <mask> issued by the <mask> yesterday is the clearest signal yet that the administration wants to hold this option in reserve .
+07/05/2022 15:09:46 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:46 - INFO - __main__ - <mask>.bill. (bill. the president's office and the president's <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask> house white: <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask>.andum of the secretary of the <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask> from the president and his <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask>, (c) the president's office and the president's <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask> of the british empire: gold medal for services to <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask> is currently the longest-serving member of the united states <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask> of the rising sun: the first <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask>'s nomination was sent to the full <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - <mask> of battle: the battle of the bulge, <mask>.
+07/05/2022 15:09:46 - INFO - __main__ - ****************************
+07/05/2022 15:09:46 - INFO - __main__ - *********References*********
+07/05/2022 15:09:46 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/05/2022 15:09:46 - INFO - __main__ - ****************************
+07/05/2022 15:09:55 - INFO - __main__ - ***********Input************
+07/05/2022 15:09:55 - INFO - __main__ - the recent <mask> has been caused by the environmentally-induced <mask> of fish catches from the black sea .
+07/05/2022 15:09:55 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:09:55 - INFO - __main__ - <mask> has been shown to reduce the number of species in the genus by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask> and the subsequent global warming have reduced the number of species in the lake by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask> can increase the risk of developing a tropical cyclone by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask> events can increase the risk of flooding by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask> has been shown to reduce the number of tropical cyclones by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask> increases the risk of developing a tropical cyclone by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask> has been shown to increase the risk of <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask>, however, has been shown to reduce the rate of <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask>: the mortality rate in the city was <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - <mask>: the number of people who migrate to the cities has increased by <mask>.
+07/05/2022 15:09:55 - INFO - __main__ - ****************************
+07/05/2022 15:09:55 - INFO - __main__ - *********References*********
+07/05/2022 15:09:55 - INFO - __main__ - ['<mask> causes <mask>.']
+07/05/2022 15:09:55 - INFO - __main__ - ****************************
+07/05/2022 15:10:04 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:04 - INFO - __main__ - <mask> consisted of <mask> , dragoons and chevauxlegers .
+07/05/2022 15:10:04 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:04 - INFO - __main__ - <mask> was to be the only <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> was not able to advance further, and was forced to retreat, pursued by <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> was to be the only one to be fully <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask>, however, was not able to advance and was forced to retreat, pursued by <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask>, the 1st marines, was the only unit to be fully <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> was to be <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> was in the process of being reinforced by <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> had been ordered to attack the enemy in <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> is the only unit to have been entirely <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - <mask> was originally formed as a <mask>.
+07/05/2022 15:10:04 - INFO - __main__ - ****************************
+07/05/2022 15:10:04 - INFO - __main__ - *********References*********
+07/05/2022 15:10:04 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/05/2022 15:10:04 - INFO - __main__ - ****************************
+07/05/2022 15:10:18 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:18 - INFO - __main__ - there is a rubbery silicone <mask> , created by an american <mask> for a whispered 5,000 , pounds for exploring 3d visualisation and ways of removing tremor .
+07/05/2022 15:10:18 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:18 - INFO - __main__ - <mask>'s father is a retired army officer who is <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> is a very popular phone in <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask>. is a very good <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> was born in the south <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> and other mobile devices are becoming more popular among <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> is a big fan of the band <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> was the only one who was <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> apps are becoming more popular among young <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> is an <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - <mask> is the most popular mobile phone in <mask>.
+07/05/2022 15:10:18 - INFO - __main__ - ****************************
+07/05/2022 15:10:18 - INFO - __main__ - *********References*********
+07/05/2022 15:10:18 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/05/2022 15:10:18 - INFO - __main__ - ****************************
+07/05/2022 15:10:21 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:21 - INFO - __main__ - sensitive and robust , this active <mask> features a small metal and rubber button <mask> with a preamped pvdf film sensor inside .
+07/05/2022 15:10:21 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:21 - INFO - __main__ - no proper relation hypothesis
+07/05/2022 15:10:21 - INFO - __main__ - ****************************
+07/05/2022 15:10:21 - INFO - __main__ - *********References*********
+07/05/2022 15:10:21 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/05/2022 15:10:21 - INFO - __main__ - ****************************
+07/05/2022 15:10:21 - WARNING - __main__ - Skip self-bleu-2 in example: sensitive and robust , this active <mask> features a small metal and rubber button <mask> with a preamped pvdf film sensor inside ..
+07/05/2022 15:10:30 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:30 - INFO - __main__ - the <mask> has assembled a <mask> of precious and base metal exploration prospects in ontario , saskatchewan , and the north west territories .
+07/05/2022 15:10:30 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:30 - INFO - __main__ - <mask>. is a member of <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask>, the official name of the <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask>, the official name of the site, <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask> is a <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask> is a member of the internet <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask> has been a major contributor to the development of the internet archive's <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask> parliamentary election results 1885–1889, compiled and edited by <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask> geologic map of the world, general <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask> is a publicly traded company with a publicly available <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - <mask>, geologic time-scale <mask>.
+07/05/2022 15:10:30 - INFO - __main__ - ****************************
+07/05/2022 15:10:30 - INFO - __main__ - *********References*********
+07/05/2022 15:10:30 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/05/2022 15:10:30 - INFO - __main__ - ****************************
+07/05/2022 15:10:40 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:40 - INFO - __main__ - you placed two bare ends of the <mask> into a <mask> filled halfway with distilled water .
+07/05/2022 15:10:40 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:40 - INFO - __main__ - <mask> is a plastic used in <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> is a brand of <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> is a plastic material used in <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> is a brand of instant noodles sold by <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> is the most common type of <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> is the most common material used in <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> was originally developed for <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> and other items are often stored in <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask>. is a brand of <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - <mask> was developed by the company <mask>.
+07/05/2022 15:10:40 - INFO - __main__ - ****************************
+07/05/2022 15:10:40 - INFO - __main__ - *********References*********
+07/05/2022 15:10:40 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/05/2022 15:10:40 - INFO - __main__ - ****************************
+07/05/2022 15:10:47 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:47 - INFO - __main__ - many <mask> have come from popular <mask> and tend to appear in different forms .
+07/05/2022 15:10:47 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:47 - INFO - __main__ - <mask>.chinesee is a language of <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> cuisine is the cuisine of the island of <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> are known for their use of the word <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> cuisine is the cuisine of the people of <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> cuisine is a variety of cuisine originating from <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> have a rich tradition of literature, and many of the books are written in <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> are not allowed to wear the headscarf in <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> women's football is the most popular sport in <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> women's national volleyball team is the national volleyball side of <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - <mask> is the official language of the island, and the majority of the population is <mask>.
+07/05/2022 15:10:47 - INFO - __main__ - ****************************
+07/05/2022 15:10:47 - INFO - __main__ - *********References*********
+07/05/2022 15:10:47 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/05/2022 15:10:47 - INFO - __main__ - ****************************
+07/05/2022 15:10:58 - INFO - __main__ - ***********Input************
+07/05/2022 15:10:58 - INFO - __main__ - the aircraft was written off in the <mask> due to the severe <mask> caused by the klm aircraft , and the resulting fire .
+07/05/2022 15:10:58 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:10:58 - INFO - __main__ - <mask> has a long history of <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask> has a very high rate of <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask> is the only country to have a <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask> v. is a <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask>, however, has a very low rate of <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask>: the law on property <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask>, however, has a higher rate of <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask> is a country with a long history of <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask> does not have a national law on <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - <mask> is a <mask>.
+07/05/2022 15:10:58 - INFO - __main__ - ****************************
+07/05/2022 15:10:58 - INFO - __main__ - *********References*********
+07/05/2022 15:10:58 - INFO - __main__ - ['<mask> causes <mask>.']
+07/05/2022 15:10:58 - INFO - __main__ - ****************************
+07/05/2022 15:11:09 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:09 - INFO - __main__ - the <mask> is france 's largest producer of sparkling <mask> outside of the champagne region .
+07/05/2022 15:11:09 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:09 - INFO - __main__ - <mask> de la ville is a châteaux in <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> d'orléans is a châteaux in <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> du côte d'or is a winery located in <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> des pays is a winery in <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> is the largest producer of <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> is the most important wine region in <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> is a wine region in <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> is a wine region in the south of <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> was an important centre for the production of <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - <mask> is a commune in the department of <mask>.
+07/05/2022 15:11:09 - INFO - __main__ - ****************************
+07/05/2022 15:11:09 - INFO - __main__ - *********References*********
+07/05/2022 15:11:09 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/05/2022 15:11:09 - INFO - __main__ - ****************************
+07/05/2022 15:11:17 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:17 - INFO - __main__ - the closely guarded raffles <mask> was locked in a <mask> that still remains onsite today .
+07/05/2022 15:11:17 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:17 - INFO - __main__ - <mask>'s work has been featured in the book <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> has been a member of the board of directors of <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> is a member of the board of directors of <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> is a member of the group <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask>'s most notable work is his <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> was a member of the board of directors of <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask>'s work was exhibited in the museum's <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> is a member of the band <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> is a member of the board of <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - <mask> was a member of the unit's <mask>.
+07/05/2022 15:11:17 - INFO - __main__ - ****************************
+07/05/2022 15:11:17 - INFO - __main__ - *********References*********
+07/05/2022 15:11:17 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/05/2022 15:11:17 - INFO - __main__ - ****************************
+07/05/2022 15:11:25 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:25 - INFO - __main__ - i grew up with <mask> in a <mask> .
+07/05/2022 15:11:25 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:25 - INFO - __main__ - <mask> weren't allowed to be <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask>, he said, and i am <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> was a <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> are not allowed to be <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> are not <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> was a native of a <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> are more likely to be killed than any other <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask>'s family had been in <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> had been born in a small <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - <mask> weren't the only ones who thought that the world was <mask>.
+07/05/2022 15:11:25 - INFO - __main__ - ****************************
+07/05/2022 15:11:25 - INFO - __main__ - *********References*********
+07/05/2022 15:11:25 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/05/2022 15:11:25 - INFO - __main__ - ****************************
+07/05/2022 15:11:29 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:29 - INFO - __main__ - the brick is aligned with the <mask> of the repaired <mask> .
+07/05/2022 15:11:29 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:29 - INFO - __main__ - <mask> is the most common, followed by <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> has been shown to interact with <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> has a higher rate of mutation than <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> is a subset of <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> is the same as <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> is a subunit of <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask>, which is the most common type, is the same as <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> is the smallest of the subgroups of <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask> is the most common type of <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - <mask>, and the <mask>.
+07/05/2022 15:11:29 - INFO - __main__ - ****************************
+07/05/2022 15:11:29 - INFO - __main__ - *********References*********
+07/05/2022 15:11:29 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/05/2022 15:11:29 - INFO - __main__ - ****************************
+07/05/2022 15:11:35 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:35 - INFO - __main__ - a <mask> who prepares baked <mask> as a profession is called a baker .
+07/05/2022 15:11:35 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:35 - INFO - __main__ - <mask>-style rice cakes are similar to <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> rice cakes are similar to <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> women are not allowed to eat <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask>-themed products include <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> women have been featured in advertisements for <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> cuisine has been influenced by <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> people have a long history of using <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> children were given a bowl of <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> cuisine is known for its <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - <mask> is a brand of <mask>.
+07/05/2022 15:11:35 - INFO - __main__ - ****************************
+07/05/2022 15:11:35 - INFO - __main__ - *********References*********
+07/05/2022 15:11:35 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/05/2022 15:11:35 - INFO - __main__ - ****************************
+07/05/2022 15:11:41 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:41 - INFO - __main__ - unit direct injection also injects fuel directly into the <mask> of the <mask> .
+07/05/2022 15:11:41 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:41 - INFO - __main__ - <mask> is a more powerful version of <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> was replaced by a new <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> is a variant of <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask>, v8, and <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> was used to power the new <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> has been replaced by a new <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask>'s were used to power the new <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> engines were replaced by <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> was the successor to the original <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - <mask> is a common feature of <mask>.
+07/05/2022 15:11:41 - INFO - __main__ - ****************************
+07/05/2022 15:11:41 - INFO - __main__ - *********References*********
+07/05/2022 15:11:41 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/05/2022 15:11:41 - INFO - __main__ - ****************************
+07/05/2022 15:11:50 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:50 - INFO - __main__ - <mask> start by reading <mask> - called blueprints - that show how electricity flows .
+07/05/2022 15:11:50 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:50 - INFO - __main__ - <mask> in the world, <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask> of electricity ofs and <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask>: a history, <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask> and their work <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask> are required to submit their <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask> are not allowed to participate in any of these <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask>'s literature: a guide to their literature and <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask>'s programming is provided by the station's <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask> and their history <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - <mask> and the future: a guide to the future's <mask>.
+07/05/2022 15:11:50 - INFO - __main__ - ****************************
+07/05/2022 15:11:50 - INFO - __main__ - *********References*********
+07/05/2022 15:11:50 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/05/2022 15:11:50 - INFO - __main__ - ****************************
+07/05/2022 15:11:57 - INFO - __main__ - ***********Input************
+07/05/2022 15:11:57 - INFO - __main__ - the most common <mask> were about <mask> and recycling .
+07/05/2022 15:11:57 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the questions in <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the state government and <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the to <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the new government's role in <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> to the question of <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the questions on <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the question of <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> to questions about <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> the and <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - <mask> about the future of <mask>.
+07/05/2022 15:11:57 - INFO - __main__ - ****************************
+07/05/2022 15:11:57 - INFO - __main__ - *********References*********
+07/05/2022 15:11:57 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/05/2022 15:11:57 - INFO - __main__ - ****************************
+07/05/2022 15:12:06 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:06 - INFO - __main__ - as the <mask> sailed away from the <mask> one of the crew felt increasingly uneasy about some of the signs he observed .
+07/05/2022 15:12:06 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:06 - INFO - __main__ - <mask>.is, a non-profit organization that promotes and supports the arts in the whole <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask>, a non-profit organization that promotes and supports the arts in the whole <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask> was the last ship to be built in <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask> was a major factor in the development of the modern <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask>-americans, a non-profit organization that promotes and supports the arts in the whole <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask>-american, a non-profit organization that promotes and supports the arts in the whole <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask> is a registered charity in <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask> was the only ship to be built in the new <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask> was a tropical cyclone that formed in the southeastern <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - <mask>'s crew were rescued by <mask>.
+07/05/2022 15:12:06 - INFO - __main__ - ****************************
+07/05/2022 15:12:06 - INFO - __main__ - *********References*********
+07/05/2022 15:12:06 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/05/2022 15:12:06 - INFO - __main__ - ****************************
+07/05/2022 15:12:07 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:07 - INFO - __main__ - i 'm importing old document <mask> into the new <mask> .
+07/05/2022 15:12:07 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:07 - INFO - __main__ - no proper relation hypothesis
+07/05/2022 15:12:07 - INFO - __main__ - ****************************
+07/05/2022 15:12:07 - INFO - __main__ - *********References*********
+07/05/2022 15:12:07 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/05/2022 15:12:07 - INFO - __main__ - ****************************
+07/05/2022 15:12:07 - WARNING - __main__ - Skip self-bleu-2 in example: i 'm importing old document <mask> into the new <mask> ..
+07/05/2022 15:12:16 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:16 - INFO - __main__ - he gave two <mask> to each <mask> .
+07/05/2022 15:12:16 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:16 - INFO - __main__ - <mask> are appointed by the governor on the advice of the speaker of the <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> is a day of mourning for the death of a <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> were not allowed to marry <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> is observed as a day of mourning for the death of a <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> had a strong sense of justice and were willing to fight for their rights against an <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> were not permitted to sit in the speaker's <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> is the jewish holiday of passover, and the majority of the population is <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> people were not allowed to marry <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask>, for example, is a day of mourning for the death of a <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - <mask> may be appointed by the governor on the advice of the speaker of the <mask>.
+07/05/2022 15:12:16 - INFO - __main__ - ****************************
+07/05/2022 15:12:16 - INFO - __main__ - *********References*********
+07/05/2022 15:12:16 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/05/2022 15:12:16 - INFO - __main__ - ****************************
+07/05/2022 15:12:25 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:25 - INFO - __main__ - the first native tea <mask> were those made in the early thirteenth century by the <mask> to-shiro at his kiln in seto , aichi prefecture .
+07/05/2022 15:12:25 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:25 - INFO - __main__ - <mask>-pots is the most common form of the <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> were not allowed to enter the city, and the city was ruled by a <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> are allowed to enter the country, but only if they are a <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> is the most common language in <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> is the most common language in the <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> are not allowed to use the term <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> were not allowed to own slaves, and slaves were not permitted to marry a <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask>pots.,is, and is <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask>, however, were not allowed to enter the city, and the city was ruled by a <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - <mask> have been known to use this term to refer to any <mask>.
+07/05/2022 15:12:25 - INFO - __main__ - ****************************
+07/05/2022 15:12:25 - INFO - __main__ - *********References*********
+07/05/2022 15:12:25 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/05/2022 15:12:25 - INFO - __main__ - ****************************
+07/05/2022 15:12:30 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:30 - INFO - __main__ - entrepreneur creates a <mask> over 'amber alert ' <mask> .
+07/05/2022 15:12:30 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:30 - INFO - __main__ - <mask> hotspots are devices that provide access to a network of <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask> is available in the form of a free <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask>-based services are available in the form of free <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask> is available in the station, and the station has free <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask>: the user can connect to any computer using <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask> and bluetooth: the most common form of wireless communication is <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask>: the station has a free <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask>- hotspot is a network-based <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask> hotspots are not limited to the use of <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - <mask>-wi-lan is enabled in <mask>.
+07/05/2022 15:12:30 - INFO - __main__ - ****************************
+07/05/2022 15:12:30 - INFO - __main__ - *********References*********
+07/05/2022 15:12:30 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/05/2022 15:12:30 - INFO - __main__ - ****************************
+07/05/2022 15:12:39 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:39 - INFO - __main__ - <mask> support by <mask> has a long tradition in open and distance learning .
+07/05/2022 15:12:39 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:39 - INFO - __main__ - <mask> education and <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> of and <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask>- and is the of <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> education ministry of <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> education education of <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> union and <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> european commission european commission of <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> the university are a part of <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask>- and is <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - <mask> commission-european commission. is <mask>.
+07/05/2022 15:12:39 - INFO - __main__ - ****************************
+07/05/2022 15:12:39 - INFO - __main__ - *********References*********
+07/05/2022 15:12:39 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/05/2022 15:12:39 - INFO - __main__ - ****************************
+07/05/2022 15:12:52 - INFO - __main__ - ***********Input************
+07/05/2022 15:12:52 - INFO - __main__ - hiroshima has rejected the demands of some citizens and victims groups that the newly renovated museum include an exhibition on japan 's `` aggressive role '' in world war ii , alongside the gruesome displays of the <mask> and devastation caused by the <mask> .
+07/05/2022 15:12:52 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:12:52 - INFO - __main__ - <mask>'s father was a former soldier who was killed by <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask> is a given name in <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask> was the only survivor of the entire <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask> was a victim of the persecution of <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask>'s parents were both <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask> has been accused of being a spy for <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask>'s parents were killed in the so-called <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask> has been a vocal critic of <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask> means "the place of the sun" in <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - <mask>, who had been a member of the resistance, was killed by <mask>.
+07/05/2022 15:12:52 - INFO - __main__ - ****************************
+07/05/2022 15:12:52 - INFO - __main__ - *********References*********
+07/05/2022 15:12:52 - INFO - __main__ - ['<mask> causes <mask>.']
+07/05/2022 15:12:52 - INFO - __main__ - ****************************
+07/05/2022 15:13:04 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:04 - INFO - __main__ - the <mask> was in a <mask> on the back of the wagon , and cold as it was , mr. huy waded to the wagon and fed it that night and the next morning .
+07/05/2022 15:13:04 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:04 - INFO - __main__ - <mask>. and i were sitting in a <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask>.'s eyes were on the <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask> was still in the car, but he was now in a <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask>.dog. the back of the <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask> wasn't sure what to say to <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask>, i'm going to get you a <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask>'s eyes widened as he looked at <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask>, i'm sorry, <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask> was in the back seat of his <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - <mask> and i were sitting in a small <mask>.
+07/05/2022 15:13:04 - INFO - __main__ - ****************************
+07/05/2022 15:13:04 - INFO - __main__ - *********References*********
+07/05/2022 15:13:04 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/05/2022 15:13:04 - INFO - __main__ - ****************************
+07/05/2022 15:13:14 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:14 - INFO - __main__ - in ionic conduction charge carriers are affected by the electromagnetic <mask> from the <mask> by being attracted or repelled by the electric field .
+07/05/2022 15:13:14 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:14 - INFO - __main__ - <mask> is a large, circular field located approximately from <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> is the largest field on <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> is a small lunar impact crater that lies approximately from <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> was named after the crater on <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> has been used to study the evolution of life on <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> is a fictional planet in the fictional universe of <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> is a major component of the atmosphere of <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask>-based systems are used to measure the amount of energy that is released from the atmosphere to <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask> has been shown to be a major factor in the formation of the ozone layer on <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - <mask>'s version of the story is set on <mask>.
+07/05/2022 15:13:14 - INFO - __main__ - ****************************
+07/05/2022 15:13:14 - INFO - __main__ - *********References*********
+07/05/2022 15:13:14 - INFO - __main__ - ['<mask> causes <mask>.']
+07/05/2022 15:13:14 - INFO - __main__ - ****************************
+07/05/2022 15:13:23 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:23 - INFO - __main__ - the <mask> are concerned with <mask> of speaking the language .
+07/05/2022 15:13:23 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:23 - INFO - __main__ - <mask>-speaking people are often referred to as <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> were the main perpetrators of <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> cuisine is a fusion of the various cuisines of <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> were not the only ones who were involved in <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> had been in power since the beginning of <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask>ness is a concept that is used to describe <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> the german, <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask>ness the, and <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> and other racial groups were active in <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - <mask> nationalism is the belief in <mask>.
+07/05/2022 15:13:23 - INFO - __main__ - ****************************
+07/05/2022 15:13:23 - INFO - __main__ - *********References*********
+07/05/2022 15:13:23 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/05/2022 15:13:23 - INFO - __main__ - ****************************
+07/05/2022 15:13:29 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:29 - INFO - __main__ - the bottles have leaked <mask> into the <mask> .
+07/05/2022 15:13:29 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:29 - INFO - __main__ - <mask> of the population are resident in <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> is the largest importer of natural gas in the world, followed by <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask>'s economy is heavily dependent on the export of raw materials to the western <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> of the company's products are sold in <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> of people were born in <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> of the population were born outside <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> of the population is from <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask>'s foreign policy is based on a strong alliance with the <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> were born outside of <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - <mask> has been the largest importer of the drug, followed by <mask>.
+07/05/2022 15:13:29 - INFO - __main__ - ****************************
+07/05/2022 15:13:29 - INFO - __main__ - *********References*********
+07/05/2022 15:13:29 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/05/2022 15:13:29 - INFO - __main__ - ****************************
+07/05/2022 15:13:35 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:35 - INFO - __main__ - the <mask> is going away from the <mask> , pushing its cars to gain elevation .
+07/05/2022 15:13:35 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:35 - INFO - __main__ - <mask> is a name for a number of roads in the northern <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask>. is is, and is <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask>. is, and is, <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask> traffic is not permitted in the northern <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask> and motorway traffic is not permitted in the northern <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask>. and is a <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask> routes are the most important routes in the northern <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask> version of the song was released as a single in <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask>. is, and is <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - <mask> and is, in the, and the,,,the,the <mask>.
+07/05/2022 15:13:35 - INFO - __main__ - ****************************
+07/05/2022 15:13:35 - INFO - __main__ - *********References*********
+07/05/2022 15:13:35 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/05/2022 15:13:35 - INFO - __main__ - ****************************
+07/05/2022 15:13:37 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:37 - INFO - __main__ - they chose a <mask> that oven bakes the paint in a down draft paint <mask> .
+07/05/2022 15:13:37 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:37 - INFO - __main__ - no proper relation hypothesis
+07/05/2022 15:13:37 - INFO - __main__ - ****************************
+07/05/2022 15:13:37 - INFO - __main__ - *********References*********
+07/05/2022 15:13:37 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/05/2022 15:13:37 - INFO - __main__ - ****************************
+07/05/2022 15:13:37 - WARNING - __main__ - Skip self-bleu-2 in example: they chose a <mask> that oven bakes the paint in a down draft paint <mask> ..
+07/05/2022 15:13:45 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:45 - INFO - __main__ - the <mask> carefully chose <mask> to be used in a nihilistic approach to style .
+07/05/2022 15:13:45 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:45 - INFO - __main__ - <mask> architecture was a major influence on <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask> and�,’: the history of the world in <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask> architecture is the most common style in <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask> britannica, volume ii: <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask> have been known to use the term <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask> britannica: the oxford english dictionary in <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask>.nazis.’: the history of the world in <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask>, however, were not interested in the new style of <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask> were known for their taste in <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - <mask>, a dictionary of <mask>.
+07/05/2022 15:13:45 - INFO - __main__ - ****************************
+07/05/2022 15:13:45 - INFO - __main__ - *********References*********
+07/05/2022 15:13:45 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/05/2022 15:13:45 - INFO - __main__ - ****************************
+07/05/2022 15:13:50 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:50 - INFO - __main__ - the cost of <mask> delivered in a vessel <mask> is always high .
+07/05/2022 15:13:50 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:50 - INFO - __main__ - <mask> is a major source of the <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask> is the most common, followed by <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask>, inc. v. <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask> is a more efficient alternative to <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask> is the largest and most widely used <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask> is the largest provider of liquefied natural gas (<mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask> was the only major competitor to <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask> has been replaced by <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask>'s main business is the transportation of liquified natural gas (<mask>.
+07/05/2022 15:13:50 - INFO - __main__ - <mask>: the history of television, <mask>.
+07/05/2022 15:13:50 - INFO - __main__ - ****************************
+07/05/2022 15:13:50 - INFO - __main__ - *********References*********
+07/05/2022 15:13:50 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/05/2022 15:13:50 - INFO - __main__ - ****************************
+07/05/2022 15:13:57 - INFO - __main__ - ***********Input************
+07/05/2022 15:13:57 - INFO - __main__ - the <mask> was full of furry orange-and-black <mask> -- kittens .
+07/05/2022 15:13:57 - INFO - __main__ - *********Hypothesis*********
+07/05/2022 15:13:57 - INFO - __main__ - <mask> cats are often used as a substitute for <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> was a member of the group <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> cats, dogs, and <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> and the other housemates are all <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> dogs have been shown to be more aggressive than <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> is a <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> cats are the most common type of <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> of mouse: a <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask>-trained dogs are often used to help <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - <mask> is a male given name of <mask>.
+07/05/2022 15:13:57 - INFO - __main__ - ****************************
+07/05/2022 15:13:57 - INFO - __main__ - *********References*********
+07/05/2022 15:13:57 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/05/2022 15:13:57 - INFO - __main__ - ****************************
+07/05/2022 15:13:58 - INFO - __main__ - Task: semeval
+07/05/2022 15:13:58 - INFO - __main__ - bleu-4: 1.0448333985076156e-79
+07/05/2022 15:13:58 - INFO - __main__ - bleu-3: 0.00633846242801465
+07/05/2022 15:13:58 - INFO - __main__ - bleu-2: 0.054317370915667865
+07/05/2022 15:13:58 - INFO - __main__ - bleu-1: 0.30479116394891215
+07/05/2022 15:13:58 - INFO - __main__ - METEOR: 0.26113201510486017
+07/05/2022 15:13:58 - INFO - __main__ - ROUGE-L: 0.3894735309863774
+07/05/2022 15:13:58 - INFO - __main__ - entailment score(mean-mean): 0.07995978826369941
+07/05/2022 15:13:58 - INFO - __main__ - entailment score(mean-max): 0.3344291541282372
+07/05/2022 15:13:58 - INFO - __main__ - entailment score(mean-min): 0.0036529853478795204
+07/05/2022 15:13:58 - INFO - __main__ - self-BLEU-2: 0.8825385083301647
+07/05/2022 15:13:58 - INFO - __main__ - avg: 0.16934209056397206
+07/05/2022 15:13:58 - INFO - __main__ - *******************************************************
+07/05/2022 15:13:58 - INFO - __main__ - *******************************************************
+07/05/2022 15:13:58 - INFO - __main__ - *******************************************************

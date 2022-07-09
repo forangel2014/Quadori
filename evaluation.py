@@ -90,7 +90,9 @@ class RelationExtractionEvaluator(object):
                 "bleu-1": [],
                 "METEOR": [],
                 "ROUGE-L": [],
-                "entailment score": [],
+                "entailment score(mean-mean)": [],
+                "entailment score(mean-max)": [],
+                "entailment score(mean-min)": [],
                 "self-BLEU-2": [],
             }
             with open(FILES[task], 'r', encoding='utf-8') as file:
@@ -128,6 +130,7 @@ class RelationExtractionEvaluator(object):
                                     self.metrics[k].append(0.)
 
                         else:
+                            entailment_scores = []
                             for hypo in hypothesis:
                                 try:
                                     self.metrics['bleu-4'].append(
@@ -202,13 +205,19 @@ class RelationExtractionEvaluator(object):
 
                                 
                                 try:
-                                    self.metrics['entailment score'].append(
-                                        self.entailment_scorer.scoring(inputs, hypo)
-                                    )
+                                    entailment_score = self.entailment_scorer.scoring(inputs, hypo)
+                                    self.metrics['entailment score(mean-mean)'].append(entailment_score)
+                                    entailment_scores.append(entailment_score)
                                 except:
                                     logger.warning("Skip entailment score in example: {}".format(inputs))
                                     pass
                                 
+                            try:
+                                self.metrics['entailment score(mean-max)'].append(max(entailment_scores))
+                                self.metrics['entailment score(mean-min)'].append(min(entailment_scores))
+                            except:
+                                logger.warning("Skip entailment score in example: {}.".format(inputs))
+                                pass
 
                             try:
                                 self.metrics['self-BLEU-2'].append(
@@ -257,6 +266,8 @@ class RelationExtractionEvaluator(object):
         logger.info("Task: {}".format(str(task)))
         for k, v in metrics.items():
             logger.info("{}: {}".format(k, str(np.mean(v))))
+        scores = [np.mean(metrics[k]) for k in ('bleu-4', 'bleu-3','bleu-2','bleu-1','METEOR','ROUGE-L')]
+        logger.info("avg: {}".format(str(np.mean(scores))))
 
         logger.info("*******************************************************")
         logger.info("*******************************************************")
@@ -271,15 +282,16 @@ if __name__ == '__main__':
     parser.add_argument("--bart_training", type=bool, default=False)
     parser.add_argument("--if_then", type=bool, default=False)
     parser.add_argument("--task", type=str, default='openrule155')
-    parser.add_argument("--log_name", type=str, default=False)
+    parser.add_argument("--log_dir", type=str, default='logs_new/')
+    parser.add_argument("--log_name", type=str, default='default_log')
     parser.add_argument("--device", type=str, default='0')
     args = parser.parse_args()
 
-    if not os.path.exists('logs/'):
-        os.mkdir('logs/')
+    if not os.path.exists(args.log_dir):
+        os.mkdir(args.log_dir)
 
     logging.basicConfig(
-        filename='logs/'+args.log_name+'.log',
+        filename=args.log_dir+args.log_name+'.log',
         format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
         datefmt='%m/%d/%Y %H:%M:%S',
         level=logging.INFO)

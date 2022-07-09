@@ -1,10 +1,8 @@
-import imp
 import re
 from copy import deepcopy
 import numpy as np
 import random
 import argparse
-from sklearn import cluster
 import torch
 import torch.nn.functional as F
 from transformers import (AutoModelForSeq2SeqLM, AutoTokenizer,
@@ -13,7 +11,7 @@ from transformers import (AutoModelForSeq2SeqLM, AutoTokenizer,
 from dpp_sampler import DPPsampler
 from src.bart_with_group_beam import BartForConditionalGeneration_GroupBeam
 from src.utils import (construct_template, filter_words,
-                       formalize_tA, post_process_template, align)
+                       formalize_tA, post_process_template, align, dict_add)
 
 ORION_HYPO_GENERATOR = 'chenxran/orion-hypothesis-generator'
 ORION_INS_GENERATOR = 'chenxran/orion-instance-generator'
@@ -48,11 +46,12 @@ class BartInductor(object):
 
         if group_beam:
             self.orion_hypothesis_generator = BartForConditionalGeneration_GroupBeam.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval().half()
-            self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval().half()    
+            self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval().half()   
+            self.cluster_generator = BartForConditionalGeneration_GroupBeam.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval().half() 
         else:
             self.orion_hypothesis_generator = BartForConditionalGeneration.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval()#.half()
             self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval()#.half()
-    
+            self.cluster_generator = BartForConditionalGeneration_GroupBeam.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval()#.half()
     
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large")
         self.word_length = 2
@@ -261,7 +260,7 @@ class BartInductor(object):
     def extract_templateBs_batch(self, words_prob, tA, k, softmax=True):
         words_prob_sorted = []
         for (words, probA, *_) in words_prob:
-            tokenized_word = self.tokenizer(words[0])
+            tokenized_word = self.tokenizer(words[0]) # 大概率是头实体h相同的实体对放在一个batch内生成
             words_prob_sorted.append([words, probA, len(tokenized_word['input_ids'])])
         words_prob_sorted.sort(key=lambda x:x[2])
 
@@ -337,8 +336,8 @@ class BartInductor(object):
     def generate_rule(self, tA, k=10, print_it = False):
         tA = formalize_tA(tA)
         if 'bart' in str(self.orion_instance_generator.__class__).lower():
-            words_prob = self.extract_words_for_tA_bart(tA, k, softmax=True)
-            words_prob = filter_words(words_prob)[:k]
+            words_prob = self.extract_words_for_tA_bart(tA, k*10, softmax=True)
+            words_prob = filter_words(words_prob)#[:k]
             # if print_it:
                 # print(convert_for_print(words_prob))
         else:
@@ -369,25 +368,27 @@ class BartInductor(object):
 
         #r = tA.split('<mask>')[1]
         #sents = [[word[0][0] + r + word[0][1], 1] for word in words_prob]
+        #words_prob = [[word[0], 1] for word in words_prob]
         sents = [[tA.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), word[1]] for word in words_prob]
 
         # -clusting
-        rhs_scores = self.extract_templateBs_batch(words_prob, tA, k)
-        #rhs_scores = self.generate_rhs_group_beam(words_prob, tA, k)
+        rhs_scores = self.extract_templateBs_batch_global_score(words_prob, tA, k, softmax=True)
+        #rhs_scores_agb = self.generate_rhs_cluster_group_beam(words_prob, tA, k)
+        #rhs_scores = dict_add(rhs_scores_abs, rhs_scores_agb)
 
         '''
         # method 1: clusting ins
-        n_clusters = 10
+        n_clusters = 5
         clusters = []
         labels = self.dpp_sampler.Kmeans_clusting(sents, n_clusters) if len(sents) > n_clusters else list(range(len(sents)))
         for n in range(n_clusters):
             clusters.append([words_prob[i] for i in range(len(sents)) if labels[i] == n])
         
-        rhs_scores = {}
+        #rhs_scores = {}
         for cluster in clusters:
             if len(cluster) > 0:
-                rhs_scores.update(self.extract_templateBs_batch(cluster, tA, k, softmax=True))
-                rhs_scores.update(self.generate_rhs_group_beam(cluster, tA, k, softmax=True))
+                #rhs_scores.update(self.extract_templateBs_batch(cluster, tA, k, softmax=True))
+                rhs_scores.update(self.generate_rhs_cluster_group_beam(cluster, tA, k, softmax=True))
         '''
 
         '''
@@ -402,7 +403,7 @@ class BartInductor(object):
         '''
 
         rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key] > 0]
-        rhs_text = [[t[0].replace('<ent0>','').replace('<ent1>',''), t[1]] for t in rhs_ls]
+        rhs_text = [[t[0].replace('<ent0>', 'A').replace('<ent1>', 'B'), t[1]] for t in rhs_ls]
         
         # rescoring!
         #rhs_ls = self.dpp_sampler.rescoring(rhs_text)
@@ -474,7 +475,85 @@ class BartInductor(object):
             ret.update({txt:np.exp(score_rh)})
         return ret
 
-    def generate_rhs_group_beam(self, words_prob, tA, k, softmax=True):
+    def extract_templateBs_batch_global_score(self, words_prob, tA, k, softmax=False):
+        words_prob_sorted = []
+        for (words, probA, *_) in words_prob:
+            tokenized_word = self.tokenizer(words[0]) # 大概率是头实体h相同的实体对放在一个batch内生成
+            words_prob_sorted.append([words, probA, len(tokenized_word['input_ids'])])
+        words_prob_sorted.sort(key=lambda x:x[2])
+
+        batch_size = 8
+        templates = []
+        scores = []
+        index_words = {}
+        ret = {}
+        num_beams = k
+        for enum, (words, probA, *_) in enumerate(words_prob_sorted):
+            template = construct_template(words, tA, self.if_then)
+            templates.extend(template)
+            scores.append(probA)
+            for t in template:
+                index_words[len(index_words)] = '\t'.join(words)
+            # index_words[len(templates)-1] = '\t'.join(words)
+            if (len(templates) == batch_size) or enum==len(words_prob_sorted)-1 or (words_prob_sorted[enum+1][2]!=words_prob_sorted[enum][2]):
+                generated_ids = self.tokenizer(templates, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
+                generated_ret = self.orion_hypothesis_generator.generate(generated_ids, num_beams=num_beams,
+                                                    num_beam_groups=num_beams,
+                                                    max_length=28, #template_length+5,
+                                                    num_return_sequences=num_beams, min_length=3,
+                                                    diversity_penalty=1.0,
+                                                    early_stopping=True,
+                                                    #length_penalty = 0.1,
+                                                    bad_words_ids=self.bad_words_ids,
+                                                    #no_repeat_ngram_size=2,
+                                                    output_scores=True,
+                                                    return_dict_in_generate=True, decoder_ori_input_ids = generated_ids,
+                                                    top_p=0.95,
+                                                    )
+                summary_ids = generated_ret['sequences'].reshape((len(templates),num_beams,-1))
+                if softmax:
+                    probs = F.softmax(generated_ret['sequences_scores'].reshape((len(templates),num_beams)),dim=1)
+                else:
+                    probs = generated_ret['sequences_scores'].reshape((len(templates),num_beams))
+                for ii in range(summary_ids.size(0)):
+                    txts = [self.tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in summary_ids[ii]]
+                    ii_template = []
+                    words_ii = index_words[ii].split('\t')
+                    for i, txt in enumerate(txts):
+                        prob = probs[ii][i].item() * scores[ii]
+
+                        txt = txt.lower()
+                        txt = post_process_template(txt)
+
+                        words_ii_matched = [word.lower() for word in words_ii] #extract_similar_words(txt, words_ii)
+                        if words_ii_matched is None:
+                            prob = 0.0
+                        else:
+                            for j, word in enumerate(words_ii_matched):
+                                if word not in txt:
+                                    prob = 0.0
+                                else:
+                                    txt = txt.replace(word, '<ent{}>'.format(j), 1)
+                        
+                        if not txt.endswith('<ent1>.'):
+                            prob = 0.0
+
+                        if txt.count(' ')+1<=3:
+                            continue
+
+                        ii_template.append([txt, prob])
+                    # if print_it:
+                        # print(index_words[ii]+'\t'+str(convert_for_print(ii_template)))
+                    for template, prob in ii_template:
+                        if template not in ret:
+                            ret[template] = 0.0
+                        ret[template] += prob
+                templates.clear()
+                index_words.clear()
+
+        return ret #sorted(ret, key=lambda x: ret[x], reverse=True)
+
+    def generate_rhs_cluster_group_beam(self, words_prob, tA, k, softmax=True):
         words_prob_sorted = []
         for (words, probA, *_) in words_prob:
             tokenized_word = self.tokenizer(words[0])
@@ -494,7 +573,7 @@ class BartInductor(object):
             # index_words[len(templates)-1] = '\t'.join(words)
             if len(templates) == batch_size or enum == len(words_prob_sorted)-1:
                 generated_ids = self.tokenizer(templates, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
-                generated_ret = self.orion_hypothesis_generator.generate(generated_ids, num_beams=num_beams,
+                generated_ret = self.cluster_generator.generate(generated_ids, num_beams=num_beams,
                                                     num_beam_groups=num_beams,
                                                     max_length=28, #template_length+5,
                                                     num_return_sequences=num_beams, min_length=3,

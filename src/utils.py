@@ -3,6 +3,16 @@ from pickletools import string4
 from ngram import NGram
 #import Levenshtein
 
+def dict_add(a, b):
+    c = copy.deepcopy(a)
+    for key in b:
+        if key in c.keys():
+            c[key] += b[key]
+        else:
+            c[key] = b[key]
+    return c
+
+
 def post_process_template(tB):
     if tB.endswith('.') == False:
         tB += '.'

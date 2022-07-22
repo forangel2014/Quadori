@@ -1,0 +1,45 @@
+07/13/2022 06:06:24 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:06:24 - INFO - __main__ - bart_training             -->   True
+07/13/2022 06:06:24 - INFO - __main__ - device                    -->   1
+07/13/2022 06:06:24 - INFO - __main__ - group_beam                -->   False
+07/13/2022 06:06:24 - INFO - __main__ - if_then                   -->   False
+07/13/2022 06:06:24 - INFO - __main__ - inductor                  -->   rule
+07/13/2022 06:06:24 - INFO - __main__ - log_dir                   -->   logs_new/
+07/13/2022 06:06:24 - INFO - __main__ - log_name                  -->   nyt10--STS+dpp
+07/13/2022 06:06:24 - INFO - __main__ - mlm_training              -->   True
+07/13/2022 06:06:24 - INFO - __main__ - task                      -->   nyt10
+07/13/2022 06:06:24 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:09:30 - INFO - __main__ - ***********Input************
+07/13/2022 06:09:30 - INFO - __main__ - The United States maintains diplomatic relations with <mask> , but State Department officials say no deeper engagement is warranted until the government in <mask> halts support for radical organizations , including Hezbollah in Lebanon and Hamas in the Palestinian territories . ''
+07/13/2022 06:09:30 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:09:30 - INFO - __main__ - <mask> has a large number of embassies and consulates in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask> has a large number of universities, most of which are located in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask>: the government has announced that it will build a nuclear power plant in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask>: the greek government has a consulate in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask>: the government has announced that it will build a new nuclear power plant in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask>: the government has announced that it will build a new airport in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask> is divided into several regions, with the capital city being <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask>, however, was not able to maintain its independence and was forced to surrender <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask>, however, was not interested in the project and instead decided to build a new airport in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - <mask> was represented by a single athlete, who competed in the women's individual pursuit event in <mask>.
+07/13/2022 06:09:30 - INFO - __main__ - ****************************
+07/13/2022 06:09:30 - INFO - __main__ - *********References*********
+07/13/2022 06:09:30 - INFO - __main__ - ['<mask> is the capital of <mask>.']
+07/13/2022 06:09:30 - INFO - __main__ - ****************************
+07/13/2022 06:10:49 - INFO - __main__ - ***********Input************
+07/13/2022 06:10:49 - INFO - __main__ - Regional analysts said peace efforts had been undermined by the political crisis in <mask> , where Prime Minister <mask> has barely hung on to his job after being excoriated by a committee that reviewed the conduct of the war with Hezbollah in Lebanon last summer . ''
+07/13/2022 06:10:49 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:10:49 - INFO - __main__ - <mask> was represented by prime minister <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask> is currently led by prime minister <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask>'s prime minister at the time was <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask> has been a major supporter of <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask> has been the target of several assassination attempts by <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask> has a strong tradition of military service and is currently led by <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask>'s most prominent opposition leader is <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask>: the government of <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask> is led by prime minister <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - <mask> has been accused of using the term "terrorist" by <mask>.
+07/13/2022 06:10:49 - INFO - __main__ - ****************************
+07/13/2022 06:10:49 - INFO - __main__ - *********References*********
+07/13/2022 06:10:49 - INFO - __main__ - ['the nationality of <mask> is <mask>.']
+07/13/2022 06:10:49 - INFO - __main__ - ****************************

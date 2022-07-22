@@ -1,0 +1,62 @@
+07/13/2022 06:06:23 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:06:23 - INFO - __main__ - bart_training             -->   True
+07/13/2022 06:06:23 - INFO - __main__ - device                    -->   6
+07/13/2022 06:06:23 - INFO - __main__ - group_beam                -->   False
+07/13/2022 06:06:23 - INFO - __main__ - if_then                   -->   False
+07/13/2022 06:06:23 - INFO - __main__ - inductor                  -->   rule
+07/13/2022 06:06:23 - INFO - __main__ - log_dir                   -->   logs_new/
+07/13/2022 06:06:23 - INFO - __main__ - log_name                  -->   TREx--STS+dpp
+07/13/2022 06:06:23 - INFO - __main__ - mlm_training              -->   True
+07/13/2022 06:06:23 - INFO - __main__ - task                      -->   TREx
+07/13/2022 06:06:23 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:09:32 - INFO - __main__ - ***********Input************
+07/13/2022 06:09:32 - INFO - __main__ - The production included a 32-member choir, session musician Dan Higgins on soprano saxophone, jazz pianist Russell Ferrante of The Yellowjackets, notable string players Dave Stone (upright bass), <mask> (<mask>), and Steve Erdody (cello).
+07/13/2022 06:09:32 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:09:32 - INFO - __main__ - <mask>: the essential guide to <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask> is a professional musician who plays <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask> has been a long-time contributor to <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask> is a former professional musician who played <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask>, the history of the world of <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask> – for services to the community and to <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask>: a life in music and <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask>, "the great <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask> was the only one to play <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - <mask> is a professional musician who plays the <mask>.
+07/13/2022 06:09:32 - INFO - __main__ - ****************************
+07/13/2022 06:09:32 - INFO - __main__ - *********References*********
+07/13/2022 06:09:32 - INFO - __main__ - ['<mask> plays <mask>.']
+07/13/2022 06:09:32 - INFO - __main__ - ****************************
+07/13/2022 06:10:19 - INFO - __main__ - ***********Input************
+07/13/2022 06:10:19 - INFO - __main__ - "<mask>" is a song by <mask> post-punk band Joy Division.
+07/13/2022 06:10:19 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:10:19 - INFO - __main__ - <mask> has been translated into several languages, including <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask>: the best of the beatles in <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> was released as a single in <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> is a song by <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> (1954) – <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> is the debut studio album by <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> has been translated into <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> is an album by <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - "<mask>" is a song by <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> was translated into <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - ****************************
+07/13/2022 06:10:19 - INFO - __main__ - *********References*********
+07/13/2022 06:10:19 - INFO - __main__ - ['<mask> was written in <mask>.']
+07/13/2022 06:10:19 - INFO - __main__ - ****************************
+07/13/2022 06:11:19 - INFO - __main__ - ***********Input************
+07/13/2022 06:11:19 - INFO - __main__ - Toseland is also a solo artist and in the past has performed alongside <mask> for <mask>'s Sport Relief and played a piano set at the British sports personality of the year awards in 2007.
+07/13/2022 06:11:19 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:11:19 - INFO - __main__ - <mask> has been a regular guest on <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask> covered the song for his album, <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask>: a life in music, <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask>, 'the last of us' <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask> is a music journalist for <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask>: the best of <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask> covered the song for <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask>, "i'm not afraid" <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask> – the big brother presenter on <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - <mask> has been a regular for <mask>.
+07/13/2022 06:11:19 - INFO - __main__ - ****************************
+07/13/2022 06:11:19 - INFO - __main__ - *********References*********
+07/13/2022 06:11:19 - INFO - __main__ - ['<mask> works for <mask>.']
+07/13/2022 06:11:19 - INFO - __main__ - ****************************

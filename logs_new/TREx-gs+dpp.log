@@ -1,0 +1,934 @@
+07/12/2022 15:45:21 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 15:45:21 - INFO - __main__ - bart_training             -->   True
+07/12/2022 15:45:21 - INFO - __main__ - device                    -->   6
+07/12/2022 15:45:21 - INFO - __main__ - group_beam                -->   True
+07/12/2022 15:45:21 - INFO - __main__ - if_then                   -->   False
+07/12/2022 15:45:21 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 15:45:21 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 15:45:21 - INFO - __main__ - log_name                  -->   TREx-gs+dpp
+07/12/2022 15:45:21 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 15:45:21 - INFO - __main__ - task                      -->   TREx
+07/12/2022 15:45:21 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 15:49:39 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 15:49:39 - INFO - __main__ - bart_training             -->   True
+07/12/2022 15:49:39 - INFO - __main__ - device                    -->   6
+07/12/2022 15:49:39 - INFO - __main__ - group_beam                -->   True
+07/12/2022 15:49:39 - INFO - __main__ - if_then                   -->   False
+07/12/2022 15:49:39 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 15:49:39 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 15:49:39 - INFO - __main__ - log_name                  -->   TREx-gs+dpp
+07/12/2022 15:49:39 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 15:49:39 - INFO - __main__ - task                      -->   TREx
+07/12/2022 15:49:39 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 15:53:11 - INFO - __main__ - ***********Input************
+07/12/2022 15:53:11 - INFO - __main__ - The production included a 32-member choir, session musician Dan Higgins on soprano saxophone, jazz pianist Russell Ferrante of The Yellowjackets, notable string players Dave Stone (upright bass), <mask> (<mask>), and Steve Erdody (cello).
+07/12/2022 15:53:11 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:53:11 - INFO - __main__ - <mask> – for services to music and to <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask>, the art of playing <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask>: a history of the world of <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask>: the story of a <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask> was the only one to play <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask> has been a regular contributor to <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask>, the art of playing guitar <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask> – bass guitar, <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask> is a former professional <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - <mask> was the only one to play the <mask>.
+07/12/2022 15:53:11 - INFO - __main__ - ****************************
+07/12/2022 15:53:11 - INFO - __main__ - *********References*********
+07/12/2022 15:53:11 - INFO - __main__ - ['<mask> plays <mask>.']
+07/12/2022 15:53:11 - INFO - __main__ - ****************************
+07/12/2022 15:53:57 - INFO - __main__ - ***********Input************
+07/12/2022 15:53:57 - INFO - __main__ - "<mask>" is a song by <mask> post-punk band Joy Division.
+07/12/2022 15:53:57 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:53:57 - INFO - __main__ - <mask> is a song by <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> is the debut studio album by <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> is a compilation album by <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> was released as a single in <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask>: the story of the beatles in <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> was the only single released in <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask>, which was released in <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> was released as a single in english <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> was released in <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - <mask> (1954) – <mask>.
+07/12/2022 15:53:57 - INFO - __main__ - ****************************
+07/12/2022 15:53:57 - INFO - __main__ - *********References*********
+07/12/2022 15:53:57 - INFO - __main__ - ['<mask> was written in <mask>.']
+07/12/2022 15:53:57 - INFO - __main__ - ****************************
+07/12/2022 15:54:55 - INFO - __main__ - ***********Input************
+07/12/2022 15:54:55 - INFO - __main__ - Toseland is also a solo artist and in the past has performed alongside <mask> for <mask>'s Sport Relief and played a piano set at the British sports personality of the year awards in 2007.
+07/12/2022 15:54:55 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:54:55 - INFO - __main__ - <mask> is a former television presenter for <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> was a guest on <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> has been a regular guest on <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask>: the greatest of all time, <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> is an award-winning television presenter for <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> – the big brother show, <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> – "i'm a celebrity" – <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask>: the greatest of all time <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> was a guest on the show and was interviewed by <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - <mask> was a guest on the <mask>.
+07/12/2022 15:54:55 - INFO - __main__ - ****************************
+07/12/2022 15:54:55 - INFO - __main__ - *********References*********
+07/12/2022 15:54:55 - INFO - __main__ - ['<mask> works for <mask>.']
+07/12/2022 15:54:55 - INFO - __main__ - ****************************
+07/12/2022 15:56:08 - INFO - __main__ - ***********Input************
+07/12/2022 15:56:08 - INFO - __main__ - <mask>' emergence from international isolation has been marked through improved and expanded relations with other nations such as <mask>, France, Japan, Sweden, and India.
+07/12/2022 15:56:08 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:56:08 - INFO - __main__ - <mask> as a major trading partner of <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> in the world was the result of <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> and its relationship with <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> as a major power in <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> is seen as a threat to <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> in the world was <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> is a result of the economic and political developments in <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> was due to the rise of the united states <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> as an independent country was a result of the war with <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - <mask> in the world is a result of <mask>.
+07/12/2022 15:56:08 - INFO - __main__ - ****************************
+07/12/2022 15:56:08 - INFO - __main__ - *********References*********
+07/12/2022 15:56:08 - INFO - __main__ - ['<mask> maintains diplomatic relations with <mask>.']
+07/12/2022 15:56:08 - INFO - __main__ - ****************************
+07/12/2022 15:57:10 - INFO - __main__ - ***********Input************
+07/12/2022 15:57:10 - INFO - __main__ - <mask> (also known as Award Theatre and Golden Years of Television) is a 30-minute dramatic television anthology series telecast on <mask> from 1957 to 1960 for a total of 55 episodes.
+07/12/2022 15:57:10 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:57:10 - INFO - __main__ - <mask>: the rise and fall of <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask> was a period of television produced by <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask>: a history of <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask>: the golden age of <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask>, a television series produced by <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask> is a television series produced by <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask> was the golden age of <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask> was a television series that aired on <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask>: from the golden age to the present, <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - <mask> (1954–1968) – <mask>.
+07/12/2022 15:57:10 - INFO - __main__ - ****************************
+07/12/2022 15:57:10 - INFO - __main__ - *********References*********
+07/12/2022 15:57:10 - INFO - __main__ - ['<mask> was originally aired on <mask>.']
+07/12/2022 15:57:10 - INFO - __main__ - ****************************
+07/12/2022 15:58:06 - INFO - __main__ - ***********Input************
+07/12/2022 15:58:06 - INFO - __main__ - Kulture Jazz is an album by American <mask> trumpeter and composer <mask> recorded in 1993 and released on the ECM label.
+07/12/2022 15:58:06 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:58:06 - INFO - __main__ - <mask> musician and composer <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> music is a genre of music that was popularized by <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> singer, songwriter, and pianist <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> jazz saxophonist and composer <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> musicians who have recorded with him include <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> is a jazz album by <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> jazz pianist and composer <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> jazz musician and composer, <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> music has been influenced by the music of <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - <mask> jazz musician and composer <mask>.
+07/12/2022 15:58:06 - INFO - __main__ - ****************************
+07/12/2022 15:58:06 - INFO - __main__ - *********References*********
+07/12/2022 15:58:06 - INFO - __main__ - ['<mask> plays <mask> music.']
+07/12/2022 15:58:06 - INFO - __main__ - ****************************
+07/12/2022 15:59:35 - INFO - __main__ - ***********Input************
+07/12/2022 15:59:35 - INFO - __main__ - The Nazi Ghost Train is the popular name for a train that, at the beginning of September 1944, was intended to transport the political prisoners and Allied airmen held at <mask> in <mask>, to camps in Germany.
+07/12/2022 15:59:35 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 15:59:35 - INFO - __main__ - <mask> is a former military base in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> was the largest and most important concentration camp in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> is a major tourist attraction in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> was an important part of the history of <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> is the largest city in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> is a former railway station in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> was the last major concentration camp in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> is a city in the south of <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask> was the last major city to be built in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - <mask>, which is the largest city in <mask>.
+07/12/2022 15:59:35 - INFO - __main__ - ****************************
+07/12/2022 15:59:35 - INFO - __main__ - *********References*********
+07/12/2022 15:59:35 - INFO - __main__ - ['<mask> shares border with <mask>.']
+07/12/2022 15:59:35 - INFO - __main__ - ****************************
+07/12/2022 16:00:57 - INFO - __main__ - ***********Input************
+07/12/2022 16:00:57 - INFO - __main__ - Bienvenue chez les Ch'tis ([bjɛ̃vny ʃe le ʃti]; English: Welcome to the Sticks or Welcome to the Land of Shtis) is a 2008 <mask> comedy film directed, co-written by and starring Dany Boon, co-starring <mask> and Zoé Félix.
+07/12/2022 16:00:57 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:00:57 - INFO - __main__ - <mask> was the official language of <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> forces had been ordered to attack <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> authorities have not confirmed the identity of <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> soldiers were stationed in <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> is the official language of <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask>-speaking people are known as <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> troops then entered the city and captured <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> translation by <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> troops were sent to the area to protect <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - <mask> was the only language spoken by <mask>.
+07/12/2022 16:00:57 - INFO - __main__ - ****************************
+07/12/2022 16:00:57 - INFO - __main__ - *********References*********
+07/12/2022 16:00:57 - INFO - __main__ - ['the native language of <mask> is <mask>.']
+07/12/2022 16:00:57 - INFO - __main__ - ****************************
+07/12/2022 16:02:10 - INFO - __main__ - ***********Input************
+07/12/2022 16:02:10 - INFO - __main__ - He is the lead singer and songwriter for the <mask> band <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:02:10 - INFO - __main__ - <mask> rock band <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> alternative rock band <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> music was a major influence on <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> heavy metal band <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> music is represented by <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> hip hop group <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask>-language versions of the song were released by <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> jazz is the most popular genre of music in <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> is the official language of <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - <mask> musicians were not allowed to play on <mask>.
+07/12/2022 16:02:10 - INFO - __main__ - ****************************
+07/12/2022 16:02:10 - INFO - __main__ - *********References*********
+07/12/2022 16:02:10 - INFO - __main__ - ['<mask> was founded in <mask>.']
+07/12/2022 16:02:10 - INFO - __main__ - ****************************
+07/12/2022 16:03:21 - INFO - __main__ - ***********Input************
+07/12/2022 16:03:21 - INFO - __main__ - The Acra is often called the Seleucid Acra to distinguish it from references to the <mask> as an acra and from the later quarter in <mask> which inherited the name Acra.
+07/12/2022 16:03:21 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:03:21 - INFO - __main__ - <mask> and roman coins were found in <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> had a long history of trade with <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> is a city in the north of <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> was a city in ancient <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask>, a large, ancient city in <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask>, the largest and most important city in <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> were the most important people in ancient <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> was the name of a number of ancient cities in <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> and other peoples of <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - <mask> is an ancient city in the <mask>.
+07/12/2022 16:03:21 - INFO - __main__ - ****************************
+07/12/2022 16:03:21 - INFO - __main__ - *********References*********
+07/12/2022 16:03:21 - INFO - __main__ - ['<mask> is located in <mask>.']
+07/12/2022 16:03:21 - INFO - __main__ - ****************************
+07/12/2022 16:04:25 - INFO - __main__ - ***********Input************
+07/12/2022 16:04:25 - INFO - __main__ - Born in Barcelona to a <mask> father and a Swiss mother, <mask> was Mayor of Évry from 2001 to 2012 and was first elected to the National Assembly of France in 2002.
+07/12/2022 16:04:25 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:04:25 - INFO - __main__ - <mask> authorities have not released any information about <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> forces were able to capture the town of <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> was the only language spoken by <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> troops were sent to the area to arrest <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> is the official language of <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> officials said that the attack was carried out by <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> authorities had been searching for <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask>-speaking people are known to have been influenced by <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask> is the official language of the <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - <mask>, however, was not a strong influence on <mask>.
+07/12/2022 16:04:25 - INFO - __main__ - ****************************
+07/12/2022 16:04:25 - INFO - __main__ - *********References*********
+07/12/2022 16:04:25 - INFO - __main__ - ['the native language of <mask> is <mask>.']
+07/12/2022 16:04:25 - INFO - __main__ - ****************************
+07/12/2022 16:05:26 - INFO - __main__ - ***********Input************
+07/12/2022 16:05:26 - INFO - __main__ - <mask> (Greek: Ανδρέας Εμπειρίκος; Brăila, 2 September 1901 – 3 August 1975, Athens) was a Greek surrealist <mask> and the first Greek psychoanalyst.
+07/12/2022 16:05:26 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:05:26 - INFO - __main__ - <mask> was a <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask>, the philosopher, <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask>'s work was a major influence on <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask> is a <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask>'s philosophy of the soul is a <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask>, the philosopher, was <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask> was an early <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask> was a great <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask>, who was a <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - <mask> was a great and.ist, and <mask>.
+07/12/2022 16:05:26 - INFO - __main__ - ****************************
+07/12/2022 16:05:26 - INFO - __main__ - *********References*********
+07/12/2022 16:05:26 - INFO - __main__ - ['<mask> is a <mask> by profession.']
+07/12/2022 16:05:26 - INFO - __main__ - ****************************
+07/12/2022 16:05:51 - INFO - __main__ - ***********Input************
+07/12/2022 16:05:51 - INFO - __main__ - The <mask> Accounting Machine, introduced in 1949, was one of a long line of <mask> tabulating machines dating back to the days of Herman Hollerith.
+07/12/2022 16:05:51 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:05:51 - INFO - __main__ - <mask> companies were not allowed to use the name <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask>, and the company was later renamed <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask> was the only one who was not a <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask>'s main competitors in the market were the <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask> was the only one who was not <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask>'s main competitors in the market were <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask>'s work was a major influence on <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask> was a pioneer in the development of the modern <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask> was the only one of the original founders to be <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - <mask> is a former professional basketball player and a former <mask>.
+07/12/2022 16:05:51 - INFO - __main__ - ****************************
+07/12/2022 16:05:51 - INFO - __main__ - *********References*********
+07/12/2022 16:05:51 - INFO - __main__ - ['<mask> is produced by <mask>.']
+07/12/2022 16:05:51 - INFO - __main__ - ****************************
+07/12/2022 16:07:12 - INFO - __main__ - ***********Input************
+07/12/2022 16:07:12 - INFO - __main__ - First documented in the 13th century and situated at the crossing of two important historic trade routes, <mask> became the capital of the Margraviate of <mask> (1417–1701), the Kingdom of Prussia (1701–1918), the German Empire (1871–1918), the Weimar Republic (1919–1933) and the Third Reich (1933–1945).
+07/12/2022 16:07:12 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:07:12 - INFO - __main__ - <mask> is the capital of <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> is one of the most important cities in <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> is the capital and largest city of <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> is the largest city in <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> was then the capital of <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> is the capital of the <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask>, however, was not a part of <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> has been a major centre of the arts in <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask>'s main railway station is the oldest railway station in <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - <mask> was the capital of the former <mask>.
+07/12/2022 16:07:12 - INFO - __main__ - ****************************
+07/12/2022 16:07:12 - INFO - __main__ - *********References*********
+07/12/2022 16:07:12 - INFO - __main__ - ['the capital of <mask> is <mask>.']
+07/12/2022 16:07:12 - INFO - __main__ - ****************************
+07/12/2022 16:08:12 - INFO - __main__ - ***********Input************
+07/12/2022 16:08:12 - INFO - __main__ - María <mask> Portales (born March 6, 1965 in <mask>), is a Chilean television, theatre and film actress.
+07/12/2022 16:08:12 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:08:12 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask> is a young woman who lives in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask> is the daughter of a wealthy family in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask>'s father was a lawyer in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask> was born in the city of <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask>, who is a young woman, is a prostitute in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask> is a small town in the south of <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask> is a beautiful and beautiful girl who lives in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask> and her family live in <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - <mask>'s mother, who was a nurse, was from <mask>.
+07/12/2022 16:08:12 - INFO - __main__ - ****************************
+07/12/2022 16:08:12 - INFO - __main__ - *********References*********
+07/12/2022 16:08:12 - INFO - __main__ - ['<mask> was born in <mask>.']
+07/12/2022 16:08:12 - INFO - __main__ - ****************************
+07/12/2022 16:09:05 - INFO - __main__ - ***********Input************
+07/12/2022 16:09:05 - INFO - __main__ - The problem was that neither figure was particularly impressive; the <mask> (based on a <mask> concept car of 1954) wasn't doing all that well even before competition came over the horizon.
+07/12/2022 16:09:05 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:09:05 - INFO - __main__ - <mask>'s name was changed to <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> was the only car to be built by <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> was the only one of the teams to be <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask>, and the other members of the group were <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask>, which is a brand of <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> has been a major sponsor of <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> has been used in the past to refer to the <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> is the name of a series of luxury cars produced by <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> had a long history of producing cars for <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - <mask> is an automobile brand owned and operated by <mask>.
+07/12/2022 16:09:05 - INFO - __main__ - ****************************
+07/12/2022 16:09:05 - INFO - __main__ - *********References*********
+07/12/2022 16:09:05 - INFO - __main__ - ['<mask> is produced by <mask>.']
+07/12/2022 16:09:05 - INFO - __main__ - ****************************
+07/12/2022 16:10:41 - INFO - __main__ - ***********Input************
+07/12/2022 16:10:41 - INFO - __main__ - His credits include Star Trek: The Next Generation, Deep Space Nine, The Twilight Zone, Babylon 5, Beauty and the Beast, <mask>, Sliders, Friday the 13th: The Series, Liberty's Kids, Superfriends, He-Man and the Masters of the Universe, Real Ghostbusters, The Smurfs and many others, as well as pilots for <mask>, NBC, ABC and Showtime.
+07/12/2022 16:10:41 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:10:41 - INFO - __main__ - <mask> is a television series that airs on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> was the highest-rated show on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> is a television series that aired on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> has been a major success for <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> is an animated television series that airs on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> (tv series) on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask>: the game is a television series that aired on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> was the only original series to be produced by <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> was originally a television series that aired on <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - <mask> was originally broadcast on the cable network <mask>.
+07/12/2022 16:10:41 - INFO - __main__ - ****************************
+07/12/2022 16:10:41 - INFO - __main__ - *********References*********
+07/12/2022 16:10:41 - INFO - __main__ - ['<mask> was originally aired on <mask>.']
+07/12/2022 16:10:41 - INFO - __main__ - ****************************
+07/12/2022 16:11:45 - INFO - __main__ - ***********Input************
+07/12/2022 16:11:45 - INFO - __main__ - <mask> (born August 2, 1973 in Drummondville, Quebec) is a <mask> ice hockey player.
+07/12/2022 16:11:45 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:11:45 - INFO - __main__ - <mask> is a <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask>, former prime minister and <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask> was born into a family of <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask>, is a <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask> was a <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask> is a canadian- <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask> is an award-winning <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask> was born in nova scotia and is a <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask>, who was a <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - <mask> is a canadian <mask>.
+07/12/2022 16:11:45 - INFO - __main__ - ****************************
+07/12/2022 16:11:45 - INFO - __main__ - *********References*********
+07/12/2022 16:11:45 - INFO - __main__ - ['<mask> is <mask> citizen.']
+07/12/2022 16:11:45 - INFO - __main__ - ****************************
+07/12/2022 16:13:01 - INFO - __main__ - ***********Input************
+07/12/2022 16:13:01 - INFO - __main__ - The Early Years are an <mask> band from East London consisting of members David Malkinson (<mask>/Guitars), Roger Mackin (Guitars), Brendan Kersey (Bass) and Phil Raines (Drums).
+07/12/2022 16:13:01 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:13:01 - INFO - __main__ - <mask> version of the song was released as a single and was later included on the album <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask>: the best of the beatles: <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> r&b albums: <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> r&b albums: the best of <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask>: a history of the <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> poet laureate for the year, <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> song: a collection of <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> and international artists have been featured in <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> poet laureate for <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - <mask> is the official language of the country, and the official national language is <mask>.
+07/12/2022 16:13:01 - INFO - __main__ - ****************************
+07/12/2022 16:13:01 - INFO - __main__ - *********References*********
+07/12/2022 16:13:01 - INFO - __main__ - ['<mask> was written in <mask>.']
+07/12/2022 16:13:01 - INFO - __main__ - ****************************
+07/12/2022 16:14:05 - INFO - __main__ - ***********Input************
+07/12/2022 16:14:05 - INFO - __main__ - John Barham is an <mask> classical pianist, composer, arranger, producer and educator, best known for his orchestration of George Harrison albums such as All Things Must Pass (1970) and for his association with Indian sitar maestro <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:14:05 - INFO - __main__ - <mask> translation of the book by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> translation by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> version is by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> and telugu: <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> is the only language spoken by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> is the debut studio album by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> translation by dr. <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> version of the film was directed by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask>: the life and times of <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - <mask> was the only language spoken by <mask>.
+07/12/2022 16:14:05 - INFO - __main__ - ****************************
+07/12/2022 16:14:05 - INFO - __main__ - *********References*********
+07/12/2022 16:14:05 - INFO - __main__ - ['<mask> used to communicate in <mask>.']
+07/12/2022 16:14:05 - INFO - __main__ - ****************************
+07/12/2022 16:15:11 - INFO - __main__ - ***********Input************
+07/12/2022 16:15:11 - INFO - __main__ - On 14 July 1808, in the company of renowned mountain guide Jacques Balmat (possibly instigated by some of his sons, also guides), she became the first woman to climb <mask>, <mask>'s highest mountain.
+07/12/2022 16:15:11 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:15:11 - INFO - __main__ - <mask> is the highest mountain in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> is a mountain in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> is the highest point in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> is one of the most popular tourist destinations in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> is a mountain in the pyrenees, <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask>, a mountain in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> (; ) is a mountain in the blanc blanc-mont in mass, central <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> was one of the most popular destinations for tourists in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask>, which is a popular tourist destination in <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - <mask> (; ) is a mountain in the pyrenees, in southern central <mask>.
+07/12/2022 16:15:11 - INFO - __main__ - ****************************
+07/12/2022 16:15:11 - INFO - __main__ - *********References*********
+07/12/2022 16:15:11 - INFO - __main__ - ['<mask> is located in <mask>.']
+07/12/2022 16:15:11 - INFO - __main__ - ****************************
+07/12/2022 16:16:09 - INFO - __main__ - ***********Input************
+07/12/2022 16:16:09 - INFO - __main__ - <mask> (born Elizabeth Guerra Vázquez, February 13, 1972) is a Mexican singer-songwriter who was raised in Monterrey, Nuevo Leon, <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:16:09 - INFO - __main__ - <mask> is a former professional tennis player from <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> is a singer and songwriter from <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask>, the daughter of a wealthy family, was raised in <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> is an actress, singer, and dancer from <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> is a female former international table tennis player from <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> (1902–1991) was a writer and journalist from <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> has been a prominent figure in the feminist movement in <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - <mask> was born in the city of puebla, <mask>.
+07/12/2022 16:16:09 - INFO - __main__ - ****************************
+07/12/2022 16:16:09 - INFO - __main__ - *********References*********
+07/12/2022 16:16:09 - INFO - __main__ - ['<mask> is <mask> citizen.']
+07/12/2022 16:16:09 - INFO - __main__ - ****************************
+07/12/2022 16:17:16 - INFO - __main__ - ***********Input************
+07/12/2022 16:17:16 - INFO - __main__ - The Book of Judges (Hebrew: Sefer <mask> ספר שופטים) is the seventh book of the Hebrew Bible and the <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:17:16 - INFO - __main__ - <mask> is a part of the <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask>, the oldest and most important of <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask> and the <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask>, and the other <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask>: a commentary on the <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask> is a term used in the hebrew bible and <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask>, the oldest and most important <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask>, the son of the israelites, is a <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask> is a term used in the hebrew <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - <mask> was not a part of the original <mask>.
+07/12/2022 16:17:16 - INFO - __main__ - ****************************
+07/12/2022 16:17:16 - INFO - __main__ - *********References*********
+07/12/2022 16:17:16 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/12/2022 16:17:16 - INFO - __main__ - ****************************
+07/12/2022 16:18:13 - INFO - __main__ - ***********Input************
+07/12/2022 16:18:13 - INFO - __main__ - MacLysaght suggests a connection with the surname <mask> - which is probably the name of a separate and distinct family of <mask> Origin based in Dublin and later in Galway.
+07/12/2022 16:18:13 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:18:13 - INFO - __main__ - <mask>'s father was a farmer and his mother was <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask> was a keen sportsman, and was fluent in <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask> was born in county tipperary, and was raised <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask> is the author of several books on <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask>'s mother is welsh and his father is <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask>'s mother is welsh and <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask> was born in county galway, and is <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask>'s mother is <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask>'s father was a teacher of <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - <mask>, however, was not <mask>.
+07/12/2022 16:18:13 - INFO - __main__ - ****************************
+07/12/2022 16:18:13 - INFO - __main__ - *********References*********
+07/12/2022 16:18:13 - INFO - __main__ - ['<mask> used to communicate in <mask>.']
+07/12/2022 16:18:13 - INFO - __main__ - ****************************
+07/12/2022 16:19:20 - INFO - __main__ - ***********Input************
+07/12/2022 16:19:20 - INFO - __main__ - <mask> (IATA: IND, ICAO: KIND, FAA LID: IND) is a public airport seven miles (11 km) southwest of downtown <mask>, in Marion County, Indiana, United States.
+07/12/2022 16:19:20 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is a general aviation airport located in <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is located in <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is located in the northwest part of <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is located south of <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is located approximately north of <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is located in the <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> serves as the main airport serving <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> is an airport located in <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask> serves the city of <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - <mask>, the largest airport in the state, is located in <mask>.
+07/12/2022 16:19:20 - INFO - __main__ - ****************************
+07/12/2022 16:19:20 - INFO - __main__ - *********References*********
+07/12/2022 16:19:20 - INFO - __main__ - ['<mask> is named after <mask>.']
+07/12/2022 16:19:20 - INFO - __main__ - ****************************
+07/12/2022 16:20:14 - INFO - __main__ - ***********Input************
+07/12/2022 16:20:14 - INFO - __main__ - <mask>'s consumer software includes the OS X and iOS operating systems, the iTunes media player, the <mask>, and the iLife and iWork creativity and productivity suites.
+07/12/2022 16:20:14 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:20:14 - INFO - __main__ - <mask> has since released a version of the app for <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> announced that it would be releasing a new version of <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> released a new version of the app for <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> was originally developed for the apple ii and <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> is a digital media player for the <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> has released a number of products that are based on the <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> has been used to create a new version of <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> is a digital media player for <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> can be used to download files to an <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - <mask> has been criticized for its lack of support for <mask>.
+07/12/2022 16:20:14 - INFO - __main__ - ****************************
+07/12/2022 16:20:14 - INFO - __main__ - *********References*********
+07/12/2022 16:20:14 - INFO - __main__ - ['<mask> is developed by <mask>.']
+07/12/2022 16:20:14 - INFO - __main__ - ****************************
+07/12/2022 16:21:05 - INFO - __main__ - ***********Input************
+07/12/2022 16:21:05 - INFO - __main__ - The <mask> (Norwegian: Stortingsbygningen) is the seat of the Storting, the parliament of Norway, located in central <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:21:05 - INFO - __main__ - <mask> is located in the city of <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> was held in the town hall in <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> is the legislative body of <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> is located at stortinget in <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> was then held in the <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> has its headquarters in the <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask>, which is located in the <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> is the main building in <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask> was then held in <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - <mask>'s seat was moved to the <mask>.
+07/12/2022 16:21:05 - INFO - __main__ - ****************************
+07/12/2022 16:21:05 - INFO - __main__ - *********References*********
+07/12/2022 16:21:05 - INFO - __main__ - ['<mask> is located in <mask>.']
+07/12/2022 16:21:05 - INFO - __main__ - ****************************
+07/12/2022 16:21:59 - INFO - __main__ - ***********Input************
+07/12/2022 16:21:59 - INFO - __main__ - Currently, iQue only releases portable <mask> games for iQue 3DS XL DS, Game Boy Advance, and <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:21:59 - INFO - __main__ - <mask> released a version of the game for <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> has since released a version for <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> was not the only company to develop a <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> games are compatible with <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> has been criticized for its lack of support for <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> is a video game for the nintendo <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask>, however, has not released a <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> was released as a standalone game for the <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> is a video game for the <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - <mask> version of the game was released on <mask>.
+07/12/2022 16:21:59 - INFO - __main__ - ****************************
+07/12/2022 16:21:59 - INFO - __main__ - *********References*********
+07/12/2022 16:21:59 - INFO - __main__ - ['<mask> is produced by <mask>.']
+07/12/2022 16:21:59 - INFO - __main__ - ****************************
+07/12/2022 16:22:55 - INFO - __main__ - ***********Input************
+07/12/2022 16:22:55 - INFO - __main__ - After the second season of America's Best Dance Crew was over, they returned to <mask> for a two-part <mask> special, Battle of the VMA's.
+07/12/2022 16:22:55 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:22:55 - INFO - __main__ - <mask> has since been replaced by <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask>'s "big brother" was a hit on <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> had previously been a major sponsor of <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> was not the only channel that was interested in <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask>'s music video for "i'm not your girl" was featured on <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> was not interested in the show, and the show was cancelled by <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> and its sister stations were not allowed to air the show on <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> had a long history of producing and airing <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> is the only major network to have a full-time <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - <mask> has since been the only network to have a full-time <mask>.
+07/12/2022 16:22:55 - INFO - __main__ - ****************************
+07/12/2022 16:22:55 - INFO - __main__ - *********References*********
+07/12/2022 16:22:55 - INFO - __main__ - ['<mask> was originally aired on <mask>.']
+07/12/2022 16:22:55 - INFO - __main__ - ****************************
+07/12/2022 16:24:03 - INFO - __main__ - ***********Input************
+07/12/2022 16:24:03 - INFO - __main__ - In addition, <mask> from Tears for Fears (<mask> on "Emotion in Motion"), Tony Levin from King Crimson/Peter Gabriel, Tom Verlaine of Television and G. E. Smith of the Saturday Night Live Band guest on the various songs.
+07/12/2022 16:24:03 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:24:03 - INFO - __main__ - <mask>: the life and times of <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask> was a fan of the band and they were inspired by <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask> is a fan of <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask>: a biography is a biography of <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask> and his band were among the early influences on <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask>, the band's lead singer, was a fan of the <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask>, the band's lead singer, was a fan of <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask>: the life and times of a <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask> was the only one to play <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - <mask> was a fan of <mask>.
+07/12/2022 16:24:03 - INFO - __main__ - ****************************
+07/12/2022 16:24:03 - INFO - __main__ - *********References*********
+07/12/2022 16:24:03 - INFO - __main__ - ['<mask> plays <mask>.']
+07/12/2022 16:24:03 - INFO - __main__ - ****************************
+07/12/2022 16:24:56 - INFO - __main__ - ***********Input************
+07/12/2022 16:24:56 - INFO - __main__ - Canadian singer <mask> recorded a live acoustic cover for her 2010 DVD "Live in <mask>."
+07/12/2022 16:24:56 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:24:56 - INFO - __main__ - <mask> is a singer and songwriter from <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> was the opening act for the show in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask>, singer and actress, was born in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> is a singer-songwriter from <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> performed the song at the ceremony in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> is a singer-songwriter and actress from <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> has performed the song live in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - <mask>, singer-songwriter, was born in <mask>.
+07/12/2022 16:24:56 - INFO - __main__ - ****************************
+07/12/2022 16:24:56 - INFO - __main__ - *********References*********
+07/12/2022 16:24:56 - INFO - __main__ - ['<mask> was born in <mask>.']
+07/12/2022 16:24:56 - INFO - __main__ - ****************************
+07/12/2022 16:26:26 - INFO - __main__ - ***********Input************
+07/12/2022 16:26:26 - INFO - __main__ - It has an annual audience of 100,000 and has made 66 international tours to over 30 cities including New York, Montreal, London, Paris, Berlin, Lyon, Sydney, Tokyo, Seoul, Singapore, Manila, Beijing, Shanghai, <mask>, Munich, Stuttgart, Mumbai, Delhi, Brisbane, Copenhagen, <mask>, Karmiel (Israel), St.
+07/12/2022 16:26:26 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:26:26 - INFO - __main__ - <mask> has a higher rate of suicide than <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask>'s main port of entry is <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask>, however, was not as successful as <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> is located approximately from the <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> was the only city to have a consulate in <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> has a long history of cooperation with <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> has a long history of diplomatic relations with <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> had to be replaced by a. <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> is located approximately south-east of <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - <mask> has a long history of trade with <mask>.
+07/12/2022 16:26:26 - INFO - __main__ - ****************************
+07/12/2022 16:26:26 - INFO - __main__ - *********References*********
+07/12/2022 16:26:26 - INFO - __main__ - ['<mask> and <mask> are twin cities.']
+07/12/2022 16:26:26 - INFO - __main__ - ****************************
+07/12/2022 16:27:23 - INFO - __main__ - ***********Input************
+07/12/2022 16:27:23 - INFO - __main__ - <mask> is an <mask> screenwriter.
+07/12/2022 16:27:23 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:27:23 - INFO - __main__ - <mask> is an <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask> was a prominent <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask> is a former <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask> was born in a family of <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask>, a former <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask>, who was the only <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask> is a former professional <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask> was born to a family of <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask>: a young <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - <mask> is a retired <mask>.
+07/12/2022 16:27:23 - INFO - __main__ - ****************************
+07/12/2022 16:27:23 - INFO - __main__ - *********References*********
+07/12/2022 16:27:23 - INFO - __main__ - ['<mask> used to communicate in <mask>.']
+07/12/2022 16:27:23 - INFO - __main__ - ****************************
+07/12/2022 16:28:07 - INFO - __main__ - ***********Input************
+07/12/2022 16:28:07 - INFO - __main__ - <mask> (born May 18, 1993) is an American football outside <mask> for the Denver Broncos of the National Football League (NFL).
+07/12/2022 16:28:07 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:28:07 - INFO - __main__ - <mask> was named the team's starting <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask> was the team's starting <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask>, a former professional football <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask> is a former college football player and <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask>, who was a <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask> was named the starting strong safety and <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask> played as a <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask>, a former professional football player, <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask> is a <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - <mask> was named the starting <mask>.
+07/12/2022 16:28:07 - INFO - __main__ - ****************************
+07/12/2022 16:28:07 - INFO - __main__ - *********References*********
+07/12/2022 16:28:07 - INFO - __main__ - ['<mask> plays in <mask> position.']
+07/12/2022 16:28:07 - INFO - __main__ - ****************************
+07/12/2022 16:29:12 - INFO - __main__ - ***********Input************
+07/12/2022 16:29:12 - INFO - __main__ - The <mask> is that part of the ice shelf fringing the Princess Astrid Coast of Queen Maud Land, <mask>, that lies between Leningradskiy Island and Verblyud Island.
+07/12/2022 16:29:12 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is a large, flat, flat-topped, flatland in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is the largest and most important icebreaker in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is an ice-free region of <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> has been a major contributor to the development of <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask>, a small, but very important, ice-free region in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is an ice-covered region in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> and its surrounding area is the largest and most densely populated area of <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is a small, rocky, ice-covered, rocky peninsula in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is the largest and most important river in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - <mask> is a large ice-covered region in <mask>.
+07/12/2022 16:29:12 - INFO - __main__ - ****************************
+07/12/2022 16:29:12 - INFO - __main__ - *********References*********
+07/12/2022 16:29:12 - INFO - __main__ - ['<mask> is located in <mask>.']
+07/12/2022 16:29:12 - INFO - __main__ - ****************************
+07/12/2022 16:30:25 - INFO - __main__ - ***********Input************
+07/12/2022 16:30:25 - INFO - __main__ - The Iran national futsal team represents Iran in <mask> futsal competitions and is controlled by the Futsal Commission of the <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is the official governing body of the sport <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is the official governing body of the sport, <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is a national team sport that is governed by <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is the national futsal team of the <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is the official governing body of <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask>: official website of <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask>, is the official futsal club of <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is the national futsal team of <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is a football club based in the <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - <mask> is a football club based in <mask>.
+07/12/2022 16:30:25 - INFO - __main__ - ****************************
+07/12/2022 16:30:25 - INFO - __main__ - *********References*********
+07/12/2022 16:30:25 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/12/2022 16:30:25 - INFO - __main__ - ****************************
+07/12/2022 16:31:27 - INFO - __main__ - ***********Input************
+07/12/2022 16:31:27 - INFO - __main__ - Count <mask> (born November 3, 1937 in Rome, Italy) is an <mask> professor of archaeology specialising in ancient Rome.
+07/12/2022 16:31:27 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:31:27 - INFO - __main__ - <mask>, the founder of the <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask> is an <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask>: the rise and fall of an <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask>, the founder of the company, was <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask> was a prolific writer of poetry in <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask>, the founder of the movement, was <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask> (1896–1958) was an <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask> was born in the <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - <mask> wrote the libretto in <mask>.
+07/12/2022 16:31:27 - INFO - __main__ - ****************************
+07/12/2022 16:31:27 - INFO - __main__ - *********References*********
+07/12/2022 16:31:27 - INFO - __main__ - ['<mask> used to communicate in <mask>.']
+07/12/2022 16:31:27 - INFO - __main__ - ****************************
+07/12/2022 16:31:48 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 16:31:48 - INFO - __main__ - bart_training             -->   True
+07/12/2022 16:31:48 - INFO - __main__ - device                    -->   6
+07/12/2022 16:31:48 - INFO - __main__ - group_beam                -->   True
+07/12/2022 16:31:48 - INFO - __main__ - if_then                   -->   False
+07/12/2022 16:31:48 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 16:31:48 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 16:31:48 - INFO - __main__ - log_name                  -->   TREx-gs+dpp
+07/12/2022 16:31:48 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 16:31:48 - INFO - __main__ - task                      -->   TREx
+07/12/2022 16:31:48 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 16:35:12 - INFO - __main__ - ***********Input************
+07/12/2022 16:35:12 - INFO - __main__ - The production included a 32-member choir, session musician Dan Higgins on soprano saxophone, jazz pianist Russell Ferrante of The Yellowjackets, notable string players Dave Stone (upright bass), <mask> (<mask>), and Steve Erdody (cello).
+07/12/2022 16:35:12 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:35:12 - INFO - __main__ - <mask> – for services to the community in <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask> is a former professional <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask> – for services to music and to <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask>: the story of a <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask>: the art of playing <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask>: a life in <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask>: a life in music and <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask> – bass guitar, <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask>: the essential guide to <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - <mask>, the art of playing <mask>.
+07/12/2022 16:35:12 - INFO - __main__ - ****************************
+07/12/2022 16:35:12 - INFO - __main__ - *********References*********
+07/12/2022 16:35:12 - INFO - __main__ - ['<mask> plays <mask>.']
+07/12/2022 16:35:12 - INFO - __main__ - ****************************
+07/12/2022 16:36:03 - INFO - __main__ - ***********Input************
+07/12/2022 16:36:03 - INFO - __main__ - "<mask>" is a song by <mask> post-punk band Joy Division.
+07/12/2022 16:36:03 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:36:03 - INFO - __main__ - <mask> is a song by <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask> was released as a single in <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask> is the debut studio album by <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask> is a compilation album by <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask>: the story of the beatles in <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask> has been translated into several languages, including <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask>, which was released in <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask> was released in <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask>, the only one of the group to speak <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - <mask>: the story of the first <mask>.
+07/12/2022 16:36:03 - INFO - __main__ - ****************************
+07/12/2022 16:36:03 - INFO - __main__ - *********References*********
+07/12/2022 16:36:03 - INFO - __main__ - ['<mask> was written in <mask>.']
+07/12/2022 16:36:03 - INFO - __main__ - ****************************
+07/12/2022 16:36:54 - INFO - __main__ - ***********Input************
+07/12/2022 16:36:54 - INFO - __main__ - Toseland is also a solo artist and in the past has performed alongside <mask> for <mask>'s Sport Relief and played a piano set at the British sports personality of the year awards in 2007.
+07/12/2022 16:36:54 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:36:54 - INFO - __main__ - <mask> has been a regular guest on <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask> is a television presenter for <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask>, "i'm a man" <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask> is a former television presenter for <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask>: a life in music, <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask>: "i'm a celebrity" <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask>: the greatest of all time, <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask> is a former football player who played for <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask>, "i'm not afraid" <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - <mask> – "you're the one" <mask>.
+07/12/2022 16:36:54 - INFO - __main__ - ****************************
+07/12/2022 16:36:54 - INFO - __main__ - *********References*********
+07/12/2022 16:36:54 - INFO - __main__ - ['<mask> works for <mask>.']
+07/12/2022 16:36:54 - INFO - __main__ - ****************************
+07/12/2022 16:38:04 - INFO - __main__ - ***********Input************
+07/12/2022 16:38:04 - INFO - __main__ - <mask>' emergence from international isolation has been marked through improved and expanded relations with other nations such as <mask>, France, Japan, Sweden, and India.
+07/12/2022 16:38:04 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:38:04 - INFO - __main__ - <mask> as a major trading partner of <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> as a major power in <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> and its relationship with <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> in the world is a result of <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> as a country of <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> was not without controversy in <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> in the world is a result of the war with <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> in the world was <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> was not without its own problems, especially with <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - <mask> into the world was <mask>.
+07/12/2022 16:38:04 - INFO - __main__ - ****************************
+07/12/2022 16:38:04 - INFO - __main__ - *********References*********
+07/12/2022 16:38:04 - INFO - __main__ - ['<mask> maintains diplomatic relations with <mask>.']
+07/12/2022 16:38:04 - INFO - __main__ - ****************************
+07/12/2022 16:39:00 - INFO - __main__ - ***********Input************
+07/12/2022 16:39:00 - INFO - __main__ - <mask> (also known as Award Theatre and Golden Years of Television) is a 30-minute dramatic television anthology series telecast on <mask> from 1957 to 1960 for a total of 55 episodes.
+07/12/2022 16:39:00 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:39:00 - INFO - __main__ - <mask> was a television series that aired on <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask>: the rise and fall of <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask> is a television series that aired on <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask>: a history of <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask>, a television series produced by <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask>: the golden age of <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask> is a television series on <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask> is a television program on <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask> was a television anthology series that aired on <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - <mask> is a children's television series that aired on <mask>.
+07/12/2022 16:39:00 - INFO - __main__ - ****************************
+07/12/2022 16:39:00 - INFO - __main__ - *********References*********
+07/12/2022 16:39:00 - INFO - __main__ - ['<mask> was originally aired on <mask>.']
+07/12/2022 16:39:00 - INFO - __main__ - ****************************
+07/12/2022 16:39:54 - INFO - __main__ - ***********Input************
+07/12/2022 16:39:54 - INFO - __main__ - Kulture Jazz is an album by American <mask> trumpeter and composer <mask> recorded in 1993 and released on the ECM label.
+07/12/2022 16:39:54 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:39:54 - INFO - __main__ - <mask> singer-songwriter and guitarist <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> country music singer and songwriter <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> folk singer and songwriter <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> jazz saxophonist and composer <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> saxophonist and composer <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> musician and composer <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> jazz saxophonist <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> jazz musician and composer <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> jazz pianist and composer <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - <mask> singer and songwriter <mask>.
+07/12/2022 16:39:54 - INFO - __main__ - ****************************
+07/12/2022 16:39:54 - INFO - __main__ - *********References*********
+07/12/2022 16:39:54 - INFO - __main__ - ['<mask> plays <mask> music.']
+07/12/2022 16:39:54 - INFO - __main__ - ****************************
+07/12/2022 16:41:13 - INFO - __main__ - ***********Input************
+07/12/2022 16:41:13 - INFO - __main__ - The Nazi Ghost Train is the popular name for a train that, at the beginning of September 1944, was intended to transport the political prisoners and Allied airmen held at <mask> in <mask>, to camps in Germany.
+07/12/2022 16:41:13 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:41:13 - INFO - __main__ - <mask> is a former military base in <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> is a former military airfield in <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was a military airfield in <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was the last major city to be liberated from <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was the last major city to be evacuated from <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was a major centre of the early development of <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was the only city in <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was a major military base in <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask> was the last major concentration camp in <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - <mask>, germany, to <mask>.
+07/12/2022 16:41:13 - INFO - __main__ - ****************************
+07/12/2022 16:41:13 - INFO - __main__ - *********References*********
+07/12/2022 16:41:13 - INFO - __main__ - ['<mask> shares border with <mask>.']
+07/12/2022 16:41:13 - INFO - __main__ - ****************************
+07/12/2022 16:42:29 - INFO - __main__ - ***********Input************
+07/12/2022 16:42:29 - INFO - __main__ - Bienvenue chez les Ch'tis ([bjɛ̃vny ʃe le ʃti]; English: Welcome to the Sticks or Welcome to the Land of Shtis) is a 2008 <mask> comedy film directed, co-written by and starring Dany Boon, co-starring <mask> and Zoé Félix.
+07/12/2022 16:42:29 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:42:29 - INFO - __main__ - <mask> translation by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> edition, edited by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> edition edited by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> was the only language spoken by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask>-french translation by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask>, with a foreword by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> is the birthplace of <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> is the official language of <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> was the official language of <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - <mask> version of the film directed by <mask>.
+07/12/2022 16:42:29 - INFO - __main__ - ****************************
+07/12/2022 16:42:29 - INFO - __main__ - *********References*********
+07/12/2022 16:42:29 - INFO - __main__ - ['the native language of <mask> is <mask>.']
+07/12/2022 16:42:29 - INFO - __main__ - ****************************
+07/12/2022 16:43:34 - INFO - __main__ - ***********Input************
+07/12/2022 16:43:34 - INFO - __main__ - He is the lead singer and songwriter for the <mask> band <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:43:34 - INFO - __main__ - <mask> rock band <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> hip hop group <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> rapper and producer <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> alternative rock band <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> rapper and producer, <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> heavy metal band <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask>-style hip hop group <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> music was a major influence on <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> indie rock band, <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - <mask> version of <mask>.
+07/12/2022 16:43:34 - INFO - __main__ - ****************************
+07/12/2022 16:43:34 - INFO - __main__ - *********References*********
+07/12/2022 16:43:34 - INFO - __main__ - ['<mask> was founded in <mask>.']
+07/12/2022 16:43:34 - INFO - __main__ - ****************************
+07/12/2022 16:44:39 - INFO - __main__ - ***********Input************
+07/12/2022 16:44:39 - INFO - __main__ - The Acra is often called the Seleucid Acra to distinguish it from references to the <mask> as an acra and from the later quarter in <mask> which inherited the name Acra.
+07/12/2022 16:44:39 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:44:39 - INFO - __main__ - <mask> had a long history of trade with <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> and roman coins were found in <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> was a major city in ancient <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask>, the ancient greeks, and the greeks of <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> is a town in the northern part of <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> and roman troops were stationed in <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> was a city of ancient <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> were the most important ethnic group in <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> is a city in the north of <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - <mask> and roman coins were minted in <mask>.
+07/12/2022 16:44:39 - INFO - __main__ - ****************************
+07/12/2022 16:44:39 - INFO - __main__ - *********References*********
+07/12/2022 16:44:39 - INFO - __main__ - ['<mask> is located in <mask>.']
+07/12/2022 16:44:39 - INFO - __main__ - ****************************
+07/12/2022 16:45:40 - INFO - __main__ - ***********Input************
+07/12/2022 16:45:40 - INFO - __main__ - Born in Barcelona to a <mask> father and a Swiss mother, <mask> was Mayor of Évry from 2001 to 2012 and was first elected to the National Assembly of France in 2002.
+07/12/2022 16:45:40 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:45:40 - INFO - __main__ - <mask> troops were sent to the area to protect <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask> is the official language of <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask> was the language of instruction at <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask> authorities have not released any information about <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask> forces were able to capture the town of <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask>: "i am a <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask>-speaking people are known as <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask> was the only language spoken by <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask>, however, was not a native language of <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - <mask> is the official language of the <mask>.
+07/12/2022 16:45:40 - INFO - __main__ - ****************************
+07/12/2022 16:45:40 - INFO - __main__ - *********References*********
+07/12/2022 16:45:40 - INFO - __main__ - ['the native language of <mask> is <mask>.']
+07/12/2022 16:45:40 - INFO - __main__ - ****************************
+07/12/2022 16:46:37 - INFO - __main__ - ***********Input************
+07/12/2022 16:46:37 - INFO - __main__ - <mask> (Greek: Ανδρέας Εμπειρίκος; Brăila, 2 September 1901 – 3 August 1975, Athens) was a Greek surrealist <mask> and the first Greek psychoanalyst.
+07/12/2022 16:46:37 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:46:37 - INFO - __main__ - <mask> was a great <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask>, the philosopher, was a <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask>'s philosophy of the soul is a <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask>, the philosopher, was <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask> was a <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask> was a great admirer of <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask>, in his <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask> is a <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask> was an early <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - <mask> was an avid reader of the <mask>.
+07/12/2022 16:46:37 - INFO - __main__ - ****************************
+07/12/2022 16:46:37 - INFO - __main__ - *********References*********
+07/12/2022 16:46:37 - INFO - __main__ - ['<mask> is a <mask> by profession.']
+07/12/2022 16:46:37 - INFO - __main__ - ****************************
+07/12/2022 16:46:57 - INFO - __main__ - ***********Input************
+07/12/2022 16:46:57 - INFO - __main__ - The <mask> Accounting Machine, introduced in 1949, was one of a long line of <mask> tabulating machines dating back to the days of Herman Hollerith.
+07/12/2022 16:46:57 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:46:57 - INFO - __main__ - <mask>'s work was a major influence on <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> was a pioneer in the development of the modern <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> is a former executive at <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> is a former member of the board of directors of <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> companies were not allowed to use the name <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask>, and the company was later renamed <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> was the only one who was not a <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> has been a long-time employee of <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask>'s main competitors in the market were the <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - <mask> had previously worked as a software engineer for <mask>.
+07/12/2022 16:46:57 - INFO - __main__ - ****************************
+07/12/2022 16:46:57 - INFO - __main__ - *********References*********
+07/12/2022 16:46:57 - INFO - __main__ - ['<mask> is produced by <mask>.']
+07/12/2022 16:46:57 - INFO - __main__ - ****************************
+07/12/2022 16:48:15 - INFO - __main__ - ***********Input************
+07/12/2022 16:48:15 - INFO - __main__ - First documented in the 13th century and situated at the crossing of two important historic trade routes, <mask> became the capital of the Margraviate of <mask> (1417–1701), the Kingdom of Prussia (1701–1918), the German Empire (1871–1918), the Weimar Republic (1919–1933) and the Third Reich (1933–1945).
+07/12/2022 16:48:15 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:48:15 - INFO - __main__ - <mask> is the capital of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> is the largest city in <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> was then the capital of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> is one of the most important cities in <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> was the capital of the principality of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask>, however, was not a part of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> is a city in the state of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> is a city in <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> was the capital of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - <mask> was a city in the state of <mask>.
+07/12/2022 16:48:15 - INFO - __main__ - ****************************
+07/12/2022 16:48:15 - INFO - __main__ - *********References*********
+07/12/2022 16:48:15 - INFO - __main__ - ['the capital of <mask> is <mask>.']
+07/12/2022 16:48:15 - INFO - __main__ - ****************************
+07/12/2022 16:49:07 - INFO - __main__ - ***********Input************
+07/12/2022 16:49:07 - INFO - __main__ - María <mask> Portales (born March 6, 1965 in <mask>), is a Chilean television, theatre and film actress.
+07/12/2022 16:49:07 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:49:07 - INFO - __main__ - <mask> is a young woman who lives in <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask>'s father was a lawyer in <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> was born in the city of <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> is the daughter of a wealthy family in <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> has been a member of the editorial board of the magazine <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> was born and raised in the <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask>'s father was a lawyer and her mother was a teacher in <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> is the daughter of a wealthy family from <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 16:49:07 - INFO - __main__ - ****************************
+07/12/2022 16:49:07 - INFO - __main__ - *********References*********
+07/12/2022 16:49:07 - INFO - __main__ - ['<mask> was born in <mask>.']
+07/12/2022 16:49:07 - INFO - __main__ - ****************************
+07/12/2022 16:49:59 - INFO - __main__ - ***********Input************
+07/12/2022 16:49:59 - INFO - __main__ - The problem was that neither figure was particularly impressive; the <mask> (based on a <mask> concept car of 1954) wasn't doing all that well even before competition came over the horizon.
+07/12/2022 16:49:59 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 16:49:59 - INFO - __main__ - <mask> is the name of a series of luxury cars produced by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> was the only car to be built by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> is an automobile brand owned and operated by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask>'s name was changed to <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> is an automobile brand owned by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> was a concept car developed by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask>'s design was based on the earlier <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> is the only car to have been built by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> has been a major contributor to the development of <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - <mask> is the name of a series of sports cars produced by <mask>.
+07/12/2022 16:49:59 - INFO - __main__ - ****************************
+07/12/2022 16:49:59 - INFO - __main__ - *********References*********
+07/12/2022 16:49:59 - INFO - __main__ - ['<mask> is produced by <mask>.']
+07/12/2022 16:49:59 - INFO - __main__ - ****************************

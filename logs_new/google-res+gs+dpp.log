@@ -1,0 +1,646 @@
+07/12/2022 02:31:33 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 02:31:33 - INFO - __main__ - bart_training             -->   True
+07/12/2022 02:31:33 - INFO - __main__ - device                    -->   8
+07/12/2022 02:31:33 - INFO - __main__ - group_beam                -->   True
+07/12/2022 02:31:33 - INFO - __main__ - if_then                   -->   False
+07/12/2022 02:31:33 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 02:31:33 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 02:31:33 - INFO - __main__ - log_name                  -->   google-res+gs+dpp
+07/12/2022 02:31:33 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 02:31:33 - INFO - __main__ - task                      -->   google-re
+07/12/2022 02:31:33 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 02:34:46 - INFO - __main__ - ***********Input************
+07/12/2022 02:34:46 - INFO - __main__ - <mask> (b. 1954 in <mask>) is a best-selling American author of romance novels .
+07/12/2022 02:34:46 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:34:46 - INFO - __main__ - A was born in B.
+07/12/2022 02:34:46 - INFO - __main__ - A was born and raised in B.
+07/12/2022 02:34:46 - INFO - __main__ - A is a writer and artist based in B.
+07/12/2022 02:34:46 - INFO - __main__ - A is a writer and editor based in B.
+07/12/2022 02:34:46 - INFO - __main__ - A is an artist based in B.
+07/12/2022 02:34:46 - INFO - __main__ - A is a former professional basketball player from B.
+07/12/2022 02:34:46 - INFO - __main__ - A, the former mayor of B.
+07/12/2022 02:34:46 - INFO - __main__ - A (1890–1957) was a painter and sculptor from B.
+07/12/2022 02:34:46 - INFO - __main__ - A is a singer-songwriter from B.
+07/12/2022 02:34:46 - INFO - __main__ - A was the first woman to be elected to the city council of B.
+07/12/2022 02:34:46 - INFO - __main__ - ****************************
+07/12/2022 02:34:46 - INFO - __main__ - *********References*********
+07/12/2022 02:34:46 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:34:46 - INFO - __main__ - ****************************
+07/12/2022 02:36:10 - INFO - __main__ - ***********Input************
+07/12/2022 02:36:10 - INFO - __main__ - <mask> (born c.<mask> Chapel Hill, North Carolina) is an American director and designer of experimental theatre from New York City .
+07/12/2022 02:36:10 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:36:10 - INFO - __main__ - A was born in B.
+07/12/2022 02:36:10 - INFO - __main__ - A is a former professional tennis player from B.
+07/12/2022 02:36:10 - INFO - __main__ - A was born B.
+07/12/2022 02:36:10 - INFO - __main__ - A, actress, was born in B.
+07/12/2022 02:36:10 - INFO - __main__ - A (born ) is a former professional basketball player from B.
+07/12/2022 02:36:10 - INFO - __main__ - A is a native of B.
+07/12/2022 02:36:10 - INFO - __main__ - A is a writer and editor based in B.
+07/12/2022 02:36:10 - INFO - __main__ - A is a retired professional basketball player who played in B.
+07/12/2022 02:36:10 - INFO - __main__ - A, a former member of the group, was born in B.
+07/12/2022 02:36:10 - INFO - __main__ - A, who was a member of the group, died in B.
+07/12/2022 02:36:10 - INFO - __main__ - ****************************
+07/12/2022 02:36:10 - INFO - __main__ - *********References*********
+07/12/2022 02:36:10 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:36:10 - INFO - __main__ - ****************************
+07/12/2022 02:37:44 - INFO - __main__ - ***********Input************
+07/12/2022 02:37:44 - INFO - __main__ - <mask> (born c <mask>) is a former softball player and coach .
+07/12/2022 02:37:44 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:37:44 - INFO - __main__ - A, (a.a former B.
+07/12/2022 02:37:44 - INFO - __main__ - A was born in B.
+07/12/2022 02:37:44 - INFO - __main__ - A (née lee B.
+07/12/2022 02:37:44 - INFO - __main__ - A (née h) ( B.
+07/12/2022 02:37:44 - INFO - __main__ - A is portrayed by B.
+07/12/2022 02:37:44 - INFO - __main__ - A, a former student of B.
+07/12/2022 02:37:44 - INFO - __main__ - A, a lawyerd B.
+07/12/2022 02:37:44 - INFO - __main__ - A as dr. B.
+07/12/2022 02:37:44 - INFO - __main__ - ****************************
+07/12/2022 02:37:44 - INFO - __main__ - *********References*********
+07/12/2022 02:37:44 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:37:44 - INFO - __main__ - ****************************
+07/12/2022 02:38:37 - INFO - __main__ - ***********Input************
+07/12/2022 02:38:37 - INFO - __main__ - <mask> (1738--1811) was a British composer and organist born in <mask> .
+07/12/2022 02:38:37 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:38:37 - INFO - __main__ - A was born and died in B.
+07/12/2022 02:38:37 - INFO - __main__ - A, a prominent local businessman, was born in B.
+07/12/2022 02:38:37 - INFO - __main__ - A,, chief constable, city of B.
+07/12/2022 02:38:37 - INFO - __main__ - A was a professional footballer who played for B.
+07/12/2022 02:38:37 - INFO - __main__ - A was born and raised in B.
+07/12/2022 02:38:37 - INFO - __main__ - A was a merchant and politician in B.
+07/12/2022 02:38:37 - INFO - __main__ - A is a former professional footballer who played for B.
+07/12/2022 02:38:37 - INFO - __main__ - A, chief constable, city of B.
+07/12/2022 02:38:37 - INFO - __main__ - A was born in the town of B.
+07/12/2022 02:38:37 - INFO - __main__ - A is an artist, writer and curator based in B.
+07/12/2022 02:38:37 - INFO - __main__ - ****************************
+07/12/2022 02:38:37 - INFO - __main__ - *********References*********
+07/12/2022 02:38:37 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:38:37 - INFO - __main__ - ****************************
+07/12/2022 02:40:06 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 02:40:06 - INFO - __main__ - bart_training             -->   True
+07/12/2022 02:40:06 - INFO - __main__ - device                    -->   8
+07/12/2022 02:40:06 - INFO - __main__ - group_beam                -->   True
+07/12/2022 02:40:06 - INFO - __main__ - if_then                   -->   False
+07/12/2022 02:40:06 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 02:40:06 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 02:40:06 - INFO - __main__ - log_name                  -->   google-res+gs+dpp
+07/12/2022 02:40:06 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 02:40:06 - INFO - __main__ - task                      -->   google-re
+07/12/2022 02:40:06 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 02:43:37 - INFO - __main__ - ***********Input************
+07/12/2022 02:43:37 - INFO - __main__ - <mask> (b. 1954 in <mask>) is a best-selling American author of romance novels .
+07/12/2022 02:43:37 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:43:37 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> is a writer and artist based in <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> is a writer and editor based in <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> is an artist based in <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> is a former professional basketball player from <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask>, the former mayor of <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> (1890–1957) was a painter and sculptor from <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> is a singer-songwriter from <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - <mask> was the first woman to be elected to the city council of <mask>.
+07/12/2022 02:43:37 - INFO - __main__ - ****************************
+07/12/2022 02:43:37 - INFO - __main__ - *********References*********
+07/12/2022 02:43:37 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:43:37 - INFO - __main__ - ****************************
+07/12/2022 02:45:02 - INFO - __main__ - ***********Input************
+07/12/2022 02:45:02 - INFO - __main__ - <mask> (born c.<mask> Chapel Hill, North Carolina) is an American director and designer of experimental theatre from New York City .
+07/12/2022 02:45:02 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:45:02 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask> is a former professional tennis player from <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask> was born <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask>, actress, was born in <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask> (born ) is a former professional basketball player from <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask> is a native of <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask> is a writer and editor based in <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask> is a retired professional basketball player who played in <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask>, a former member of the group, was born in <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - <mask>, who was a member of the group, died in <mask>.
+07/12/2022 02:45:02 - INFO - __main__ - ****************************
+07/12/2022 02:45:02 - INFO - __main__ - *********References*********
+07/12/2022 02:45:02 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:45:02 - INFO - __main__ - ****************************
+07/12/2022 02:46:34 - INFO - __main__ - ***********Input************
+07/12/2022 02:46:34 - INFO - __main__ - <mask> (born c <mask>) is a former softball player and coach .
+07/12/2022 02:46:34 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:46:34 - INFO - __main__ - <mask>, (a.a former <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask> (née lee <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask> (née h) ( <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask> is portrayed by <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask>, a former student of <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask>, a lawyerd <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - <mask> as dr. <mask>.
+07/12/2022 02:46:34 - INFO - __main__ - ****************************
+07/12/2022 02:46:34 - INFO - __main__ - *********References*********
+07/12/2022 02:46:34 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:46:34 - INFO - __main__ - ****************************
+07/12/2022 02:47:27 - INFO - __main__ - ***********Input************
+07/12/2022 02:47:27 - INFO - __main__ - <mask> (1738--1811) was a British composer and organist born in <mask> .
+07/12/2022 02:47:27 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:47:27 - INFO - __main__ - <mask> was born and died in <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask>, a prominent local businessman, was born in <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask>,, chief constable, city of <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask> was a professional footballer who played for <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask> was a merchant and politician in <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask> is a former professional footballer who played for <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask>, chief constable, city of <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask> was born in the town of <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - <mask> is an artist, writer and curator based in <mask>.
+07/12/2022 02:47:27 - INFO - __main__ - ****************************
+07/12/2022 02:47:27 - INFO - __main__ - *********References*********
+07/12/2022 02:47:27 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:47:27 - INFO - __main__ - ****************************
+07/12/2022 02:48:41 - INFO - __main__ - ***********Input************
+07/12/2022 02:48:41 - INFO - __main__ - <mask> (b. February 11, 1955, <mask>, Tennessee - d July 2, 2007, Tiburon, California) was an American artist .
+07/12/2022 02:48:41 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:48:41 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask> is a former professional basketball player who played for <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask> is a professional basketball player from <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask> is a jazz saxophonist from <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask> is an attorney and former mayor of <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask>, a former professional basketball player, is a real estate developer in <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask>, a former mayor of <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask>, a prominent lawyer, was born in <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - <mask>, the son of a wealthy family, was born in <mask>.
+07/12/2022 02:48:41 - INFO - __main__ - ****************************
+07/12/2022 02:48:41 - INFO - __main__ - *********References*********
+07/12/2022 02:48:41 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:48:41 - INFO - __main__ - ****************************
+07/12/2022 02:49:45 - INFO - __main__ - ***********Input************
+07/12/2022 02:49:45 - INFO - __main__ - <mask> (c. <mask> - 25 August 1785) was a British diplomat and politician who sat in the House of Commons between 1762 and 1774 .
+07/12/2022 02:49:45 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:49:45 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask> was born in the village in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask>, a local merchant, was the owner of the house in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask> had been a member of the council since <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask> was the last surviving member of the family, who died in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask>, who was born in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask>, who was a prominent local merchant, was born in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask> died in the house in <mask>.
+07/12/2022 02:49:45 - INFO - __main__ - <mask> (1715–1772) was born in <mask>.
+07/12/2022 02:49:46 - INFO - __main__ - <mask> was appointed as a justice of the peace in <mask>.
+07/12/2022 02:49:46 - INFO - __main__ - ****************************
+07/12/2022 02:49:46 - INFO - __main__ - *********References*********
+07/12/2022 02:49:46 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:49:46 - INFO - __main__ - ****************************
+07/12/2022 02:51:22 - INFO - __main__ - ***********Input************
+07/12/2022 02:51:22 - INFO - __main__ - <mask> (born December 28th, <mask>) is a United States of America Democratic political consultant and activist who has worked on six presidential campaigns, served as Policy Director for the Speaker of the House in Connecticut, and served as the National Coordinated Campaign Director for both the 1992 and 1996 Presidential campaigns of Bill Clinton .
+07/12/2022 02:51:22 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:51:22 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask>, who had been a member of the group since <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> was appointed as the new headmaster in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask>, who was a member of the group, died in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> was the last person to be executed in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> has been a member of the board of directors since <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> was the last person to be elected to the office, in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> has been the editor-in-chief since <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> became the first woman to be elected to the position in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - <mask> was the last surviving member of the original group, who died in <mask>.
+07/12/2022 02:51:22 - INFO - __main__ - ****************************
+07/12/2022 02:51:22 - INFO - __main__ - *********References*********
+07/12/2022 02:51:22 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:51:22 - INFO - __main__ - ****************************
+07/12/2022 02:52:31 - INFO - __main__ - ***********Input************
+07/12/2022 02:52:31 - INFO - __main__ - <mask> (born <mask> in Vlorë, Albania) is a singer who at fourtheen moved to Pistoia, Italy were he remains with his parents and three brothers .
+07/12/2022 02:52:31 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:52:31 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is the son of former <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is the son of former prime minister <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is the capital of <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is a surname, derived from <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> was the father of <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is the capital and largest city of <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is the son of the <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask>'s main railway station is the railway station of <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - <mask> is the son of <mask>.
+07/12/2022 02:52:31 - INFO - __main__ - ****************************
+07/12/2022 02:52:31 - INFO - __main__ - *********References*********
+07/12/2022 02:52:31 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 02:52:31 - INFO - __main__ - ****************************
+07/12/2022 02:53:36 - INFO - __main__ - ***********Input************
+07/12/2022 02:53:36 - INFO - __main__ - <mask> (born 27 September 1974, in <mask>, India) is a former Indian cricketer .
+07/12/2022 02:53:36 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:53:36 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> was born and brought up in <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> is a film director from <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> is a film director and producer from <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> is a young man who lives in <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> was born in a <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> started his career as a journalist in <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> has been a resident of <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask> was born in a family of a lawyer in <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - <mask>, the son of a rich businessman, lives in <mask>.
+07/12/2022 02:53:36 - INFO - __main__ - ****************************
+07/12/2022 02:53:36 - INFO - __main__ - *********References*********
+07/12/2022 02:53:36 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:53:36 - INFO - __main__ - ****************************
+07/12/2022 02:54:38 - INFO - __main__ - ***********Input************
+07/12/2022 02:54:38 - INFO - __main__ - <mask> (1806-1867) was an American physician, born in <mask>, Massachusetts .
+07/12/2022 02:54:38 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:54:38 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask>, a prominent local businessman, was born in <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask>, the son of a wealthy merchant, was born in <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask>, a local businessman, was a prominent figure in <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask>, a former mayor of <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask> (1828–1896), who died in <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask> is a former professional baseball player who played for <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask>, a local businessman, was a key figure in the development of <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - <mask> is a fictional character from the television series <mask>.
+07/12/2022 02:54:38 - INFO - __main__ - ****************************
+07/12/2022 02:54:38 - INFO - __main__ - *********References*********
+07/12/2022 02:54:38 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 02:54:38 - INFO - __main__ - ****************************
+07/12/2022 02:55:28 - INFO - __main__ - ***********Input************
+07/12/2022 02:55:28 - INFO - __main__ - A Conservative, the Honourable <mask> served until his death in 1871 in <mask>, Ontario .
+07/12/2022 02:55:28 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:55:28 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> was born and raised in the suburbs of <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> was a member of the board of directors of the city of <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> has been a long-time resident of <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> began his career as a journalist in <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> is a former member of the city council of <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> was born and raised in the east end of <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - <mask> was a member of the board of directors of the <mask>.
+07/12/2022 02:55:28 - INFO - __main__ - ****************************
+07/12/2022 02:55:28 - INFO - __main__ - *********References*********
+07/12/2022 02:55:28 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 02:55:28 - INFO - __main__ - ****************************
+07/12/2022 02:56:23 - INFO - __main__ - ***********Input************
+07/12/2022 02:56:23 - INFO - __main__ - <mask> died at <mask> BC December 20, 1959 age 85 .
+07/12/2022 02:56:23 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:56:23 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> has been a long-time resident of <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> was a member of the board of directors of the city of <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> is a former member of the band <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> began his career as a journalist in <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> was born and raised in the suburbs of <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> was born and raised in the <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - <mask> is a member of the board of directors of the city of <mask>.
+07/12/2022 02:56:23 - INFO - __main__ - ****************************
+07/12/2022 02:56:23 - INFO - __main__ - *********References*********
+07/12/2022 02:56:23 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 02:56:23 - INFO - __main__ - ****************************
+07/12/2022 02:57:35 - INFO - __main__ - ***********Input************
+07/12/2022 02:57:35 - INFO - __main__ - Considered by some in the art world to be one of the last of the Surrealists, <mask> died in his home in <mask> on April 25, 2008, aged 99 Donati's health had been failing since involved, as a passenger, in a taxi accident in July, 2007 .
+07/12/2022 02:57:35 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:57:35 - INFO - __main__ - <mask> was born and died in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask> was born in the city of <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask> is a native of <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask> started his career as a journalist in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask> is a native of the <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask>, a painter, was born in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - <mask>'s father was a lawyer in <mask>.
+07/12/2022 02:57:35 - INFO - __main__ - ****************************
+07/12/2022 02:57:35 - INFO - __main__ - *********References*********
+07/12/2022 02:57:35 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 02:57:35 - INFO - __main__ - ****************************
+07/12/2022 02:58:26 - INFO - __main__ - ***********Input************
+07/12/2022 02:58:26 - INFO - __main__ - <mask> died of pneumonia in 1990 at his home in <mask>, California .
+07/12/2022 02:58:26 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:58:26 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask> is a native of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask> was a member of the board of directors of the city of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask>'s family moved to the city of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask>'s father was a successful businessman in <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask> is currently a resident of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask> has been a resident of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask>'s father was a successful real estate developer in <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - <mask> has been a long-time resident of <mask>.
+07/12/2022 02:58:26 - INFO - __main__ - ****************************
+07/12/2022 02:58:26 - INFO - __main__ - *********References*********
+07/12/2022 02:58:26 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 02:58:26 - INFO - __main__ - ****************************
+07/12/2022 02:59:24 - INFO - __main__ - ***********Input************
+07/12/2022 02:59:24 - INFO - __main__ - <mask> died in 1888 in <mask>, Germany and is buried, together with his wife, Sophie in Weißensee .
+07/12/2022 02:59:24 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 02:59:24 - INFO - __main__ - <mask> was born and died in <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask>'s father was a lawyer in <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> was born in the city of <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> was a member of the board of the city of <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> is the son of a wealthy family from <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> had been a member of the city council of <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - <mask> was born and died in the city of <mask>.
+07/12/2022 02:59:24 - INFO - __main__ - ****************************
+07/12/2022 02:59:24 - INFO - __main__ - *********References*********
+07/12/2022 02:59:24 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 02:59:24 - INFO - __main__ - ****************************
+07/12/2022 02:59:24 - INFO - __main__ - Task: google-re
+07/12/2022 02:59:24 - INFO - __main__ - bleu-4: 5.831525895590317e-79
+07/12/2022 02:59:24 - INFO - __main__ - bleu-3: 0.0380780490618063
+07/12/2022 02:59:24 - INFO - __main__ - bleu-2: 0.07582221634252827
+07/12/2022 02:59:24 - INFO - __main__ - bleu-1: 0.31840186941028625
+07/12/2022 02:59:24 - INFO - __main__ - METEOR: 0.23758162918970765
+07/12/2022 02:59:24 - INFO - __main__ - ROUGE-L: 0.35288577968531526
+07/12/2022 02:59:24 - INFO - __main__ - entailment score(mean-mean): 0.08779641145586514
+07/12/2022 02:59:24 - INFO - __main__ - entailment score(mean-max): 0.5395699268206954
+07/12/2022 02:59:24 - INFO - __main__ - entailment score(mean-min): 0.0006464547953025127
+07/12/2022 02:59:24 - INFO - __main__ - self-BLEU-2: 0.8807197055678562
+07/12/2022 02:59:24 - INFO - __main__ - avg: 0.17046159061494062
+07/12/2022 02:59:24 - INFO - __main__ - *******************************************************
+07/12/2022 02:59:24 - INFO - __main__ - *******************************************************
+07/12/2022 02:59:24 - INFO - __main__ - *******************************************************
+07/12/2022 06:56:52 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 06:56:52 - INFO - __main__ - bart_training             -->   True
+07/12/2022 06:56:52 - INFO - __main__ - device                    -->   8
+07/12/2022 06:56:52 - INFO - __main__ - group_beam                -->   True
+07/12/2022 06:56:52 - INFO - __main__ - if_then                   -->   False
+07/12/2022 06:56:52 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 06:56:52 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 06:56:52 - INFO - __main__ - log_name                  -->   google-res+gs+dpp
+07/12/2022 06:56:52 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 06:56:52 - INFO - __main__ - task                      -->   google-re
+07/12/2022 06:56:52 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 07:00:53 - INFO - __main__ - ***********Input************
+07/12/2022 07:00:53 - INFO - __main__ - <mask> (b. 1954 in <mask>) is a best-selling American author of romance novels .
+07/12/2022 07:00:53 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:00:53 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> is a writer and artist based in <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> is a writer and editor based in <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> is an artist based in <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask>, the former mayor of <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> is a former professional basketball player from <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> was the first woman to be elected to the city council of <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> (1890–1957) was a painter and sculptor from <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - <mask> is a film director and screenwriter from <mask>.
+07/12/2022 07:00:53 - INFO - __main__ - ****************************
+07/12/2022 07:00:53 - INFO - __main__ - *********References*********
+07/12/2022 07:00:53 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 07:00:53 - INFO - __main__ - ****************************
+07/12/2022 07:02:50 - INFO - __main__ - ***********Input************
+07/12/2022 07:02:50 - INFO - __main__ - <mask> (born c.<mask> Chapel Hill, North Carolina) is an American director and designer of experimental theatre from New York City .
+07/12/2022 07:02:50 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:02:50 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask> is a former professional tennis player from <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask> (born ) is a former professional basketball player from <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask>, actress, was born in <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask> is a writer and editor based in <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask> was born <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask> is a native of <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask>, a former member of the group, was born in <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask> is a retired professional basketball player who played in <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - <mask>, who was a member of the group, died in <mask>.
+07/12/2022 07:02:50 - INFO - __main__ - ****************************
+07/12/2022 07:02:50 - INFO - __main__ - *********References*********
+07/12/2022 07:02:50 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 07:02:50 - INFO - __main__ - ****************************
+07/12/2022 07:05:02 - INFO - __main__ - ***********Input************
+07/12/2022 07:05:02 - INFO - __main__ - <mask> (born c <mask>) is a former softball player and coach .
+07/12/2022 07:05:02 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:05:02 - INFO - __main__ - <mask>, (a.a former <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask> (née lee <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask> is portrayed by <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask>, a former student of <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask> (née h) ( <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask>, a lawyerd <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - <mask> as dr. <mask>.
+07/12/2022 07:05:02 - INFO - __main__ - ****************************
+07/12/2022 07:05:02 - INFO - __main__ - *********References*********
+07/12/2022 07:05:02 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 07:05:02 - INFO - __main__ - ****************************
+07/12/2022 07:06:22 - INFO - __main__ - ***********Input************
+07/12/2022 07:06:22 - INFO - __main__ - <mask> (1738--1811) was a British composer and organist born in <mask> .
+07/12/2022 07:06:22 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:06:22 - INFO - __main__ - <mask> was born and died in <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask>, a prominent local businessman, was born in <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask>,, chief constable, city of <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask> was a professional footballer who played for <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask> is a former professional footballer who played for <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask>, chief constable, city of <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask> is an artist, writer and curator based in <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask> was a merchant and politician in <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - <mask>,, deputy chief constable, city of <mask>.
+07/12/2022 07:06:22 - INFO - __main__ - ****************************
+07/12/2022 07:06:22 - INFO - __main__ - *********References*********
+07/12/2022 07:06:22 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 07:06:22 - INFO - __main__ - ****************************
+07/12/2022 07:08:02 - INFO - __main__ - ***********Input************
+07/12/2022 07:08:02 - INFO - __main__ - <mask> (b. February 11, 1955, <mask>, Tennessee - d July 2, 2007, Tiburon, California) was an American artist .
+07/12/2022 07:08:02 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:08:02 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask> is a former professional basketball player who played for <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask> is a professional basketball player from <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask> is a jazz saxophonist from <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask>, a former professional basketball player, is a real estate developer in <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask> is an attorney and former mayor of <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask>, the son of a wealthy family, was born in <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask>, a former mayor of <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - <mask>, a prominent lawyer, was born in <mask>.
+07/12/2022 07:08:02 - INFO - __main__ - ****************************
+07/12/2022 07:08:02 - INFO - __main__ - *********References*********
+07/12/2022 07:08:02 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 07:08:02 - INFO - __main__ - ****************************
+07/12/2022 07:09:42 - INFO - __main__ - ***********Input************
+07/12/2022 07:09:42 - INFO - __main__ - <mask> (c. <mask> - 25 August 1785) was a British diplomat and politician who sat in the House of Commons between 1762 and 1774 .
+07/12/2022 07:09:42 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:09:42 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask>, a local merchant, was the owner of the house in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask> was the last surviving member of the family, who died in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask> had been a member of the council since <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask> was born in the village in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask>, who was born in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask>, who was a prominent local merchant, was born in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask> (1715–1772) was born in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask> of st. mary's, who died in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - <mask> was appointed as a justice of the peace in <mask>.
+07/12/2022 07:09:42 - INFO - __main__ - ****************************
+07/12/2022 07:09:42 - INFO - __main__ - *********References*********
+07/12/2022 07:09:42 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 07:09:42 - INFO - __main__ - ****************************
+07/12/2022 07:11:41 - INFO - __main__ - ***********Input************
+07/12/2022 07:11:41 - INFO - __main__ - <mask> (born December 28th, <mask>) is a United States of America Democratic political consultant and activist who has worked on six presidential campaigns, served as Policy Director for the Speaker of the House in Connecticut, and served as the National Coordinated Campaign Director for both the 1992 and 1996 Presidential campaigns of Bill Clinton .
+07/12/2022 07:11:41 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:11:41 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask>, who had been a member of the group since <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask>, who was a member of the group, died in <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask> has been a member of the board of directors since <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask> was the last person to be elected to the office, in <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask> was the last person to be executed in <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask>, who had been the editor since <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask> was appointed as the new headmaster in <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask>, jr. was born in <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - <mask> has been the editor-in-chief since <mask>.
+07/12/2022 07:11:41 - INFO - __main__ - ****************************
+07/12/2022 07:11:41 - INFO - __main__ - *********References*********
+07/12/2022 07:11:41 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 07:11:41 - INFO - __main__ - ****************************
+07/12/2022 07:13:22 - INFO - __main__ - ***********Input************
+07/12/2022 07:13:22 - INFO - __main__ - <mask> (born <mask> in Vlorë, Albania) is a singer who at fourtheen moved to Pistoia, Italy were he remains with his parents and three brothers .
+07/12/2022 07:13:22 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:13:22 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is the son of former <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is the capital of <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is a surname, derived from <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is the capital and largest city of <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is the son of former prime minister <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask>'s main railway station is the railway station of <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is the son of the <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> is the current mayor of <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - <mask> was the father of <mask>.
+07/12/2022 07:13:22 - INFO - __main__ - ****************************
+07/12/2022 07:13:22 - INFO - __main__ - *********References*********
+07/12/2022 07:13:22 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/12/2022 07:13:22 - INFO - __main__ - ****************************
+07/12/2022 07:14:53 - INFO - __main__ - ***********Input************
+07/12/2022 07:14:53 - INFO - __main__ - <mask> (born 27 September 1974, in <mask>, India) is a former Indian cricketer .
+07/12/2022 07:14:53 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:14:53 - INFO - __main__ - <mask> was born and brought up in <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> is a film director and producer from <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> is a young man who lives in <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> is a film director from <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> started his career as a journalist in <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> has been a resident of <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask>, the then chief minister of punjab, was born in <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> is a film producer and director from <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - <mask> was born in a <mask>.
+07/12/2022 07:14:53 - INFO - __main__ - ****************************
+07/12/2022 07:14:53 - INFO - __main__ - *********References*********
+07/12/2022 07:14:53 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 07:14:53 - INFO - __main__ - ****************************
+07/12/2022 07:16:26 - INFO - __main__ - ***********Input************
+07/12/2022 07:16:26 - INFO - __main__ - <mask> (1806-1867) was an American physician, born in <mask>, Massachusetts .
+07/12/2022 07:16:26 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:16:26 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask>, the son of a wealthy merchant, was born in <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask>, a prominent local businessman, was born in <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask> (1828–1896), who died in <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask>, a local businessman, was a key figure in the development of <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask>, a local businessman, was a prominent figure in <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask> is a former professional baseball player who played for <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask> is a fictional character from the television series <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - <mask> is an actor and director from <mask>.
+07/12/2022 07:16:26 - INFO - __main__ - ****************************
+07/12/2022 07:16:26 - INFO - __main__ - *********References*********
+07/12/2022 07:16:26 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/12/2022 07:16:26 - INFO - __main__ - ****************************
+07/12/2022 07:17:46 - INFO - __main__ - ***********Input************
+07/12/2022 07:17:46 - INFO - __main__ - A Conservative, the Honourable <mask> served until his death in 1871 in <mask>, Ontario .
+07/12/2022 07:17:46 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:17:46 - INFO - __main__ - <mask> was born and raised in the suburbs of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> was a member of the board of directors of the city of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> has been a long-time resident of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> began his career as a journalist in <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> was born and raised in the east end of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> is a former member of the city council of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - <mask> had previously been a member of the city council of <mask>.
+07/12/2022 07:17:46 - INFO - __main__ - ****************************
+07/12/2022 07:17:46 - INFO - __main__ - *********References*********
+07/12/2022 07:17:46 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 07:17:46 - INFO - __main__ - ****************************
+07/12/2022 07:19:02 - INFO - __main__ - ***********Input************
+07/12/2022 07:19:02 - INFO - __main__ - <mask> died at <mask> BC December 20, 1959 age 85 .
+07/12/2022 07:19:02 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:19:02 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> has been a long-time resident of <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> was a member of the board of directors of the city of <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> is a member of the board of directors of the city of <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> was born and raised in the suburbs of <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> is a former member of the band <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> began his career as a journalist in <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - <mask> is a former mayor of <mask>.
+07/12/2022 07:19:02 - INFO - __main__ - ****************************
+07/12/2022 07:19:02 - INFO - __main__ - *********References*********
+07/12/2022 07:19:02 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 07:19:02 - INFO - __main__ - ****************************
+07/12/2022 07:20:39 - INFO - __main__ - ***********Input************
+07/12/2022 07:20:39 - INFO - __main__ - Considered by some in the art world to be one of the last of the Surrealists, <mask> died in his home in <mask> on April 25, 2008, aged 99 Donati's health had been failing since involved, as a passenger, in a taxi accident in July, 2007 .
+07/12/2022 07:20:39 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:20:39 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask> was born in the city of <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask> was born and died in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask> is a native of <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask> started his career as a journalist in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask> was born in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask>, a painter, was born in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask>'s father was a lawyer in <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - <mask> is a native of the <mask>.
+07/12/2022 07:20:39 - INFO - __main__ - ****************************
+07/12/2022 07:20:39 - INFO - __main__ - *********References*********
+07/12/2022 07:20:39 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 07:20:39 - INFO - __main__ - ****************************
+07/12/2022 07:21:59 - INFO - __main__ - ***********Input************
+07/12/2022 07:21:59 - INFO - __main__ - <mask> died of pneumonia in 1990 at his home in <mask>, California .
+07/12/2022 07:21:59 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:21:59 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask> was a member of the board of directors of the city of <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask> is a native of <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask>'s family moved to the city of <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask>'s father was a successful real estate developer in <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask>'s father was a successful businessman in <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask> has been a long-time resident of <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask> is currently a resident of <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - <mask> began his career as a journalist in <mask>.
+07/12/2022 07:21:59 - INFO - __main__ - ****************************
+07/12/2022 07:21:59 - INFO - __main__ - *********References*********
+07/12/2022 07:21:59 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 07:21:59 - INFO - __main__ - ****************************
+07/12/2022 07:23:31 - INFO - __main__ - ***********Input************
+07/12/2022 07:23:31 - INFO - __main__ - <mask> died in 1888 in <mask>, Germany and is buried, together with his wife, Sophie in Weißensee .
+07/12/2022 07:23:31 - INFO - __main__ - *********Hypothesis*********
+07/12/2022 07:23:31 - INFO - __main__ - <mask> was born and died in <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask>'s father was a lawyer in <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> was born in the city of <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> was born and raised in the city of <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> was a member of the board of the city of <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask>'s father was a lawyer and his mother was a teacher in <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> had been a member of the city council of <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> is the son of a wealthy family from <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - <mask> was born and died in the city of <mask>.
+07/12/2022 07:23:31 - INFO - __main__ - ****************************
+07/12/2022 07:23:31 - INFO - __main__ - *********References*********
+07/12/2022 07:23:31 - INFO - __main__ - ['the place where <mask> died is <mask>.']
+07/12/2022 07:23:31 - INFO - __main__ - ****************************
+07/12/2022 07:23:32 - INFO - __main__ - Task: google-re
+07/12/2022 07:23:32 - INFO - __main__ - bleu-4: 5.2413444651931266e-79
+07/12/2022 07:23:32 - INFO - __main__ - bleu-3: 0.03462825045984587
+07/12/2022 07:23:32 - INFO - __main__ - bleu-2: 0.07296257227354995
+07/12/2022 07:23:32 - INFO - __main__ - bleu-1: 0.31732641325969824
+07/12/2022 07:23:32 - INFO - __main__ - METEOR: 0.23389145048748175
+07/12/2022 07:23:32 - INFO - __main__ - ROUGE-L: 0.35534580751299016
+07/12/2022 07:23:32 - INFO - __main__ - entailment score(mean-mean): 0.0805619363088005
+07/12/2022 07:23:32 - INFO - __main__ - entailment score(mean-max): 0.5261183692763249
+07/12/2022 07:23:32 - INFO - __main__ - entailment score(mean-min): 0.0005943784691529193
+07/12/2022 07:23:32 - INFO - __main__ - self-BLEU-2: 0.8825226985505812
+07/12/2022 07:23:32 - INFO - __main__ - avg: 0.16902574899892767
+07/12/2022 07:23:32 - INFO - __main__ - *******************************************************
+07/12/2022 07:23:32 - INFO - __main__ - *******************************************************
+07/12/2022 07:23:32 - INFO - __main__ - *******************************************************
+07/12/2022 11:16:19 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/12/2022 11:16:19 - INFO - __main__ - bart_training             -->   True
+07/12/2022 11:16:19 - INFO - __main__ - device                    -->   8
+07/12/2022 11:16:19 - INFO - __main__ - group_beam                -->   True
+07/12/2022 11:16:19 - INFO - __main__ - if_then                   -->   False
+07/12/2022 11:16:19 - INFO - __main__ - inductor                  -->   rule
+07/12/2022 11:16:19 - INFO - __main__ - log_dir                   -->   logs_new/
+07/12/2022 11:16:19 - INFO - __main__ - log_name                  -->   google-res+gs+dpp
+07/12/2022 11:16:19 - INFO - __main__ - mlm_training              -->   True
+07/12/2022 11:16:19 - INFO - __main__ - task                      -->   google-re
+07/12/2022 11:16:19 - INFO - __main__ - **************** MODEL CONFIGURATION ****************

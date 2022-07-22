@@ -1,0 +1,366 @@
+07/15/2022 11:04:54 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 11:04:54 - INFO - __main__ - bart_training             -->   True
+07/15/2022 11:04:54 - INFO - __main__ - device                    -->   0
+07/15/2022 11:04:54 - INFO - __main__ - group_beam                -->   True
+07/15/2022 11:04:54 - INFO - __main__ - if_then                   -->   False
+07/15/2022 11:04:54 - INFO - __main__ - inductor                  -->   rule
+07/15/2022 11:04:54 - INFO - __main__ - log_dir                   -->   logs_new/
+07/15/2022 11:04:54 - INFO - __main__ - log_name                  -->   fewrel-k5+bgb+dpp
+07/15/2022 11:04:54 - INFO - __main__ - mlm_training              -->   True
+07/15/2022 11:04:54 - INFO - __main__ - task                      -->   fewrel
+07/15/2022 11:04:54 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 11:07:19 - INFO - __main__ - ***********Input************
+07/15/2022 11:07:19 - INFO - __main__ - his guitar work on the title track is credited as what first drew <mask> to him , who two years later invited allman to join him as part of <mask> .
+07/15/2022 11:07:19 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:07:19 - INFO - __main__ - <mask>, the man in the/dc <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask> was in the middle of a conversation with <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask>'s voice was a low <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask>'s eyes were on the black <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask> was a member of <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask> had been a member of the band <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask> had been a member of <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask>, the leader of the band <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - <mask> was a big, big, huge, <mask>.
+07/15/2022 11:07:19 - INFO - __main__ - ****************************
+07/15/2022 11:07:19 - INFO - __main__ - *********References*********
+07/15/2022 11:07:19 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/15/2022 11:07:19 - INFO - __main__ - ****************************
+07/15/2022 11:08:02 - INFO - __main__ - ***********Input************
+07/15/2022 11:08:02 - INFO - __main__ - in the summer of 1944 it opposed the <mask> ’s <mask> during the lvov - sandomir strategic offensive operation ( 13 july - 29 august 1944 ) .
+07/15/2022 11:08:02 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:08:02 - INFO - __main__ - <mask>. romanov, commander, <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask>. army the <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask>. army army, <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask>, theres a new <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask> had a lot of soldiers in the old <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask> and the soviet <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask> was a part of the <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask> was a part of <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask>, germany, and <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - <mask> and the germans, <mask>.
+07/15/2022 11:08:02 - INFO - __main__ - ****************************
+07/15/2022 11:08:02 - INFO - __main__ - *********References*********
+07/15/2022 11:08:02 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/15/2022 11:08:02 - INFO - __main__ - ****************************
+07/15/2022 11:08:50 - INFO - __main__ - ***********Input************
+07/15/2022 11:08:50 - INFO - __main__ - the singles released from " <mask> " were " <mask> " , " stuck with me " , " brain stew / jaded " , and " walking contradiction " .
+07/15/2022 11:08:50 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:08:50 - INFO - __main__ - <mask>, i feel you <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask>, i feel <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> when you're <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> is what <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> is like you feel <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> is like <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> or youre <mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask>, with a love.diary crazy.crazy.<mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> is a book about a mad.man who is "<mask>.
+07/15/2022 11:08:50 - INFO - __main__ - <mask> : the story of a man.doriscrazy<mask>.
+07/15/2022 11:08:50 - INFO - __main__ - ****************************
+07/15/2022 11:08:50 - INFO - __main__ - *********References*********
+07/15/2022 11:08:50 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/15/2022 11:08:50 - INFO - __main__ - ****************************
+07/15/2022 11:09:29 - INFO - __main__ - ***********Input************
+07/15/2022 11:09:29 - INFO - __main__ - the occupancy of the show surpassed the <mask> films <mask> and freaky ali .
+07/15/2022 11:09:29 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:09:29 - INFO - __main__ - <mask>, i'm not <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask>, the president of the united states, was an <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a native <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a big part of <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a big fan of <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> had been a big part of <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> had been a big fan of <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask>, and, american <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> citizens, you're a <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> and french, <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - ****************************
+07/15/2022 11:09:29 - INFO - __main__ - *********References*********
+07/15/2022 11:09:29 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/15/2022 11:09:29 - INFO - __main__ - ****************************
+07/15/2022 11:10:08 - INFO - __main__ - ***********Input************
+07/15/2022 11:10:08 - INFO - __main__ - it broadcasts mostly english language news and current affairs and also broadcasts <mask> the daily rté 1 <mask> language news television programme .
+07/15/2022 11:10:08 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:10:08 - INFO - __main__ - <mask> news channel was broadcasting in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> channel was broadcasting in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask>, the national radio station, is broadcasting <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> was a big deal in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> is a radio station broadcasting in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask>, he said, in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> was the only one that was available in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> is a national news channel that broadcasts in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> is a news channel that broadcasts in <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - ****************************
+07/15/2022 11:10:08 - INFO - __main__ - *********References*********
+07/15/2022 11:10:08 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/15/2022 11:10:08 - INFO - __main__ - ****************************
+07/15/2022 11:10:46 - INFO - __main__ - ***********Input************
+07/15/2022 11:10:46 - INFO - __main__ - in 2009 to mark the 125th anniversary of the <mask> he was named by the irish news as one of the all - time best 125 footballers from <mask> .
+07/15/2022 11:10:46 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:10:46 - INFO - __main__ - <mask> is a very different country from <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask>'s a big city, and <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask>, the other side of the border, was <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask> is a very good place to live in <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask> is a word that means <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask> was the only one who could speak <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask>, i'm from <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask>'s a good friend of mine, <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask>, the people of ireland. <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - <mask>, the other side of the border, <mask>.
+07/15/2022 11:10:46 - INFO - __main__ - ****************************
+07/15/2022 11:10:46 - INFO - __main__ - *********References*********
+07/15/2022 11:10:46 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/15/2022 11:10:46 - INFO - __main__ - ****************************
+07/15/2022 11:11:32 - INFO - __main__ - ***********Input************
+07/15/2022 11:11:32 - INFO - __main__ - as a sergeant in the australian imperial force , mcgee was awarded the victoria cross for his actions in the <mask> — part of the <mask> — on 4 october 1917 .
+07/15/2022 11:11:32 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:11:32 - INFO - __main__ - <mask>, and the <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> : l'homme et la <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> was a part of <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> was a major part of the new <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> is an <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask>'s father was a veteran of <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> was a veteran of <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> had been a soldier in <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> : le monde et le <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - <mask> was a veteran of the great <mask>.
+07/15/2022 11:11:32 - INFO - __main__ - ****************************
+07/15/2022 11:11:32 - INFO - __main__ - *********References*********
+07/15/2022 11:11:32 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/15/2022 11:11:32 - INFO - __main__ - ****************************
+07/15/2022 11:12:20 - INFO - __main__ - ***********Input************
+07/15/2022 11:12:20 - INFO - __main__ - petrovic made her on – screen debut with a small role in " <mask> " , a 2007 <mask> film directed by milčo mančevski .
+07/15/2022 11:12:20 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:12:20 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask>, i'm sorry, <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask>'s name is <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask> was a big city, and the people were <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask>, the other <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask> wasn't a <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask>'s voice was <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - <mask>, the old <mask>.
+07/15/2022 11:12:20 - INFO - __main__ - ****************************
+07/15/2022 11:12:20 - INFO - __main__ - *********References*********
+07/15/2022 11:12:20 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/15/2022 11:12:20 - INFO - __main__ - ****************************
+07/15/2022 11:13:03 - INFO - __main__ - ***********Input************
+07/15/2022 11:13:03 - INFO - __main__ - the film is a remake of <mask> movie " <mask> " , starring krishnam raju , jayasudha in the lead roles .
+07/15/2022 11:13:03 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:13:03 - INFO - __main__ - <mask> version was titled as <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> version of the song is titled <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> version of the film was titled <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> version of the film was titled as <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> version is titled <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> version is titled as <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> is the official language of <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> has a similar word called <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> film industry is a big industry in <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - <mask> is the native language of <mask>.
+07/15/2022 11:13:03 - INFO - __main__ - ****************************
+07/15/2022 11:13:03 - INFO - __main__ - *********References*********
+07/15/2022 11:13:03 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/15/2022 11:13:03 - INFO - __main__ - ****************************
+07/15/2022 11:13:47 - INFO - __main__ - ***********Input************
+07/15/2022 11:13:47 - INFO - __main__ - fear and trembling ( original title : <mask> ) is a 2003 <mask> film based on the novel of the same name by amélie nothomb .
+07/15/2022 11:13:47 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:13:47 - INFO - __main__ - <mask> wasn't a word in <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask>, a little <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask> des écoles françaises, in <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask>, he said in <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask>, she was <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask> wasn't a <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask>, he said, <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask>, he said, sounding <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask> wasn't a word i 'd ever heard in english and <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - <mask> is not a word that can be used in english or in <mask>.
+07/15/2022 11:13:47 - INFO - __main__ - ****************************
+07/15/2022 11:13:47 - INFO - __main__ - *********References*********
+07/15/2022 11:13:47 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/15/2022 11:13:47 - INFO - __main__ - ****************************
+07/15/2022 11:14:33 - INFO - __main__ - ***********Input************
+07/15/2022 11:14:33 - INFO - __main__ - <mask> ( born 10 january 1990 ) is a german footballer who plays as a <mask> for spvgg unterhaching .
+07/15/2022 11:14:33 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:14:33 - INFO - __main__ - <mask> was the only one who could see <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> had been the only one to move <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask>, the club <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> was the only <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> was a midfielder <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask>, the club's <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> was playing as a <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:14:33 - INFO - __main__ - ****************************
+07/15/2022 11:14:33 - INFO - __main__ - *********References*********
+07/15/2022 11:14:33 - INFO - __main__ - ['<mask> plays in <mask> position.']
+07/15/2022 11:14:33 - INFO - __main__ - ****************************
+07/15/2022 11:15:20 - INFO - __main__ - ***********Input************
+07/15/2022 11:15:20 - INFO - __main__ - wester ross is well known for its mountain scenery , especially the <mask> which includes such peaks as beinn eighe and <mask> .
+07/15/2022 11:15:20 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:15:20 - INFO - __main__ - <mask>, which is a branch of the main <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> is a mountain in the north of <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> lies just to the north of <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> is a small fjord in <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> are the highest mountains in <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> is the feminine form of <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> is a variant of <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask>, the mountains of <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask> and mountains are the most common names for <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - <mask>, the island of <mask>.
+07/15/2022 11:15:20 - INFO - __main__ - ****************************
+07/15/2022 11:15:20 - INFO - __main__ - *********References*********
+07/15/2022 11:15:20 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/15/2022 11:15:20 - INFO - __main__ - ****************************
+07/15/2022 11:15:57 - INFO - __main__ - ***********Input************
+07/15/2022 11:15:57 - INFO - __main__ - <mask> ( born 23 august 1994 ) is an afghan international footballer who plays as a <mask> .
+07/15/2022 11:15:57 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:15:57 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> started his career as a <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> was a tall <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask>, the tall <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> is the most important player <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask>, who was a midfielder <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> was an excellent <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - <mask> had been a good <mask>.
+07/15/2022 11:15:57 - INFO - __main__ - ****************************
+07/15/2022 11:15:57 - INFO - __main__ - *********References*********
+07/15/2022 11:15:57 - INFO - __main__ - ['<mask> plays in <mask> position.']
+07/15/2022 11:15:57 - INFO - __main__ - ****************************
+07/15/2022 11:16:37 - INFO - __main__ - ***********Input************
+07/15/2022 11:16:37 - INFO - __main__ - the company was formed by steve nardelli and <mask> of the psychedelic prog band <mask> .
+07/15/2022 11:16:37 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:16:37 - INFO - __main__ - <mask>, the president of <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> was in the middle of a conversation with a <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> was a member of <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> was a good friend of <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> was a big man, and he was a <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> had been a good friend of mine.jack, <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> had been a friend of <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - <mask> and i were in <mask>.
+07/15/2022 11:16:37 - INFO - __main__ - ****************************
+07/15/2022 11:16:37 - INFO - __main__ - *********References*********
+07/15/2022 11:16:37 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/15/2022 11:16:37 - INFO - __main__ - ****************************
+07/15/2022 11:17:20 - INFO - __main__ - ***********Input************
+07/15/2022 11:17:20 - INFO - __main__ - the <mask> ( ) metro station is located on the red line of the <mask> .
+07/15/2022 11:17:20 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:17:20 - INFO - __main__ - <mask>, dre bichre <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> has a number of <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask>, the metro, <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> is a station on <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> is a metro metro station on <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> is, and <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> metro and <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> is a stop on the new <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask> is a station on the, <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - <mask>, the new <mask>.
+07/15/2022 11:17:20 - INFO - __main__ - ****************************
+07/15/2022 11:17:20 - INFO - __main__ - *********References*********
+07/15/2022 11:17:20 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/15/2022 11:17:20 - INFO - __main__ - ****************************
+07/15/2022 11:17:58 - INFO - __main__ - ***********Input************
+07/15/2022 11:17:58 - INFO - __main__ - kane 's ultimate version was introduced in " ultimate x - men " # 76 , where he is once again a partner to <mask> , domino and the other <mask> team members .
+07/15/2022 11:17:58 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:17:58 - INFO - __main__ - <mask>, i'm sorry i didn't tell you about the <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask>'s eyes were wide, and he was staring at the <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask> looked at the other <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask>'s eyes widened as he saw the other <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask>'s eyes were wide as he stared at the <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask> wasn't sure what to do with the <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask> was a member of the elite <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask> was a member of the elite group of <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask> had been a member of the original <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - <mask> had been a member of the elite <mask>.
+07/15/2022 11:17:58 - INFO - __main__ - ****************************
+07/15/2022 11:17:58 - INFO - __main__ - *********References*********
+07/15/2022 11:17:58 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/15/2022 11:17:58 - INFO - __main__ - ****************************
+07/15/2022 11:18:41 - INFO - __main__ - ***********Input************
+07/15/2022 11:18:41 - INFO - __main__ - <mask> ( born 15 december 1990 in plymouth , trinidad and tobago ) , is an international football player from trinidad and tobagosoca warriors who plays as a <mask> for juticalpa .
+07/15/2022 11:18:41 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:18:41 - INFO - __main__ - <mask> was a young <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> was the only other <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> was the only <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> had been a good <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> is a young <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> was the team captain and the <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - <mask> started his career as a <mask>.
+07/15/2022 11:18:41 - INFO - __main__ - ****************************
+07/15/2022 11:18:41 - INFO - __main__ - *********References*********
+07/15/2022 11:18:41 - INFO - __main__ - ['<mask> plays in <mask> position.']
+07/15/2022 11:18:41 - INFO - __main__ - ****************************
+07/15/2022 11:19:19 - INFO - __main__ - ***********Input************
+07/15/2022 11:19:19 - INFO - __main__ - <mask> ( born 14 september 1995 ) is a scottish professional footballer who plays as a <mask> for kilmarnock , on loan from newcastle united .
+07/15/2022 11:19:19 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:19:19 - INFO - __main__ - <mask> was a tall, lean <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask>, the man who had been the club's <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask> was a tall, lean, muscular <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask>, a tall <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask> was a tall, lean, <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask> was a good <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask>, the club's <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - <mask> had been a good <mask>.
+07/15/2022 11:19:19 - INFO - __main__ - ****************************
+07/15/2022 11:19:19 - INFO - __main__ - *********References*********
+07/15/2022 11:19:19 - INFO - __main__ - ['<mask> plays in <mask> position.']
+07/15/2022 11:19:19 - INFO - __main__ - ****************************
+07/15/2022 11:20:02 - INFO - __main__ - ***********Input************
+07/15/2022 11:20:02 - INFO - __main__ - <mask> ( 15 september 1930 – 12 january 2006 ) was a swiss football <mask> who played for switzerland in the 1962 fifa world cup .
+07/15/2022 11:20:02 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:20:02 - INFO - __main__ - <mask>, the young <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was a young <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was a very good <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was the only <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was an excellent <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was a <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was a midfielder <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - <mask> was a tall <mask>.
+07/15/2022 11:20:02 - INFO - __main__ - ****************************
+07/15/2022 11:20:02 - INFO - __main__ - *********References*********
+07/15/2022 11:20:02 - INFO - __main__ - ['<mask> plays in <mask> position.']
+07/15/2022 11:20:02 - INFO - __main__ - ****************************
+07/15/2022 11:20:44 - INFO - __main__ - ***********Input************
+07/15/2022 11:20:44 - INFO - __main__ - he belonged to the <mask> , of <mask> and bernard silvestris .
+07/15/2022 11:20:44 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:20:44 - INFO - __main__ - <mask>, the black <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask> is a family of plants in the <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask>, and the genus <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask> is a family of <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask>, the king of <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask> is a name that has been used for a number of different places in <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask>) is a subfamily of <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask> is a subfamily of <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask>, the people of <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - <mask>, i'm from <mask>.
+07/15/2022 11:20:44 - INFO - __main__ - ****************************
+07/15/2022 11:20:44 - INFO - __main__ - *********References*********
+07/15/2022 11:20:44 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/15/2022 11:20:44 - INFO - __main__ - ****************************
+07/15/2022 11:20:45 - INFO - __main__ - Task: fewrel
+07/15/2022 11:20:45 - INFO - __main__ - bleu-4: 0.012546454018842667
+07/15/2022 11:20:45 - INFO - __main__ - bleu-3: 0.03626367808500696
+07/15/2022 11:20:45 - INFO - __main__ - bleu-2: 0.09990192345415934
+07/15/2022 11:20:45 - INFO - __main__ - bleu-1: 0.3071072251275469
+07/15/2022 11:20:45 - INFO - __main__ - METEOR: 0.25024980387978596
+07/15/2022 11:20:45 - INFO - __main__ - ROUGE-L: 0.4380024893407246
+07/15/2022 11:20:45 - INFO - __main__ - entailment score(mean-mean): 0.2437043056030143
+07/15/2022 11:20:45 - INFO - __main__ - entailment score(mean-max): 0.7276681857183576
+07/15/2022 11:20:45 - INFO - __main__ - entailment score(mean-min): 0.002444672294859629
+07/15/2022 11:20:45 - INFO - __main__ - self-BLEU-2: 0.8946164781578766
+07/15/2022 11:20:45 - INFO - __main__ - avg: 0.19067859565101108
+07/15/2022 11:20:45 - INFO - __main__ - *******************************************************
+07/15/2022 11:20:45 - INFO - __main__ - *******************************************************
+07/15/2022 11:20:45 - INFO - __main__ - *******************************************************

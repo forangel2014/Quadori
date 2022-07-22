@@ -1,0 +1,62 @@
+07/13/2022 06:06:24 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:06:24 - INFO - __main__ - bart_training             -->   True
+07/13/2022 06:06:24 - INFO - __main__ - device                    -->   8
+07/13/2022 06:06:24 - INFO - __main__ - group_beam                -->   False
+07/13/2022 06:06:24 - INFO - __main__ - if_then                   -->   False
+07/13/2022 06:06:24 - INFO - __main__ - inductor                  -->   rule
+07/13/2022 06:06:24 - INFO - __main__ - log_dir                   -->   logs_new/
+07/13/2022 06:06:24 - INFO - __main__ - log_name                  -->   google--STS+dpp
+07/13/2022 06:06:24 - INFO - __main__ - mlm_training              -->   True
+07/13/2022 06:06:24 - INFO - __main__ - task                      -->   google-re
+07/13/2022 06:06:24 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:09:24 - INFO - __main__ - ***********Input************
+07/13/2022 06:09:24 - INFO - __main__ - <mask> (b. 1954 in <mask>) is a best-selling American author of romance novels .
+07/13/2022 06:09:24 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:09:24 - INFO - __main__ - <mask> was born in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask> grew up in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask> studied law at the university of <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask> was born and died in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask> lives in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask>: die deutsche schule <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask>: die welt im <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask>, is a writer and artist based in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - <mask> is a writer and journalist based in <mask>.
+07/13/2022 06:09:24 - INFO - __main__ - ****************************
+07/13/2022 06:09:24 - INFO - __main__ - *********References*********
+07/13/2022 06:09:24 - INFO - __main__ - ['the place where <mask> was born is <mask>.']
+07/13/2022 06:09:24 - INFO - __main__ - ****************************
+07/13/2022 06:10:21 - INFO - __main__ - ***********Input************
+07/13/2022 06:10:21 - INFO - __main__ - <mask> (born c.<mask> Chapel Hill, North Carolina) is an American director and designer of experimental theatre from New York City .
+07/13/2022 06:10:21 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:10:21 - INFO - __main__ - <mask> was born in <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask>, professor of english literature, university of <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask> is a professor of mathematics at <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask> won the title in <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask> is a former professional tennis player from <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask> is an attorney and politician from <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask>, the current governor of <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask>, who was born in <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - <mask>, professor of history, university of <mask>.
+07/13/2022 06:10:21 - INFO - __main__ - ****************************
+07/13/2022 06:10:21 - INFO - __main__ - *********References*********
+07/13/2022 06:10:21 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/13/2022 06:10:21 - INFO - __main__ - ****************************
+07/13/2022 06:11:22 - INFO - __main__ - ***********Input************
+07/13/2022 06:11:22 - INFO - __main__ - <mask> (born c <mask>) is a former softball player and coach .
+07/13/2022 06:11:22 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:11:22 - INFO - __main__ - <mask> y paz (born <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> is portrayed by <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> was born in <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> as mr. <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> died in <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask>, a former student of <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> is an architect from <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask>, mayor of <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - <mask> is a former professional footballer who played for <mask>.
+07/13/2022 06:11:22 - INFO - __main__ - ****************************
+07/13/2022 06:11:22 - INFO - __main__ - *********References*********
+07/13/2022 06:11:22 - INFO - __main__ - ['the date when <mask> was born is <mask>.']
+07/13/2022 06:11:22 - INFO - __main__ - ****************************

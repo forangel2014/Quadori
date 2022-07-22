@@ -12,3 +12,7 @@
 + average bleu score
 + entailment score(mean-mean, mean-max, mean-min)
 + diversity: counting the number of notional words
+
+## STS
+
+$p(sent = r_h + ins|r_p) = p(r_h|r_p)p(ins|r_p) = \sum_{t \in INS}p(r_h|t)p(t|r_p) * p(ins|r_p)$

@@ -1,0 +1,199 @@
+07/15/2022 11:04:54 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 11:04:54 - INFO - __main__ - bart_training             -->   True
+07/15/2022 11:04:54 - INFO - __main__ - device                    -->   5
+07/15/2022 11:04:54 - INFO - __main__ - group_beam                -->   True
+07/15/2022 11:04:54 - INFO - __main__ - if_then                   -->   False
+07/15/2022 11:04:54 - INFO - __main__ - inductor                  -->   rule
+07/15/2022 11:04:54 - INFO - __main__ - log_dir                   -->   logs_new/
+07/15/2022 11:04:54 - INFO - __main__ - log_name                  -->   TREx-k5+bgb+dpp
+07/15/2022 11:04:54 - INFO - __main__ - mlm_training              -->   True
+07/15/2022 11:04:54 - INFO - __main__ - task                      -->   TREx
+07/15/2022 11:04:54 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 11:07:10 - INFO - __main__ - ***********Input************
+07/15/2022 11:07:10 - INFO - __main__ - The production included a 32-member choir, session musician Dan Higgins on soprano saxophone, jazz pianist Russell Ferrante of The Yellowjackets, notable string players Dave Stone (upright bass), <mask> (<mask>), and Steve Erdody (cello).
+07/15/2022 11:07:10 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:07:10 - INFO - __main__ - <mask>, who was sitting next to me, was playing a <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> was playing a <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> was sitting in the back of the car, playing <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> was sitting on the couch, playing <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask>, who was playing <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> was playing <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> is playing the bass <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> had a <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - <mask> was sitting in the back, playing <mask>.
+07/15/2022 11:07:10 - INFO - __main__ - ****************************
+07/15/2022 11:07:10 - INFO - __main__ - *********References*********
+07/15/2022 11:07:10 - INFO - __main__ - ['<mask> plays <mask>.']
+07/15/2022 11:07:10 - INFO - __main__ - ****************************
+07/15/2022 11:07:48 - INFO - __main__ - ***********Input************
+07/15/2022 11:07:48 - INFO - __main__ - "<mask>" is a song by <mask> post-punk band Joy Division.
+07/15/2022 11:07:48 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:07:48 - INFO - __main__ - <mask> to speak <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask> to be able to speak <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask> and i can speak <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask>, she whispered in <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask>, i want you <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask>, and you want <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask> and i want you <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask>, and i need you to speak <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask> to school, and i need you to learn <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - <mask>, he said, in <mask>.
+07/15/2022 11:07:48 - INFO - __main__ - ****************************
+07/15/2022 11:07:48 - INFO - __main__ - *********References*********
+07/15/2022 11:07:48 - INFO - __main__ - ['<mask> was written in <mask>.']
+07/15/2022 11:07:48 - INFO - __main__ - ****************************
+07/15/2022 11:08:43 - INFO - __main__ - ***********Input************
+07/15/2022 11:08:43 - INFO - __main__ - Toseland is also a solo artist and in the past has performed alongside <mask> for <mask>'s Sport Relief and played a piano set at the British sports personality of the year awards in 2007.
+07/15/2022 11:08:43 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:08:43 - INFO - __main__ - no proper relation hypothesis
+07/15/2022 11:08:43 - INFO - __main__ - ****************************
+07/15/2022 11:08:43 - INFO - __main__ - *********References*********
+07/15/2022 11:08:43 - INFO - __main__ - ['<mask> works for <mask>.']
+07/15/2022 11:08:43 - INFO - __main__ - ****************************
+07/15/2022 11:08:43 - WARNING - __main__ - Skip self-bleu-2 in example: Toseland is also a solo artist and in the past has performed alongside <mask> for <mask>'s Sport Relief and played a piano set at the British sports personality of the year awards in 2007..
+07/15/2022 11:09:29 - INFO - __main__ - ***********Input************
+07/15/2022 11:09:29 - INFO - __main__ - <mask>' emergence from international isolation has been marked through improved and expanded relations with other nations such as <mask>, France, Japan, Sweden, and India.
+07/15/2022 11:09:29 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a long way from <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> as a republic, <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask>, and the union <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask>, the new <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a great blow to <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a big deal in <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> in the <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> was a great news to <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask> is a new state, <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - <mask>, and the rise of <mask>.
+07/15/2022 11:09:29 - INFO - __main__ - ****************************
+07/15/2022 11:09:29 - INFO - __main__ - *********References*********
+07/15/2022 11:09:29 - INFO - __main__ - ['<mask> maintains diplomatic relations with <mask>.']
+07/15/2022 11:09:29 - INFO - __main__ - ****************************
+07/15/2022 11:10:08 - INFO - __main__ - ***********Input************
+07/15/2022 11:10:08 - INFO - __main__ - <mask> (also known as Award Theatre and Golden Years of Television) is a 30-minute dramatic television anthology series telecast on <mask> from 1957 to 1960 for a total of 55 episodes.
+07/15/2022 11:10:08 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:10:08 - INFO - __main__ - <mask> was over, <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> was over, and <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask>, when television television and the <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> is over, <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> : the golden age, <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> : the golden age <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask>, the new <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> : the era of <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask>, the old <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - <mask> : the golden age of <mask>.
+07/15/2022 11:10:08 - INFO - __main__ - ****************************
+07/15/2022 11:10:08 - INFO - __main__ - *********References*********
+07/15/2022 11:10:08 - INFO - __main__ - ['<mask> was originally aired on <mask>.']
+07/15/2022 11:10:08 - INFO - __main__ - ****************************
+07/15/2022 11:10:52 - INFO - __main__ - ***********Input************
+07/15/2022 11:10:52 - INFO - __main__ - Kulture Jazz is an album by American <mask> trumpeter and composer <mask> recorded in 1993 and released on the ECM label.
+07/15/2022 11:10:52 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:10:52 - INFO - __main__ - <mask>, jazz renaissance, <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> is the music of <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> and blues, <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> was the birthplace of <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask>, jazz jazz <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> was a big part of <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> singer and jazz jazz jazz, <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> : the music of <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> jazz singer <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - <mask> and french, <mask>.
+07/15/2022 11:10:52 - INFO - __main__ - ****************************
+07/15/2022 11:10:52 - INFO - __main__ - *********References*********
+07/15/2022 11:10:52 - INFO - __main__ - ['<mask> plays <mask> music.']
+07/15/2022 11:10:52 - INFO - __main__ - ****************************
+07/15/2022 11:11:40 - INFO - __main__ - ***********Input************
+07/15/2022 11:11:40 - INFO - __main__ - The Nazi Ghost Train is the popular name for a train that, at the beginning of September 1944, was intended to transport the political prisoners and Allied airmen held at <mask> in <mask>, to camps in Germany.
+07/15/2022 11:11:40 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:11:40 - INFO - __main__ - <mask> is a small town in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask>, the capital of <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> is a town in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was the largest city in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was a small town in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was the only city in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was the only place where <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was a concentration camp in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - <mask> was located in <mask>.
+07/15/2022 11:11:40 - INFO - __main__ - ****************************
+07/15/2022 11:11:40 - INFO - __main__ - *********References*********
+07/15/2022 11:11:40 - INFO - __main__ - ['<mask> shares border with <mask>.']
+07/15/2022 11:11:40 - INFO - __main__ - ****************************
+07/15/2022 11:12:30 - INFO - __main__ - ***********Input************
+07/15/2022 11:12:30 - INFO - __main__ - Bienvenue chez les Ch'tis ([bjɛ̃vny ʃe le ʃti]; English: Welcome to the Sticks or Welcome to the Land of Shtis) is a 2008 <mask> comedy film directed, co-written by and starring Dany Boon, co-starring <mask> and Zoé Félix.
+07/15/2022 11:12:30 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:12:30 - INFO - __main__ - <mask> was the only one who knew of <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> was in the room with <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> translation by <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> is the language of <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> is a friend of <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> is a french word for <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> chinois : <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> and french, <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> and french, and <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - <mask> : le <mask>.
+07/15/2022 11:12:30 - INFO - __main__ - ****************************
+07/15/2022 11:12:30 - INFO - __main__ - *********References*********
+07/15/2022 11:12:30 - INFO - __main__ - ['the native language of <mask> is <mask>.']
+07/15/2022 11:12:30 - INFO - __main__ - ****************************
+07/15/2022 11:13:11 - INFO - __main__ - ***********Input************
+07/15/2022 11:13:11 - INFO - __main__ - He is the lead singer and songwriter for the <mask> band <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:13:11 - INFO - __main__ - <mask> rock band <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask>-style keys and <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> women had always been <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> soldiers, and <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> soldiers were in <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> red chili peppers <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> metal band <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> heavy metal band <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> soldiers were still in <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - <mask> chili peppers and <mask>.
+07/15/2022 11:13:11 - INFO - __main__ - ****************************
+07/15/2022 11:13:11 - INFO - __main__ - *********References*********
+07/15/2022 11:13:11 - INFO - __main__ - ['<mask> was founded in <mask>.']
+07/15/2022 11:13:11 - INFO - __main__ - ****************************
+07/15/2022 11:13:52 - INFO - __main__ - ***********Input************
+07/15/2022 11:13:52 - INFO - __main__ - The Acra is often called the Seleucid Acra to distinguish it from references to the <mask> as an acra and from the later quarter in <mask> which inherited the name Acra.
+07/15/2022 11:13:52 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:13:52 - INFO - __main__ - <mask> and european, and <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask> were the most feared and feared creatures in <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask> had been the most common species of <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask> are not allowed to enter <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask>, the united states, and <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask>, the ancient, ancient <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask>, the ancient name for <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask>, the ancient kingdom of <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask>, or perhaps <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - <mask> women were not as to marry in <mask>.
+07/15/2022 11:13:52 - INFO - __main__ - ****************************
+07/15/2022 11:13:52 - INFO - __main__ - *********References*********
+07/15/2022 11:13:52 - INFO - __main__ - ['<mask> is located in <mask>.']
+07/15/2022 11:13:52 - INFO - __main__ - ****************************
+07/15/2022 11:14:31 - INFO - __main__ - ***********Input************
+07/15/2022 11:14:31 - INFO - __main__ - Born in Barcelona to a <mask> father and a Swiss mother, <mask> was Mayor of Évry from 2001 to 2012 and was first elected to the National Assembly of France in 2002.
+07/15/2022 11:14:31 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:14:31 - INFO - __main__ - <mask>, the man said, and then turned to <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask>, he said, and then turned to <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask>, avec la <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask>, a man named <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask> was the only language spoken by <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask> was a good friend of <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask> soldiers were stationed in the town of <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask> had been a good friend of <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask> had been a friend of <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - <mask> : la vida de los <mask>.
+07/15/2022 11:14:31 - INFO - __main__ - ****************************
+07/15/2022 11:14:31 - INFO - __main__ - *********References*********
+07/15/2022 11:14:31 - INFO - __main__ - ['the native language of <mask> is <mask>.']
+07/15/2022 11:14:31 - INFO - __main__ - ****************************
+07/15/2022 11:16:04 - INFO - __main__ - ***********Input************
+07/15/2022 11:16:04 - INFO - __main__ - <mask> (Greek: Ανδρέας Εμπειρίκος; Brăila, 2 September 1901 – 3 August 1975, Athens) was a Greek surrealist <mask> and the first Greek psychoanalyst.
+07/15/2022 11:16:04 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:16:04 - INFO - __main__ - no proper relation hypothesis
+07/15/2022 11:16:04 - INFO - __main__ - ****************************
+07/15/2022 11:16:04 - INFO - __main__ - *********References*********
+07/15/2022 11:16:04 - INFO - __main__ - ['<mask> is a <mask> by profession.']
+07/15/2022 11:16:04 - INFO - __main__ - ****************************
+07/15/2022 11:16:04 - WARNING - __main__ - Skip self-bleu-2 in example: <mask> (Greek: Ανδρέας Εμπειρίκος; Brăila, 2 September 1901 – 3 August 1975, Athens) was a Greek surrealist <mask> and the first Greek psychoanalyst..

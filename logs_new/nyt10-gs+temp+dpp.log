@@ -1,0 +1,113 @@
+07/11/2022 03:22:11 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/11/2022 03:22:11 - INFO - __main__ - bart_training             -->   True
+07/11/2022 03:22:11 - INFO - __main__ - device                    -->   1
+07/11/2022 03:22:11 - INFO - __main__ - group_beam                -->   True
+07/11/2022 03:22:11 - INFO - __main__ - if_then                   -->   False
+07/11/2022 03:22:11 - INFO - __main__ - inductor                  -->   rule
+07/11/2022 03:22:11 - INFO - __main__ - log_dir                   -->   logs_new/
+07/11/2022 03:22:11 - INFO - __main__ - log_name                  -->   nyt10-gs+temp+dpp
+07/11/2022 03:22:11 - INFO - __main__ - mlm_training              -->   True
+07/11/2022 03:22:11 - INFO - __main__ - task                      -->   nyt10
+07/11/2022 03:22:11 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/11/2022 03:23:48 - INFO - __main__ - ***********Input************
+07/11/2022 03:23:48 - INFO - __main__ - The United States maintains diplomatic relations with <mask> , but State Department officials say no deeper engagement is warranted until the government in <mask> halts support for radical organizations , including Hezbollah in Lebanon and Hamas in the Palestinian territories . ''
+07/11/2022 03:23:48 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:23:48 - INFO - __main__ - he was born in <mask> and grew up in <mask>, where he studied law.
+07/11/2022 03:23:48 - INFO - __main__ - he was born in <mask>, and grew up in <mask>, where he studied law.
+07/11/2022 03:23:48 - INFO - __main__ - he has been a member of the <mask> national basketball team and <mask> national basketball teams.
+07/11/2022 03:23:48 - INFO - __main__ - the <mask>-controlled <mask> government has been accused of using the tunnels as a training ground for its.
+07/11/2022 03:23:48 - INFO - __main__ - the <mask> government in <mask> has denied the allegations.
+07/11/2022 03:23:48 - INFO - __main__ - it is one of the oldest and most important universities in <mask>, located in <mask>, and has.
+07/11/2022 03:23:48 - INFO - __main__ - this is a list of airports in <mask>, excluding <mask>, which is not included in this list.
+07/11/2022 03:23:48 - INFO - __main__ - in <mask>, the city of <mask> has a large number of restaurants and bars.
+07/11/2022 03:23:48 - INFO - __main__ - he was born in <mask> and grew up in <mask>.
+07/11/2022 03:23:48 - INFO - __main__ - in <mask>, the city of <mask> has a large number of restaurants and cafes.
+07/11/2022 03:23:48 - INFO - __main__ - ****************************
+07/11/2022 03:23:48 - INFO - __main__ - *********References*********
+07/11/2022 03:23:48 - INFO - __main__ - ['<mask> is the capital of <mask>.']
+07/11/2022 03:23:48 - INFO - __main__ - ****************************
+07/11/2022 03:24:32 - INFO - __main__ - ***********Input************
+07/11/2022 03:24:32 - INFO - __main__ - Regional analysts said peace efforts had been undermined by the political crisis in <mask> , where Prime Minister <mask> has barely hung on to his job after being excoriated by a committee that reviewed the conduct of the war with Hezbollah in Lebanon last summer . ''
+07/11/2022 03:24:32 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:24:32 - INFO - __main__ - the president of <mask>, <mask>, said that he was "deeply saddened".
+07/11/2022 03:24:32 - INFO - __main__ - it is one of the few places in <mask> where <mask> has been able to live.
+07/11/2022 03:24:32 - INFO - __main__ - the president of <mask> <mask> said that the attack was "a grave violation of international.
+07/11/2022 03:24:32 - INFO - __main__ - president of <mask> <mask> condemned the attack.
+07/11/2022 03:24:32 - INFO - __main__ - the president of <mask>, <mask>, condemned the attack.
+07/11/2022 03:24:32 - INFO - __main__ - he is the son of former prime minister of <mask> <mask>.
+07/11/2022 03:24:32 - INFO - __main__ - it is one of the few places in <mask> where <mask> has been allowed to visit.
+07/11/2022 03:24:32 - INFO - __main__ - in <mask>, president <mask> has been accused of using the country's military to suppress.
+07/11/2022 03:24:32 - INFO - __main__ - he was a close friend of former prime minister of <mask> <mask> and was a member.
+07/11/2022 03:24:32 - INFO - __main__ - the <mask> of <mask>.
+07/11/2022 03:24:32 - INFO - __main__ - ****************************
+07/11/2022 03:24:32 - INFO - __main__ - *********References*********
+07/11/2022 03:24:32 - INFO - __main__ - ['the nationality of <mask> is <mask>.']
+07/11/2022 03:24:32 - INFO - __main__ - ****************************
+07/11/2022 03:25:11 - INFO - __main__ - ***********Input************
+07/11/2022 03:25:11 - INFO - __main__ - In fact , <mask> 's business of maintaining Soviet-designed plants in Eastern Europe may get a boost as these countries worry about excess dependency on <mask> natural gas from Gazprom and reconsider nuclear energy as an alternative .
+07/11/2022 03:25:11 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:25:11 - INFO - __main__ - he was a member of the <mask> and <mask> national team.
+07/11/2022 03:25:11 - INFO - __main__ - the <mask> is a <mask>-owned company.
+07/11/2022 03:25:11 - INFO - __main__ - it is a subsidiary of <mask> nordisk a <mask> company.
+07/11/2022 03:25:11 - INFO - __main__ - he has been a member of the <mask> and <mask> national team.
+07/11/2022 03:25:11 - INFO - __main__ - the <mask>-based <mask> company is the world's largest manufacturer of mobile phones.
+07/11/2022 03:25:11 - INFO - __main__ - the <mask> is a <mask>-based company that produces and sells natural gas.
+07/11/2022 03:25:11 - INFO - __main__ - in addition, <mask> has been involved in the development of <mask>-made nuclear weapons.
+07/11/2022 03:25:11 - INFO - __main__ - he has been a member of <mask> <mask> board of directors.
+07/11/2022 03:25:11 - INFO - __main__ - it is owned by <mask>, a <mask> state-owned company.
+07/11/2022 03:25:11 - INFO - __main__ - he has been a member of <mask> and <mask> national team.
+07/11/2022 03:25:11 - INFO - __main__ - ****************************
+07/11/2022 03:25:11 - INFO - __main__ - *********References*********
+07/11/2022 03:25:11 - INFO - __main__ - ['<mask> are geographically distributed in <mask>.']
+07/11/2022 03:25:11 - INFO - __main__ - ****************************
+07/11/2022 03:25:53 - INFO - __main__ - ***********Input************
+07/11/2022 03:25:53 - INFO - __main__ - Prime Minister <mask> of <mask> and Mahmoud Abbas , the Palestinian president , met here on Sunday , resulting in some mixed messages regarding a resumption of their long-dormant peace efforts .
+07/11/2022 03:25:53 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:25:53 - INFO - __main__ - prime minister <mask> said that <mask> would not allow the attack.
+07/11/2022 03:25:53 - INFO - __main__ - in the same interview, <mask> said that <mask> would not accept the results of the.
+07/11/2022 03:25:53 - INFO - __main__ - his father, <mask>, was a former <mask> national football team player.
+07/11/2022 03:25:53 - INFO - __main__ - he was a close friend of <mask>, who was <mask> prime minister.
+07/11/2022 03:25:53 - INFO - __main__ - prime minister <mask> said that <mask> would not allow the attack.the attack was carried.
+07/11/2022 03:25:53 - INFO - __main__ - it is believed that <mask> was the only person in <mask> who was not involved in.
+07/11/2022 03:25:53 - INFO - __main__ - however, <mask>, the prime minister of <mask>, said that he would not accept.
+07/11/2022 03:25:53 - INFO - __main__ - however, <mask>, the prime minister of <mask>, said that the attack was a.
+07/11/2022 03:25:53 - INFO - __main__ - it is named after <mask>, who was the prime minister of <mask> at the time.
+07/11/2022 03:25:53 - INFO - __main__ - a spokesman for <mask> said that <mask> would not accept the decision.
+07/11/2022 03:25:53 - INFO - __main__ - ****************************
+07/11/2022 03:25:53 - INFO - __main__ - *********References*********
+07/11/2022 03:25:53 - INFO - __main__ - ['the nationality of <mask> is <mask>.']
+07/11/2022 03:25:53 - INFO - __main__ - ****************************
+07/11/2022 03:26:30 - INFO - __main__ - ***********Input************
+07/11/2022 03:26:30 - INFO - __main__ - Even when I visited my upscale cousin -LRB- he 's a psychiatrist -RRB- in <mask> , Conn. , just down the road from <mask> 's place , I felt I belonged .
+07/11/2022 03:26:30 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:26:30 - INFO - __main__ - he was born in <mask>, ct, the son of <mask> and ann (b.
+07/11/2022 03:26:30 - INFO - __main__ - he was a member of the <mask> <mask>'s club.
+07/11/2022 03:26:30 - INFO - __main__ - this was a major step forward for <mask>, as <mask> had previously been the only rail.
+07/11/2022 03:26:30 - INFO - __main__ - the <mask> police department is investigating <mask>'s death.
+07/11/2022 03:26:30 - INFO - __main__ - in <mask>, <mask>'s father is a successful businessman.
+07/11/2022 03:26:30 - INFO - __main__ - the <mask> <mask> had a long history of operating the line.
+07/11/2022 03:26:30 - INFO - __main__ - while in <mask>, <mask> worked as a clerk and as a schoolteacher.
+07/11/2022 03:26:30 - INFO - __main__ - the <mask> station was a short distance from <mask> station.
+07/11/2022 03:26:30 - INFO - __main__ - a new station was built at <mask>, and <mask> station was renamed.
+07/11/2022 03:26:30 - INFO - __main__ - while in <mask>, <mask>'s and his wife were involved in a car accident that left them.
+07/11/2022 03:26:30 - INFO - __main__ - ****************************
+07/11/2022 03:26:30 - INFO - __main__ - *********References*********
+07/11/2022 03:26:30 - INFO - __main__ - ['<mask> lives in <mask>']
+07/11/2022 03:26:30 - INFO - __main__ - ****************************
+07/11/2022 03:27:07 - INFO - __main__ - ***********Input************
+07/11/2022 03:27:07 - INFO - __main__ - It is the second stoppage of <mask> energy supplies to European countries since last winter , when natural gas shipments were shut down briefly during a gas pricing dispute between <mask> and Ukraine .
+07/11/2022 03:27:07 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:27:07 - INFO - __main__ - he was a member of the <mask> national team and <mask> national team.
+07/11/2022 03:27:07 - INFO - __main__ - he has been a member of the <mask> national team, and <mask> national team.
+07/11/2022 03:27:07 - INFO - __main__ - the <mask> government has been accused of using <mask> as a tool to further its own interests.
+07/11/2022 03:27:07 - INFO - __main__ - he was a member of the <mask> <mask> national football team.
+07/11/2022 03:27:07 - INFO - __main__ - it is the only <mask>-language newspaper in <mask>.
+07/11/2022 03:27:07 - INFO - __main__ - it is the only <mask>-language newspaper in <mask> that is published in the country.
+07/11/2022 03:27:07 - INFO - __main__ - the <mask> government has been accused of using <mask> as a "hostile country" to justify its.
+07/11/2022 03:27:07 - INFO - __main__ - it is the only <mask>-language newspaper in <mask> that is published in both print and electronic formats.
+07/11/2022 03:27:07 - INFO - __main__ - he was one of the most prominent <mask>-american intellectuals in <mask> at the time.
+07/11/2022 03:27:07 - INFO - __main__ - he was a member of the <mask> national team, and represented <mask> at the eurobasket 2012.
+07/11/2022 03:27:07 - INFO - __main__ - ****************************
+07/11/2022 03:27:07 - INFO - __main__ - *********References*********
+07/11/2022 03:27:07 - INFO - __main__ - ['<mask> are geographically distributed in <mask>.']
+07/11/2022 03:27:07 - INFO - __main__ - ****************************

@@ -7,7 +7,7 @@ def dict_add(a, b):
     c = copy.deepcopy(a)
     for key in b:
         if key in c.keys():
-            c[key] += b[key]
+            c[key][1] += b[key][1]
         else:
             c[key] = b[key]
     return c
@@ -26,6 +26,7 @@ def construct_template(words, templateA, if_then=False):
         templates = [
             # '{} is <mask> {}.'.format(words[0], words[1]), 
             '{} <mask> {}.'.format(words[0], words[1]),
+            #'<mask> {} <mask> {} <mask>.'.format(words[0], words[1]),
         ]
     elif len(words) == 1:
         templates = [
@@ -181,6 +182,7 @@ def align(tA, text):
         span = span.strip()
         max_dis = 0
         span_tokens = span.split(' ')
+        idx = [last_idx, last_idx]
         for i in range(last_idx, n):
             for j in range(i, n+1):
                 dis = jaccard(span_tokens, text_tokens[i:j])

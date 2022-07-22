@@ -2,7 +2,7 @@ from inductor import BartInductor
 
 inductor = BartInductor()
 
-rule = '<mask> are geographically ditributed in <mask>.'
+rule = '<mask> is geographically distributed in <mask>.'
 generated_texts = inductor.generate(rule, k=10, topk=10)
 
 print('output generated rules:')

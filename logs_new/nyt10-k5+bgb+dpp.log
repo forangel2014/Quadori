@@ -1,0 +1,62 @@
+07/15/2022 11:04:54 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 11:04:54 - INFO - __main__ - bart_training             -->   True
+07/15/2022 11:04:54 - INFO - __main__ - device                    -->   1
+07/15/2022 11:04:54 - INFO - __main__ - group_beam                -->   True
+07/15/2022 11:04:54 - INFO - __main__ - if_then                   -->   False
+07/15/2022 11:04:54 - INFO - __main__ - inductor                  -->   rule
+07/15/2022 11:04:54 - INFO - __main__ - log_dir                   -->   logs_new/
+07/15/2022 11:04:54 - INFO - __main__ - log_name                  -->   nyt10-k5+bgb+dpp
+07/15/2022 11:04:54 - INFO - __main__ - mlm_training              -->   True
+07/15/2022 11:04:54 - INFO - __main__ - task                      -->   nyt10
+07/15/2022 11:04:54 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 11:07:00 - INFO - __main__ - ***********Input************
+07/15/2022 11:07:00 - INFO - __main__ - The United States maintains diplomatic relations with <mask> , but State Department officials say no deeper engagement is warranted until the government in <mask> halts support for radical organizations , including Hezbollah in Lebanon and Hamas in the Palestinian territories . ''
+07/15/2022 11:07:00 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:07:00 - INFO - __main__ - <mask>, the capital of <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask>'s eyes were on <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask> was a very good friend of <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask> is a very good friend of <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask> was a small country, but it was a lot like <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask>, the united states, and <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask>'s eyes were wide as he stared at <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask> had been a good friend of <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask>'s only other major city is <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - <mask> was not a place to be in <mask>.
+07/15/2022 11:07:00 - INFO - __main__ - ****************************
+07/15/2022 11:07:00 - INFO - __main__ - *********References*********
+07/15/2022 11:07:00 - INFO - __main__ - ['<mask> is the capital of <mask>.']
+07/15/2022 11:07:00 - INFO - __main__ - ****************************
+07/15/2022 11:07:53 - INFO - __main__ - ***********Input************
+07/15/2022 11:07:53 - INFO - __main__ - Regional analysts said peace efforts had been undermined by the political crisis in <mask> , where Prime Minister <mask> has barely hung on to his job after being excoriated by a committee that reviewed the conduct of the war with Hezbollah in Lebanon last summer . ''
+07/15/2022 11:07:53 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:07:53 - INFO - __main__ - <mask>, the home of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> was under the direct control of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> was the birthplace of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> was a country under the rule of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> is under the direct control of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> is the birthplace of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> is in the hands of <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> has a new <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> was led by <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - <mask> is a democracy, said <mask>.
+07/15/2022 11:07:53 - INFO - __main__ - ****************************
+07/15/2022 11:07:53 - INFO - __main__ - *********References*********
+07/15/2022 11:07:53 - INFO - __main__ - ['the nationality of <mask> is <mask>.']
+07/15/2022 11:07:53 - INFO - __main__ - ****************************
+07/15/2022 11:08:31 - INFO - __main__ - ***********Input************
+07/15/2022 11:08:31 - INFO - __main__ - In fact , <mask> 's business of maintaining Soviet-designed plants in Eastern Europe may get a boost as these countries worry about excess dependency on <mask> natural gas from Gazprom and reconsider nuclear energy as an alternative .
+07/15/2022 11:08:31 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 11:08:31 - INFO - __main__ - <mask> was a big, big, <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask>, he said, sounding <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask>'s name was <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask> had been a <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask>, the car was <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask>, alexander said, sounding <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask> was a big, big company, and the president was a <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask> wasn't a <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - <mask>, the man said, sounding <mask>.
+07/15/2022 11:08:31 - INFO - __main__ - ****************************
+07/15/2022 11:08:31 - INFO - __main__ - *********References*********
+07/15/2022 11:08:31 - INFO - __main__ - ['<mask> are geographically distributed in <mask>.']
+07/15/2022 11:08:31 - INFO - __main__ - ****************************

@@ -1,0 +1,96 @@
+07/11/2022 03:22:11 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/11/2022 03:22:11 - INFO - __main__ - bart_training             -->   True
+07/11/2022 03:22:11 - INFO - __main__ - device                    -->   0
+07/11/2022 03:22:11 - INFO - __main__ - group_beam                -->   True
+07/11/2022 03:22:11 - INFO - __main__ - if_then                   -->   False
+07/11/2022 03:22:11 - INFO - __main__ - inductor                  -->   rule
+07/11/2022 03:22:11 - INFO - __main__ - log_dir                   -->   logs_new/
+07/11/2022 03:22:11 - INFO - __main__ - log_name                  -->   fewrel-gs+temp+dpp
+07/11/2022 03:22:11 - INFO - __main__ - mlm_training              -->   True
+07/11/2022 03:22:11 - INFO - __main__ - task                      -->   fewrel
+07/11/2022 03:22:11 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/11/2022 03:24:02 - INFO - __main__ - ***********Input************
+07/11/2022 03:24:02 - INFO - __main__ - his guitar work on the title track is credited as what first drew <mask> to him , who two years later invited allman to join him as part of <mask> .
+07/11/2022 03:24:02 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:24:02 - INFO - __main__ - all songs written by <mask> and <mask> except where noted.
+07/11/2022 03:24:02 - INFO - __main__ - "<mask>" is a song by <mask>.
+07/11/2022 03:24:02 - INFO - __main__ - "i'm a fool" is a song by <mask> from his <mask>.
+07/11/2022 03:24:02 - INFO - __main__ - all songs written by <mask> and <mask> except where noted.all songs are.
+07/11/2022 03:24:02 - INFO - __main__ - all songs written by <mask>, <mask>, except where noted.
+07/11/2022 03:24:02 - INFO - __main__ - "i'm a fool" is a song by <mask> and <mask>.
+07/11/2022 03:24:02 - INFO - __main__ - "i'm a fool" is a song by <mask> and <mask>, from.
+07/11/2022 03:24:02 - INFO - __main__ - the song is a cover of a song by <mask> and <mask>, which was.
+07/11/2022 03:24:02 - INFO - __main__ - "i'm not your girl" is a song by <mask> from his <mask>.
+07/11/2022 03:24:02 - INFO - __main__ - the album was produced by <mask>, who had previously worked with <mask>/.
+07/11/2022 03:24:02 - INFO - __main__ - ****************************
+07/11/2022 03:24:02 - INFO - __main__ - *********References*********
+07/11/2022 03:24:02 - INFO - __main__ - ['<mask> is a member of <mask>.']
+07/11/2022 03:24:02 - INFO - __main__ - ****************************
+07/11/2022 03:24:43 - INFO - __main__ - ***********Input************
+07/11/2022 03:24:43 - INFO - __main__ - in the summer of 1944 it opposed the <mask> ’s <mask> during the lvov - sandomir strategic offensive operation ( 13 july - 29 august 1944 ) .
+07/11/2022 03:24:43 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:24:43 - INFO - __main__ - he was a member of the <mask> <mask>.
+07/11/2022 03:24:43 - INFO - __main__ - he was a member of the <mask> and <mask>.
+07/11/2022 03:24:43 - INFO - __main__ - after the war, he was transferred to the <mask> <mask>.
+07/11/2022 03:24:43 - INFO - __main__ - this allowed the <mask> to take control of the entire <mask>.
+07/11/2022 03:24:43 - INFO - __main__ - however, the <mask> and <mask> had already been in power for some time.
+07/11/2022 03:24:43 - INFO - __main__ - it is not clear whether the <mask> or <mask> took over the operation.
+07/11/2022 03:24:43 - INFO - __main__ - he was then transferred to the <mask> <mask>.
+07/11/2022 03:24:43 - INFO - __main__ - he was a member of the <mask> <mask> nkvd.
+07/11/2022 03:24:43 - INFO - __main__ - he was a member of the <mask> and <mask> ss.
+07/11/2022 03:24:43 - INFO - __main__ - this was a major blow to the <mask>, who had been using <mask> agents to infiltrate.
+07/11/2022 03:24:43 - INFO - __main__ - ****************************
+07/11/2022 03:24:43 - INFO - __main__ - *********References*********
+07/11/2022 03:24:43 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/11/2022 03:24:43 - INFO - __main__ - ****************************
+07/11/2022 03:25:32 - INFO - __main__ - ***********Input************
+07/11/2022 03:25:32 - INFO - __main__ - the singles released from " <mask> " were " <mask> " , " stuck with me " , " brain stew / jaded " , and " walking contradiction " .
+07/11/2022 03:25:32 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:25:32 - INFO - __main__ - the album includes the singles "<mask>" and "<mask>.
+07/11/2022 03:25:32 - INFO - __main__ - the album includes the singles "<mask>", "<mask>", and ".
+07/11/2022 03:25:32 - INFO - __main__ - "<mask>" and "<mask> received positive reviews from music critics.
+07/11/2022 03:25:32 - INFO - __main__ - the album includes the singles "<mask>", "<mask>, and ".
+07/11/2022 03:25:32 - INFO - __main__ - the song "<mask>" was originally titled "<mask>, but was.
+07/11/2022 03:25:32 - INFO - __main__ - it includes the singles "<mask>", "<mask>, and "i.
+07/11/2022 03:25:32 - INFO - __main__ - the album includes the singles "<mask>" and "<mask>".
+07/11/2022 03:25:32 - INFO - __main__ - the album includes the singles "<mask>" and "<mask> you.
+07/11/2022 03:25:32 - INFO - __main__ - the song "<mask>" was originally titled "<mask>".
+07/11/2022 03:25:32 - INFO - __main__ - the song "<mask>" was originally titled "<mask>", but was.
+07/11/2022 03:25:32 - INFO - __main__ - ****************************
+07/11/2022 03:25:32 - INFO - __main__ - *********References*********
+07/11/2022 03:25:32 - INFO - __main__ - ['<mask> is part of <mask>.']
+07/11/2022 03:25:32 - INFO - __main__ - ****************************
+07/11/2022 03:26:13 - INFO - __main__ - ***********Input************
+07/11/2022 03:26:13 - INFO - __main__ - the occupancy of the show surpassed the <mask> films <mask> and freaky ali .
+07/11/2022 03:26:13 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:26:13 - INFO - __main__ - the film was directed by <mask>, who had previously directed <mask> and.
+07/11/2022 03:26:13 - INFO - __main__ - the <mask> dreamer, the <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - i'm an <mask> <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - it is the only <mask> film to be based on <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - i'm not <mask>, but i'm <mask> jack.
+07/11/2022 03:26:13 - INFO - __main__ - he is best known for his work on <mask>'s <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - the <mask> government has been criticized for its failure to protect the rights of <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - and the <mask> <mask> jackass american.
+07/11/2022 03:26:13 - INFO - __main__ - he was a <mask> citizen and a member of <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - the song was used in the <mask> film <mask>.
+07/11/2022 03:26:13 - INFO - __main__ - ****************************
+07/11/2022 03:26:13 - INFO - __main__ - *********References*********
+07/11/2022 03:26:13 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/11/2022 03:26:13 - INFO - __main__ - ****************************
+07/11/2022 03:26:47 - INFO - __main__ - ***********Input************
+07/11/2022 03:26:47 - INFO - __main__ - it broadcasts mostly english language news and current affairs and also broadcasts <mask> the daily rté 1 <mask> language news television programme .
+07/11/2022 03:26:47 - INFO - __main__ - *********Hypothesis*********
+07/11/2022 03:26:47 - INFO - __main__ - he was a regular contributor to <mask>, a <mask>-language radio station.
+07/11/2022 03:26:47 - INFO - __main__ - in addition, <mask> is a <mask>-language television channel.
+07/11/2022 03:26:47 - INFO - __main__ - he was a frequent guest on <mask> and other <mask> radio stations.
+07/11/2022 03:26:47 - INFO - __main__ - he has been a regular contributor to <mask> and <mask> television.
+07/11/2022 03:26:47 - INFO - __main__ - in addition, <mask> and <mask>-language channels are available.
+07/11/2022 03:26:47 - INFO - __main__ - the station is owned by <mask>, a <mask>-language radio station.
+07/11/2022 03:26:47 - INFO - __main__ - it was broadcast on <mask>, a <mask>-language television channel.
+07/11/2022 03:26:47 - INFO - __main__ - he was a member of <mask> <mask> team.
+07/11/2022 03:26:47 - INFO - __main__ - this article incorporates text from the corresponding article in <mask>, a <mask> language publication.
+07/11/2022 03:26:47 - INFO - __main__ - the station is owned by <mask> and broadcasts a <mask>-language format.
+07/11/2022 03:26:47 - INFO - __main__ - ****************************
+07/11/2022 03:26:47 - INFO - __main__ - *********References*********
+07/11/2022 03:26:47 - INFO - __main__ - ['the original language of <mask> is <mask>.']
+07/11/2022 03:26:47 - INFO - __main__ - ****************************

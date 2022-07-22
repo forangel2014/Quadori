@@ -1,0 +1,62 @@
+07/13/2022 06:06:23 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:06:23 - INFO - __main__ - bart_training             -->   True
+07/13/2022 06:06:23 - INFO - __main__ - device                    -->   3
+07/13/2022 06:06:23 - INFO - __main__ - group_beam                -->   False
+07/13/2022 06:06:23 - INFO - __main__ - if_then                   -->   False
+07/13/2022 06:06:23 - INFO - __main__ - inductor                  -->   rule
+07/13/2022 06:06:23 - INFO - __main__ - log_dir                   -->   logs_new/
+07/13/2022 06:06:23 - INFO - __main__ - log_name                  -->   wiki80--STS+dpp
+07/13/2022 06:06:23 - INFO - __main__ - mlm_training              -->   True
+07/13/2022 06:06:23 - INFO - __main__ - task                      -->   wiki80
+07/13/2022 06:06:23 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/13/2022 06:09:25 - INFO - __main__ - ***********Input************
+07/13/2022 06:09:25 - INFO - __main__ - set in <mask> , the game is a remake of " <mask> " .
+07/13/2022 06:09:25 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:09:25 - INFO - __main__ - <mask> was originally titled "kamen riders" and later "<mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask>: the legend of <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask> is sometimes called "the capital of <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask> will be the largest contributor to the development of the new technology <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask>, where it was released as <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask> is sometimes referred to as <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask> had been a continuation of <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask>, and the world as a whole <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask> had a major impact on <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - <mask>'s version was titled <mask>.
+07/13/2022 06:09:25 - INFO - __main__ - ****************************
+07/13/2022 06:09:25 - INFO - __main__ - *********References*********
+07/13/2022 06:09:25 - INFO - __main__ - ['the main subject of <mask> is <mask>.']
+07/13/2022 06:09:25 - INFO - __main__ - ****************************
+07/13/2022 06:10:19 - INFO - __main__ - ***********Input************
+07/13/2022 06:10:19 - INFO - __main__ - the third part of the suite , " orienthology " , is a reference to " <mask> " ( 1946 ) by jazz saxophonist <mask> .
+07/13/2022 06:10:19 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:10:19 - INFO - __main__ - <mask> is a jazz album by <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask>: the life and music of <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask>, jazz, and the jazz of <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> is an album by jazz musician <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> and the jazz of <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask>, jazz and the music of <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask>: a biography of <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> is an album by <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> was a term used by jazz musician <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - <mask> was a term coined by jazz musician <mask>.
+07/13/2022 06:10:19 - INFO - __main__ - ****************************
+07/13/2022 06:10:19 - INFO - __main__ - *********References*********
+07/13/2022 06:10:19 - INFO - __main__ - ['<mask> is composed by <mask>.']
+07/13/2022 06:10:19 - INFO - __main__ - ****************************
+07/13/2022 06:11:10 - INFO - __main__ - ***********Input************
+07/13/2022 06:11:10 - INFO - __main__ - she was awarded a ph . d in <mask> by johns hopkins university studying the synthesis of the bacteriophage ms2 , advised by <mask> .
+07/13/2022 06:11:10 - INFO - __main__ - *********Hypothesis*********
+07/13/2022 06:11:10 - INFO - __main__ - <mask> wasn't my thing, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask> is a science that is not a science, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask> : i'm not sure, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask> is a science, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask>, biology, and biology, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask> and biochemistry are my main areas of interest, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask>, the biology of the human body, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask>, and the history of the world, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask> has always been a field of study for me, <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - <mask> is not a science, said <mask>.
+07/13/2022 06:11:10 - INFO - __main__ - ****************************
+07/13/2022 06:11:10 - INFO - __main__ - *********References*********
+07/13/2022 06:11:10 - INFO - __main__ - ['<mask> works in the field of <mask>.']
+07/13/2022 06:11:10 - INFO - __main__ - ****************************

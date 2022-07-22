@@ -1,0 +1,487 @@
+07/15/2022 09:34:50 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 09:34:50 - INFO - __main__ - bart_training             -->   True
+07/15/2022 09:34:50 - INFO - __main__ - device                    -->   8
+07/15/2022 09:34:50 - INFO - __main__ - group_beam                -->   True
+07/15/2022 09:34:50 - INFO - __main__ - if_then                   -->   False
+07/15/2022 09:34:50 - INFO - __main__ - inductor                  -->   rule
+07/15/2022 09:34:50 - INFO - __main__ - log_dir                   -->   logs_new/
+07/15/2022 09:34:50 - INFO - __main__ - log_name                  -->   openrule155-prompt10k+gs+dpp
+07/15/2022 09:34:50 - INFO - __main__ - mlm_training              -->   True
+07/15/2022 09:34:50 - INFO - __main__ - task                      -->   openrule155
+07/15/2022 09:34:50 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/15/2022 09:36:57 - INFO - __main__ - ***********Input************
+07/15/2022 09:36:57 - INFO - __main__ - <mask> acts in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:36:57 - INFO - __main__ - <mask> is the only major city in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask> artists and their work in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask>-based companies that are based in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask> is the largest employer in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask> is a major source of information on <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask>: piano concerto in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask>, composer, was born in <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - <mask> is the only major <mask>.
+07/15/2022 09:36:57 - INFO - __main__ - ****************************
+07/15/2022 09:36:57 - INFO - __main__ - *********References*********
+07/15/2022 09:36:57 - INFO - __main__ - ['<mask> is a member of <mask>.', '<mask> participates in <mask>.', '<mask> performs in <mask>.', '<mask> plays a role in <mask>.', '<mask> creates <mask>.']
+07/15/2022 09:36:57 - INFO - __main__ - ****************************
+07/15/2022 09:37:41 - INFO - __main__ - ***********Input************
+07/15/2022 09:37:41 - INFO - __main__ - <mask> are geographically distributed in <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:37:41 - INFO - __main__ - <mask> have been the most successful in <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> in the region are the most diverse in <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> were not allowed to enter <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> of the neotropics and <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> is a monotypic moth genus found in <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> have been a major source of income for <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> are the largest ethnic group in <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask>, however, were not allowed to enter <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> are the majority of the population of <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - <mask> have been the major source of income for <mask>.
+07/15/2022 09:37:41 - INFO - __main__ - ****************************
+07/15/2022 09:37:41 - INFO - __main__ - *********References*********
+07/15/2022 09:37:41 - INFO - __main__ - ['<mask> are located in <mask>.', '<mask> live in <mask>.', '<mask> is a species unique only in <mask>.']
+07/15/2022 09:37:41 - INFO - __main__ - ****************************
+07/15/2022 09:38:34 - INFO - __main__ - ***********Input************
+07/15/2022 09:38:34 - INFO - __main__ - <mask> believe in <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:38:34 - INFO - __main__ - <mask> of the signatory to <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask> have been accused of violating <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask> believe that the world is <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask> believe that <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask>, however, still have a strong belief in the <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask>, which was abolished during <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask>: the life and times of lord <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask> is a text of the <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask>, however, did not believe in <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - <mask> believe that the story is a retelling of <mask>.
+07/15/2022 09:38:34 - INFO - __main__ - ****************************
+07/15/2022 09:38:34 - INFO - __main__ - *********References*********
+07/15/2022 09:38:34 - INFO - __main__ - ['the religion of <mask> is <mask>.', '<mask> created <mask>.', '<mask> obeys the rule that listed in <mask>.']
+07/15/2022 09:38:34 - INFO - __main__ - ****************************
+07/15/2022 09:39:35 - INFO - __main__ - ***********Input************
+07/15/2022 09:39:35 - INFO - __main__ - <mask> belongs to <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is the main source of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is the official church of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> has a close relationship with <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is the seat of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is a part of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is a main source of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is the main red list of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - <mask>'s main source of income is <mask>.
+07/15/2022 09:39:35 - INFO - __main__ - ****************************
+07/15/2022 09:39:35 - INFO - __main__ - *********References*********
+07/15/2022 09:39:35 - INFO - __main__ - ['<mask> is owned by <mask>', '<mask> is located in <mask>', '<mask> is a member of <mask>.', '<mask> is in the group of <mask>.', '<mask> is a part of <mask>.']
+07/15/2022 09:39:35 - INFO - __main__ - ****************************
+07/15/2022 09:40:25 - INFO - __main__ - ***********Input************
+07/15/2022 09:40:25 - INFO - __main__ - <mask> comes after <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:40:25 - INFO - __main__ - <mask> is the successor of <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> was a major source of <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> is the church of <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> was a major source of inspiration for <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> has been a major source of inspiration for <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask>, the who, and <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> is a compilation album by <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> is a major influence on <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> was a major influence on <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - <mask> has been compared to <mask>.
+07/15/2022 09:40:25 - INFO - __main__ - ****************************
+07/15/2022 09:40:25 - INFO - __main__ - *********References*********
+07/15/2022 09:40:25 - INFO - __main__ - ['<mask> happens after <mask>', 'the prerequisite of <mask> is <mask>.']
+07/15/2022 09:40:25 - INFO - __main__ - ****************************
+07/15/2022 09:41:17 - INFO - __main__ - ***********Input************
+07/15/2022 09:41:17 - INFO - __main__ - <mask> comes before <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:41:17 - INFO - __main__ - <mask> has been a major source of inspiration for <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask>: the story of the first <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask>, the only <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask>: the story of the world before <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask> is a single by <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask> is a major source of information for <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask>, the who, and <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask> is a major influence on <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask> has been compared to <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - <mask> was a major influence on <mask>.
+07/15/2022 09:41:17 - INFO - __main__ - ****************************
+07/15/2022 09:41:17 - INFO - __main__ - *********References*********
+07/15/2022 09:41:17 - INFO - __main__ - ['<mask> is the prerequisite of <mask>.', 'the following event of <mask> is <mask>.', 'the sequel of <mask> is <mask>.']
+07/15/2022 09:41:17 - INFO - __main__ - ****************************
+07/15/2022 09:42:17 - INFO - __main__ - ***********Input************
+07/15/2022 09:42:17 - INFO - __main__ - <mask> crosses <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is a major river crossing <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> runs along <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is the main river of <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask>, the city is on <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is a major tributary of <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask>, a group of <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is located on <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is a region of <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is the main route to <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - <mask> is a major road that runs along <mask>.
+07/15/2022 09:42:17 - INFO - __main__ - ****************************
+07/15/2022 09:42:17 - INFO - __main__ - *********References*********
+07/15/2022 09:42:17 - INFO - __main__ - ['<mask> goes to the other side of <mask>.']
+07/15/2022 09:42:17 - INFO - __main__ - ****************************
+07/15/2022 09:43:19 - INFO - __main__ - ***********Input************
+07/15/2022 09:43:19 - INFO - __main__ - <mask> deals with <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:43:19 - INFO - __main__ - <mask> is a major source of <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> has been a major contributor to <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> has been the in <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> is a major source of the <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask>: a history of <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> has been a major source of information for <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> has a long history of involvement in <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> is a major source of information for <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> is a former member of <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - <mask> is the major international supplier of <mask>.
+07/15/2022 09:43:19 - INFO - __main__ - ****************************
+07/15/2022 09:43:19 - INFO - __main__ - *********References*********
+07/15/2022 09:43:19 - INFO - __main__ - ['<mask> run business with <mask>.', '<mask> recognizes <mask>.', '<mask> is familiar with <mask>.']
+07/15/2022 09:43:19 - INFO - __main__ - ****************************
+07/15/2022 09:44:10 - INFO - __main__ - ***********Input************
+07/15/2022 09:44:10 - INFO - __main__ - <mask> died in <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was born in the <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> is a native of <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was born and raised in <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was a major military power in <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was a member of the council of <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was a member of the board of the <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was the major military power in <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask>'s most important battlecruiser of <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was a major contributor to <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - <mask> was born in <mask>.
+07/15/2022 09:44:10 - INFO - __main__ - ****************************
+07/15/2022 09:44:10 - INFO - __main__ - *********References*********
+07/15/2022 09:44:10 - INFO - __main__ - ['<mask> lived in <mask>', '<mask> was a native in <mask>', '<mask> was a citizen of <mask>.', '<mask> worked in <mask>.', '<mask> was buried in <mask>.']
+07/15/2022 09:44:10 - INFO - __main__ - ****************************
+07/15/2022 09:45:06 - INFO - __main__ - ***********Input************
+07/15/2022 09:45:06 - INFO - __main__ - <mask> exports <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:45:06 - INFO - __main__ - <mask> has a large number of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> has a <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> is the most important source of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> is the host of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> had an unemployment rate of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> is a major supplier of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> has a large refinery that produces <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> is the largest producer of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> has an unemployment rate of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - <mask> has a large and of <mask>.
+07/15/2022 09:45:06 - INFO - __main__ - ****************************
+07/15/2022 09:45:06 - INFO - __main__ - *********References*********
+07/15/2022 09:45:06 - INFO - __main__ - ['<mask> produces <mask>.', '<mask> lives on <mask>.', '<mask> makes money through <mask>.', '<mask> knows a lot about <mask>.']
+07/15/2022 09:45:06 - INFO - __main__ - ****************************
+07/15/2022 09:46:06 - INFO - __main__ - ***********Input************
+07/15/2022 09:46:06 - INFO - __main__ - <mask> follows <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:46:06 - INFO - __main__ - <mask> is a major source of <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> is a part of <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> has ratified <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> has not ratified <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask>, the most de la of <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> is a major influence on <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask>, which is <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> is a signatory of <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> has been a signatory to <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - <mask> is a signatory to <mask>.
+07/15/2022 09:46:06 - INFO - __main__ - ****************************
+07/15/2022 09:46:06 - INFO - __main__ - *********References*********
+07/15/2022 09:46:06 - INFO - __main__ - ['<mask> is the child of <mask>.', '<mask> recognizes <mask>.', '<mask> wants to hurt <mask>.', '<mask> was leaded by <mask>.']
+07/15/2022 09:46:06 - INFO - __main__ - ****************************
+07/15/2022 09:47:00 - INFO - __main__ - ***********Input************
+07/15/2022 09:47:00 - INFO - __main__ - <mask> graduated from <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:47:00 - INFO - __main__ - <mask> is an alumnus of <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> in economics from <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> was educated at <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> was a professor at <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> studied at <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> is a graduate of <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> graduated from <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> was a student at <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> was a graduate of <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - <mask> has been a professor at <mask>.
+07/15/2022 09:47:00 - INFO - __main__ - ****************************
+07/15/2022 09:47:00 - INFO - __main__ - *********References*********
+07/15/2022 09:47:00 - INFO - __main__ - ['<mask> paid for <mask>.', '<mask> is a student of <mask>.', '<mask> studied in <mask> for many years.', '<mask> knows a lot about <mask>.', '<mask> is familiar with <mask>.', '<mask> used to be a member of <mask>.']
+07/15/2022 09:47:00 - INFO - __main__ - ****************************
+07/15/2022 09:47:49 - INFO - __main__ - ***********Input************
+07/15/2022 09:47:49 - INFO - __main__ - <mask> has influence on <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:47:49 - INFO - __main__ - <mask> is a major influence on <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> has been the most important source of information on <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> has been a major source of information for <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> has been a major influence on <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> was an important part of <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> is a major source of information on <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> is a major source of information for <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> is a major source of <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> is the main <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - <mask> has a long history of cooperation with <mask>.
+07/15/2022 09:47:49 - INFO - __main__ - ****************************
+07/15/2022 09:47:49 - INFO - __main__ - *********References*********
+07/15/2022 09:47:49 - INFO - __main__ - ['<mask> is the parent of <mask>.', '<mask> is the advisor of <mask>.', '<mask> is the supervisor of <mask>.', '<mask> is familiar with <mask>.']
+07/15/2022 09:47:49 - INFO - __main__ - ****************************
+07/15/2022 09:48:44 - INFO - __main__ - ***********Input************
+07/15/2022 09:48:44 - INFO - __main__ - <mask> holds position of <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:48:44 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> is led by a <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> appoints a <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask>, the current <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask>, who is <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> is the current <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> is a former <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> is the only <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> has a <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - <mask> has been designated <mask>.
+07/15/2022 09:48:44 - INFO - __main__ - ****************************
+07/15/2022 09:48:44 - INFO - __main__ - *********References*********
+07/15/2022 09:48:44 - INFO - __main__ - ['<mask> works as a <mask>.', '<mask> supports family through being a <mask>.', '<mask> chase dream through being a <mask>.']
+07/15/2022 09:48:44 - INFO - __main__ - ****************************
+07/15/2022 09:49:39 - INFO - __main__ - ***********Input************
+07/15/2022 09:49:39 - INFO - __main__ - <mask> holds the political position of <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:49:39 - INFO - __main__ - <mask> is led by <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> has a <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> was elected as a <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask>: the president of <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> is led by a <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> was the only party to have a <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask>'s father was a former <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - <mask> is a former deputy mayor and <mask>.
+07/15/2022 09:49:39 - INFO - __main__ - ****************************
+07/15/2022 09:49:39 - INFO - __main__ - *********References*********
+07/15/2022 09:49:39 - INFO - __main__ - ['<mask> is currently a <mask>.', '<mask> works as a <mask>.', '<mask> realizes political ambition through being a <mask>.']
+07/15/2022 09:49:39 - INFO - __main__ - ****************************
+07/15/2022 09:50:35 - INFO - __main__ - ***********Input************
+07/15/2022 09:50:35 - INFO - __main__ - <mask> imports <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:50:35 - INFO - __main__ - <mask> route 9 is a north–south highway in <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> has been a major sponsor of <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> has been a major contributor to <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> article on <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> is the largest manufacturer of <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> is a surname of <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> is a former member of <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> is the largest shareholder of <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - <mask> has a long-standing relationship with <mask>.
+07/15/2022 09:50:35 - INFO - __main__ - ****************************
+07/15/2022 09:50:35 - INFO - __main__ - *********References*********
+07/15/2022 09:50:35 - INFO - __main__ - ['<mask> needs <mask>.', '<mask> cannot produce enough <mask>.', '<mask> do not have <mask>.', '<mask> has to pay for <mask>.']
+07/15/2022 09:50:35 - INFO - __main__ - ****************************
+07/15/2022 09:51:24 - INFO - __main__ - ***********Input************
+07/15/2022 09:51:24 - INFO - __main__ - <mask> is <mask> by occupation.
+07/15/2022 09:51:24 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:51:24 - INFO - __main__ - <mask>, which is the only <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask>, which is <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask>'s name means <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask>'s father was a lawyer and <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask> was born into a family of <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask> is a major <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask> was the only one of the original <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask> is a very <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - <mask> is a predominantly <mask>.
+07/15/2022 09:51:24 - INFO - __main__ - ****************************
+07/15/2022 09:51:24 - INFO - __main__ - *********References*********
+07/15/2022 09:51:24 - INFO - __main__ - ['<mask> works as a <mask>.', '<mask> supports his family through being a <mask>.']
+07/15/2022 09:51:24 - INFO - __main__ - ****************************
+07/15/2022 09:52:13 - INFO - __main__ - ***********Input************
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is a citizen of <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:52:13 - INFO - __main__ - <mask> was born in <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is a former professional basketball player in <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> was released in <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is a popular and well-known figure in <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is a former member of <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> has been a major influence on the development of <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is the leading producer of the food in <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - <mask> is a state of <mask>.
+07/15/2022 09:52:13 - INFO - __main__ - ****************************
+07/15/2022 09:52:13 - INFO - __main__ - *********References*********
+07/15/2022 09:52:13 - INFO - __main__ - ['<mask> is a native of <mask>.', '<mask> is a member of <mask>.', '<mask> lives and works in <mask>.', '<mask> is familiar with <mask>.']
+07/15/2022 09:52:13 - INFO - __main__ - ****************************
+07/15/2022 09:52:57 - INFO - __main__ - ***********Input************
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is a city of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is a state of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is the largest city in <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is the capital and largest city of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is one of the most important cities in <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is a city in <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> has the highest number of foreign-born residents in <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is the capital of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> was then the capital of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is the capital of the country of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - <mask> is a city in the south of <mask>.
+07/15/2022 09:52:57 - INFO - __main__ - ****************************
+07/15/2022 09:52:57 - INFO - __main__ - *********References*********
+07/15/2022 09:52:57 - INFO - __main__ - ['<mask> is a part of <mask>.', '<mask> is the member of <mask>.', '<mask> belongs to <mask>.']
+07/15/2022 09:52:57 - INFO - __main__ - ****************************
+07/15/2022 09:53:37 - INFO - __main__ - ***********Input************
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a constellation of <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a constellation in <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a star in the northern constellation <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a northernmost star in the constellation <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is the brightest star in <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is the brightest star in the constellation <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a variable star in <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a star in the constellation <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a single star in the constellation <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is the largest star in <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - <mask> is a star in <mask>.
+07/15/2022 09:53:37 - INFO - __main__ - ****************************
+07/15/2022 09:53:37 - INFO - __main__ - *********References*********
+07/15/2022 09:53:37 - INFO - __main__ - ['<mask> is a part of <mask>.', '<mask> is a member of <mask>.', '<mask> rotates around <mask>.']
+07/15/2022 09:53:37 - INFO - __main__ - ****************************
+07/15/2022 09:54:32 - INFO - __main__ - ***********Input************
+07/15/2022 09:54:32 - INFO - __main__ - <mask> is a member of political party <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:54:32 - INFO - __main__ - <mask> was a member of <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> was represented by <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> was the state president of <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> was elected from <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> belongs to <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask>'s political party is <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> is a member of the <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - <mask> was the former state president of <mask>.
+07/15/2022 09:54:32 - INFO - __main__ - ****************************
+07/15/2022 09:54:32 - INFO - __main__ - *********References*********
+07/15/2022 09:54:32 - INFO - __main__ - ['<mask> supports <mask>.', '<mask> pays membership dues to <mask>.', '<mask> has applied to join <mask>.']
+07/15/2022 09:54:32 - INFO - __main__ - ****************************
+07/15/2022 09:55:31 - INFO - __main__ - ***********Input************
+07/15/2022 09:55:31 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:55:31 - INFO - __main__ - <mask>'s most important international organization is <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> a listed on <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> part of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> is listed on <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> was a founding member of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> is accredited by <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> was the founding member of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - <mask> was an associate member of <mask>.
+07/15/2022 09:55:31 - INFO - __main__ - ****************************
+07/15/2022 09:55:31 - INFO - __main__ - *********References*********
+07/15/2022 09:55:31 - INFO - __main__ - ['<mask> make contributions to <mask>.', '<mask> applied to join <mask>.', '<mask> belongs to <mask>.']
+07/15/2022 09:55:31 - INFO - __main__ - ****************************
+07/15/2022 09:56:31 - INFO - __main__ - ***********Input************
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a part of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a country of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is part of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a part of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a major centre for <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a major source of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> is a state of <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - <mask> has a long history of collaboration with <mask>.
+07/15/2022 09:56:31 - INFO - __main__ - ****************************
+07/15/2022 09:56:31 - INFO - __main__ - *********References*********
+07/15/2022 09:56:31 - INFO - __main__ - ['<mask> make contributions to <mask>.', '<mask> applied to join <mask>.', '<mask> belongs to <mask>.']
+07/15/2022 09:56:31 - INFO - __main__ - ****************************
+07/15/2022 09:57:19 - INFO - __main__ - ***********Input************
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is a provicial capital of <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:57:19 - INFO - __main__ - <mask>, the capital of <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is the largest city in <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is the capital of <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is a city in <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> was then the capital of <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is the capital of the <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is the capital and largest city of <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is one of the most important cities in <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is a city in central <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - <mask> is the most populous city in <mask>.
+07/15/2022 09:57:19 - INFO - __main__ - ****************************
+07/15/2022 09:57:19 - INFO - __main__ - *********References*********
+07/15/2022 09:57:19 - INFO - __main__ - ['<mask> is a part of <mask>.', '<mask> is a regional political cneter of <mask>.', '<mask> belongs to <mask>.', '<mask> is a city of <mask>.']
+07/15/2022 09:57:19 - INFO - __main__ - ****************************
+07/15/2022 09:58:05 - INFO - __main__ - ***********Input************
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a state or province within <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a territory of <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a province of <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a former province of <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a state in the united states <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a state of <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is an autonomous region of <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a region of <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is a state in <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> has the highest rate of child marriage in <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - <mask> is the state in <mask>.
+07/15/2022 09:58:05 - INFO - __main__ - ****************************
+07/15/2022 09:58:05 - INFO - __main__ - *********References*********
+07/15/2022 09:58:05 - INFO - __main__ - ['<mask> is a part of <mask>.', '<mask> blelongs to <mask>.']
+07/15/2022 09:58:05 - INFO - __main__ - ****************************
+07/15/2022 09:58:59 - INFO - __main__ - ***********Input************
+07/15/2022 09:58:59 - INFO - __main__ - <mask> is advised by <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:58:59 - INFO - __main__ - <mask> has been a major contributor to <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> has been <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> is a federal agency under the authority of <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> was renamed <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> is a ministry under <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> is a national park of <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> has been the major contributor to <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - <mask>, a book by <mask>.
+07/15/2022 09:58:59 - INFO - __main__ - ****************************
+07/15/2022 09:58:59 - INFO - __main__ - *********References*********
+07/15/2022 09:58:59 - INFO - __main__ - ['<mask> is influenced by <mask>.', '<mask> is one of the students of <mask>.', '<mask> is taught by <mask>.', '<mask> follows <mask>.', '<mask> receive advice from <mask>.']
+07/15/2022 09:58:59 - INFO - __main__ - ****************************
+07/15/2022 09:59:51 - INFO - __main__ - ***********Input************
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is an instance of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is a member of the group <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> has been a member of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is a variant of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> has a number of different types of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> was a part of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is a part of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is a member of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is the <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is a major source of <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - <mask> is the official <mask>.
+07/15/2022 09:59:51 - INFO - __main__ - ****************************
+07/15/2022 09:59:51 - INFO - __main__ - *********References*********
+07/15/2022 09:59:51 - INFO - __main__ - ['<mask> is a kind of <mask>.', '<mask> derives from <mask>.', '<mask> is recognized as <mask>.']
+07/15/2022 09:59:51 - INFO - __main__ - ****************************
+07/15/2022 10:00:56 - INFO - __main__ - ***********Input************
+07/15/2022 10:00:56 - INFO - __main__ - <mask> is composed by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - *********Hypothesis*********
+07/15/2022 10:00:56 - INFO - __main__ - <mask> was a major attraction of <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> was written by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> was composed by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> was originally a concept album by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> was the last film to be directed by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> is a musical composition by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask>, the music was composed by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> was a member of <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> is a musical project of <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - <mask> is a composition by <mask>.
+07/15/2022 10:00:56 - INFO - __main__ - ****************************
+07/15/2022 10:00:56 - INFO - __main__ - *********References*********
+07/15/2022 10:00:56 - INFO - __main__ - ['<mask> is created by <mask>.', 'the copyright of <mask> is owned by <mask>.', '<mask> was sold by <mask> to make profits.', "<mask> is used to express <mask>'s emotions."]
+07/15/2022 10:00:56 - INFO - __main__ - ****************************

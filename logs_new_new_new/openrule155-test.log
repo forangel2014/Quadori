@@ -1,0 +1,13 @@
+07/25/2022 04:06:00 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/25/2022 04:06:00 - INFO - __main__ - bart_training             -->   True
+07/25/2022 04:06:00 - INFO - __main__ - device                    -->   9
+07/25/2022 04:06:00 - INFO - __main__ - dpp                       -->   False
+07/25/2022 04:06:00 - INFO - __main__ - group_beam                -->   True
+07/25/2022 04:06:00 - INFO - __main__ - if_then                   -->   False
+07/25/2022 04:06:00 - INFO - __main__ - inductor                  -->   rule
+07/25/2022 04:06:00 - INFO - __main__ - log_dir                   -->   logs_new_new_new/
+07/25/2022 04:06:00 - INFO - __main__ - log_name                  -->   openrule155-test
+07/25/2022 04:06:00 - INFO - __main__ - mcgs                      -->   True
+07/25/2022 04:06:00 - INFO - __main__ - mlm_training              -->   True
+07/25/2022 04:06:00 - INFO - __main__ - task                      -->   openrule155
+07/25/2022 04:06:00 - INFO - __main__ - **************** MODEL CONFIGURATION ****************

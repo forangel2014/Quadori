@@ -14,11 +14,11 @@ from transformers import (AutoConfig, AutoModel,
                           AutoModelForSequenceClassification, AutoTokenizer,
                           BertForSequenceClassification, BertModel)
 
-if not os.path.exists('logs/'):
-    os.mkdir('logs/')
+if not os.path.exists('logs_ours/'):
+    os.mkdir('logs_ours/')
 
 logging.basicConfig(
-    filename='logs/expbert-{}.log'.format(str(datetime.now())),
+    filename='logs_ours/expbert-{}.log'.format(str(datetime.now())),
     format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
     datefmt='%m/%d/%Y %H:%M:%S',
     level=logging.INFO)
@@ -38,8 +38,10 @@ ANNOTATED_EXP = {
 }
 
 GENERATED_EXP = {
-    "spouse": "data/exp/orion_spouse_explanation.txt",
-    "disease": "data/exp/orion_disease_explanation.txt",
+    #"spouse": "data/exp/orion_spouse_explanation.txt",
+    #"disease": "data/exp/orion_disease_explanation.txt",
+    "spouse": "data/exp/ours_spouse_explanation.txt",
+    "disease": "data/exp/ours_disease_explanation.txt",
 }
 
 
@@ -77,12 +79,12 @@ class ExpBERT(nn.Module):
     
     def forward(self, inputs):
         for k, v in inputs["encoding"].items():
-            inputs["encoding"][k] = v.cuda()
+            inputs["encoding"][k] = v.cuda('cuda:4')
         pooler_output = self.model(**inputs["encoding"]).last_hidden_state[:, 0, :].reshape(1, self.exp_num * self.config.hidden_size)
         pooler_output = self.dropout(pooler_output)
         logits = self.linear(pooler_output)
 
-        loss = self.criterion(logits, torch.LongTensor([inputs["label"]]).cuda())
+        loss = self.criterion(logits, torch.LongTensor([inputs["label"]]).cuda('cuda:4'))
         prediction = torch.argmax(logits) 
 
         return {
@@ -187,7 +189,7 @@ class Trainer(object):
 
         self.train_dataset = REDataset(TASK2PATH['{}-train'.format(args.task)], exp, self.tokenizer)
         self.test_dataset = REDataset(TASK2PATH['{}-test'.format(args.task)], exp, self.tokenizer)
-        self.model = AutoModelForSequenceClassification.from_pretrained(args.model).cuda() if self.args.no_exp else ExpBERT(args, len(exp)).cuda()
+        self.model = AutoModelForSequenceClassification.from_pretrained(args.model).cuda('cuda:4') if self.args.no_exp else ExpBERT(args, len(exp)).cuda('cuda:4')
 
         self.train_loader = DataLoader(
             self.train_dataset,
@@ -220,7 +222,7 @@ class Trainer(object):
                     self.model.zero_grad()
                     if self.args.no_exp:
                         for k, v in examples.items():
-                            examples[k] = v.cuda()
+                            examples[k] = v.cuda('cuda:4')
                         outputs = self.model(**examples)
                         outputs.loss.backward()
 
@@ -245,7 +247,7 @@ class Trainer(object):
                 for step, examples in enumerate(self.test_loader):
                     if self.args.no_exp:
                         for k, v in examples.items():
-                            examples[k] = v.cuda()
+                            examples[k] = v.cuda('cuda:4')
                         outputs = self.model(**examples)
                         loss.append(outputs.loss.float())
                         labels.extend(examples["labels"].tolist())

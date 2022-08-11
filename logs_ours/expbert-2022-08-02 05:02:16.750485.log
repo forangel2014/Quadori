@@ -1,0 +1,90 @@
+08/02/2022 05:02:16 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 05:02:16 - INFO - __main__ - batch_size                -->   32
+08/02/2022 05:02:16 - INFO - __main__ - epochs                    -->   5
+08/02/2022 05:02:16 - INFO - __main__ - generated_rules           -->   True
+08/02/2022 05:02:16 - INFO - __main__ - learning_rate             -->   2e-05
+08/02/2022 05:02:16 - INFO - __main__ - model                     -->   bert-base-uncased
+08/02/2022 05:02:16 - INFO - __main__ - no_exp                    -->   False
+08/02/2022 05:02:16 - INFO - __main__ - shuffle                   -->   False
+08/02/2022 05:02:16 - INFO - __main__ - task                      -->   disease
+08/02/2022 05:02:16 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 05:02:26 - INFO - __main__ - Number of Example in data/disease/train.txt: 6667
+08/02/2022 05:02:26 - INFO - __main__ - Number of Example in data/disease/test.txt: 4101
+08/02/2022 05:05:06 - INFO - __main__ - [EPOCH -1] Accuracy: 0.2282370153621068 | F1-Score: 0.3716497915425849. (Number of Data 4101)
+08/02/2022 05:19:07 - INFO - __main__ - [EPOCH 0] Accuracy: 0.7793221165569373 | F1-Score: 0.12391093901258472. (Number of Data 4101)
+08/02/2022 05:33:09 - INFO - __main__ - [EPOCH 1] Accuracy: 0.7956595952206779 | F1-Score: 0.47095959595959597. (Number of Data 4101)
+08/02/2022 05:47:10 - INFO - __main__ - [EPOCH 2] Accuracy: 0.6720312118995367 | F1-Score: 0.5478991596638656. (Number of Data 4101)
+08/02/2022 06:01:10 - INFO - __main__ - [EPOCH 3] Accuracy: 0.7405510851011948 | F1-Score: 0.5678310316815597. (Number of Data 4101)
+08/02/2022 06:15:11 - INFO - __main__ - [EPOCH 4] Accuracy: 0.8007802974884175 | F1-Score: 0.39615668883961563. (Number of Data 4101)
+08/02/2022 06:15:11 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 06:15:11 - INFO - __main__ - batch_size                -->   32
+08/02/2022 06:15:11 - INFO - __main__ - epochs                    -->   5
+08/02/2022 06:15:11 - INFO - __main__ - generated_rules           -->   True
+08/02/2022 06:15:11 - INFO - __main__ - learning_rate             -->   2e-05
+08/02/2022 06:15:11 - INFO - __main__ - model                     -->   bert-base-uncased
+08/02/2022 06:15:11 - INFO - __main__ - no_exp                    -->   False
+08/02/2022 06:15:11 - INFO - __main__ - shuffle                   -->   False
+08/02/2022 06:15:11 - INFO - __main__ - task                      -->   disease
+08/02/2022 06:15:11 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 06:15:22 - INFO - __main__ - Number of Example in data/disease/train.txt: 6667
+08/02/2022 06:15:22 - INFO - __main__ - Number of Example in data/disease/test.txt: 4101
+08/02/2022 06:17:57 - INFO - __main__ - [EPOCH -1] Accuracy: 0.32870031699585467 | F1-Score: 0.37160465647112534. (Number of Data 4101)
+08/02/2022 06:31:59 - INFO - __main__ - [EPOCH 0] Accuracy: 0.7883443062667642 | F1-Score: 0.23992994746059543. (Number of Data 4101)
+08/02/2022 06:46:00 - INFO - __main__ - [EPOCH 1] Accuracy: 0.7151914167276274 | F1-Score: 0.5615615615615616. (Number of Data 4101)
+08/02/2022 07:00:01 - INFO - __main__ - [EPOCH 2] Accuracy: 0.7339673250426725 | F1-Score: 0.581190019193858. (Number of Data 4101)
+08/02/2022 07:14:01 - INFO - __main__ - [EPOCH 3] Accuracy: 0.7995610826627652 | F1-Score: 0.48816936488169366. (Number of Data 4101)
+08/02/2022 07:28:01 - INFO - __main__ - [EPOCH 4] Accuracy: 0.8083394294074616 | F1-Score: 0.46747967479674796. (Number of Data 4101)
+08/02/2022 07:28:01 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 07:28:01 - INFO - __main__ - batch_size                -->   32
+08/02/2022 07:28:01 - INFO - __main__ - epochs                    -->   5
+08/02/2022 07:28:01 - INFO - __main__ - generated_rules           -->   True
+08/02/2022 07:28:01 - INFO - __main__ - learning_rate             -->   2e-05
+08/02/2022 07:28:01 - INFO - __main__ - model                     -->   bert-base-uncased
+08/02/2022 07:28:01 - INFO - __main__ - no_exp                    -->   False
+08/02/2022 07:28:01 - INFO - __main__ - shuffle                   -->   False
+08/02/2022 07:28:01 - INFO - __main__ - task                      -->   disease
+08/02/2022 07:28:01 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 07:28:15 - INFO - __main__ - Number of Example in data/disease/train.txt: 6667
+08/02/2022 07:28:15 - INFO - __main__ - Number of Example in data/disease/test.txt: 4101
+08/02/2022 07:30:50 - INFO - __main__ - [EPOCH -1] Accuracy: 0.6291148500365764 | F1-Score: 0.2525798525798526. (Number of Data 4101)
+08/02/2022 07:44:53 - INFO - __main__ - [EPOCH 0] Accuracy: 0.7766398439405023 | F1-Score: 0.061475409836065566. (Number of Data 4101)
+08/02/2022 07:58:55 - INFO - __main__ - [EPOCH 1] Accuracy: 0.7905388929529383 | F1-Score: 0.42847638057218895. (Number of Data 4101)
+08/02/2022 08:12:57 - INFO - __main__ - [EPOCH 2] Accuracy: 0.7276274079492807 | F1-Score: 0.5672220069740411. (Number of Data 4101)
+08/02/2022 08:26:59 - INFO - __main__ - [EPOCH 3] Accuracy: 0.7685930260911973 | F1-Score: 0.5846827133479212. (Number of Data 4101)
+08/02/2022 08:41:02 - INFO - __main__ - [EPOCH 4] Accuracy: 0.7895635210924165 | F1-Score: 0.5493472584856397. (Number of Data 4101)
+08/02/2022 08:41:02 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 08:41:02 - INFO - __main__ - batch_size                -->   32
+08/02/2022 08:41:02 - INFO - __main__ - epochs                    -->   5
+08/02/2022 08:41:02 - INFO - __main__ - generated_rules           -->   True
+08/02/2022 08:41:02 - INFO - __main__ - learning_rate             -->   2e-05
+08/02/2022 08:41:02 - INFO - __main__ - model                     -->   bert-base-uncased
+08/02/2022 08:41:02 - INFO - __main__ - no_exp                    -->   False
+08/02/2022 08:41:02 - INFO - __main__ - shuffle                   -->   False
+08/02/2022 08:41:02 - INFO - __main__ - task                      -->   disease
+08/02/2022 08:41:02 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 08:41:15 - INFO - __main__ - Number of Example in data/disease/train.txt: 6667
+08/02/2022 08:41:15 - INFO - __main__ - Number of Example in data/disease/test.txt: 4101
+08/02/2022 08:43:51 - INFO - __main__ - [EPOCH -1] Accuracy: 0.7717629846378932 | F1-Score: 0.0. (Number of Data 4101)
+08/02/2022 08:57:52 - INFO - __main__ - [EPOCH 0] Accuracy: 0.783467446964155 | F1-Score: 0.17009345794392525. (Number of Data 4101)
+08/02/2022 09:11:57 - INFO - __main__ - [EPOCH 1] Accuracy: 0.7878566203365033 | F1-Score: 0.5209251101321585. (Number of Data 4101)
+08/02/2022 09:26:00 - INFO - __main__ - [EPOCH 2] Accuracy: 0.7251889782979761 | F1-Score: 0.5646967941290073. (Number of Data 4101)
+08/02/2022 09:40:07 - INFO - __main__ - [EPOCH 3] Accuracy: 0.7749329431845892 | F1-Score: 0.55475156777617. (Number of Data 4101)
+08/02/2022 09:54:17 - INFO - __main__ - [EPOCH 4] Accuracy: 0.7915142648134601 | F1-Score: 0.5488126649076518. (Number of Data 4101)
+08/02/2022 09:54:17 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 09:54:17 - INFO - __main__ - batch_size                -->   32
+08/02/2022 09:54:17 - INFO - __main__ - epochs                    -->   5
+08/02/2022 09:54:17 - INFO - __main__ - generated_rules           -->   True
+08/02/2022 09:54:17 - INFO - __main__ - learning_rate             -->   2e-05
+08/02/2022 09:54:17 - INFO - __main__ - model                     -->   bert-base-uncased
+08/02/2022 09:54:17 - INFO - __main__ - no_exp                    -->   False
+08/02/2022 09:54:17 - INFO - __main__ - shuffle                   -->   False
+08/02/2022 09:54:17 - INFO - __main__ - task                      -->   disease
+08/02/2022 09:54:17 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+08/02/2022 09:54:27 - INFO - __main__ - Number of Example in data/disease/train.txt: 6667
+08/02/2022 09:54:27 - INFO - __main__ - Number of Example in data/disease/test.txt: 4101
+08/02/2022 09:57:05 - INFO - __main__ - [EPOCH -1] Accuracy: 0.2282370153621068 | F1-Score: 0.3716497915425849. (Number of Data 4101)
+08/02/2022 10:11:17 - INFO - __main__ - [EPOCH 0] Accuracy: 0.7790782735918069 | F1-Score: 0.10826771653543307. (Number of Data 4101)
+08/02/2022 10:25:27 - INFO - __main__ - [EPOCH 1] Accuracy: 0.7634723238234576 | F1-Score: 0.5554537121906508. (Number of Data 4101)
+08/02/2022 10:39:35 - INFO - __main__ - [EPOCH 2] Accuracy: 0.7581077785905876 | F1-Score: 0.5764304013663536. (Number of Data 4101)
+08/02/2022 10:53:41 - INFO - __main__ - [EPOCH 3] Accuracy: 0.8054133138258961 | F1-Score: 0.5700431034482758. (Number of Data 4101)
+08/02/2022 11:07:48 - INFO - __main__ - [EPOCH 4] Accuracy: 0.8037064130699829 | F1-Score: 0.4862795149968092. (Number of Data 4101)

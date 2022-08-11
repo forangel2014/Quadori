@@ -452,6 +452,10 @@ class BartForConditionalGeneration_WeightedGroupBeam(BartForConditionalGeneratio
         # the same group don't produce same tokens everytime.
         beam_scores[:, ::num_sub_beams] = 0
         beam_scores = beam_scores.view((batch_size * num_beams,))
+        
+        #beam_scores = weights.repeat(1, num_beams).view((batch_size * num_beams,))
+        
+        
 
         while cur_len < max_length:
             # predicted tokens in cur_len step
@@ -515,10 +519,12 @@ class BartForConditionalGeneration_WeightedGroupBeam(BartForConditionalGeneratio
                 # reshape for beam search
                 next_token_scores = next_token_scores.view(batch_size, group_size * vocab_size)  
                 # add weight
-                #next_token_scores = weights.view(-1,1) + next_token_scores
+                #weights = F.softmax(weights)
+                #next_token_scores = torch.log(weights).view(-1,1) + next_token_scores
                 ###
 
                 next_token_scores_group = torch.sum(next_token_scores, dim=0, keepdim=True).expand(batch_size, -1) / batch_size
+                #next_token_scores_group = torch.sum(next_token_scores, dim=0, keepdim=True).expand(batch_size, -1)
 
                 for i in range(next_token_scores.size(0)):
                     '''tmin = torch.min(next_token_scores_group[i])

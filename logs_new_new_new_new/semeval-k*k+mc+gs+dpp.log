@@ -1,0 +1,785 @@
+07/26/2022 09:36:23 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/26/2022 09:36:23 - INFO - __main__ - bart_training             -->   True
+07/26/2022 09:36:23 - INFO - __main__ - device                    -->   6
+07/26/2022 09:36:23 - INFO - __main__ - dpp                       -->   True
+07/26/2022 09:36:23 - INFO - __main__ - group_beam                -->   True
+07/26/2022 09:36:23 - INFO - __main__ - if_then                   -->   False
+07/26/2022 09:36:23 - INFO - __main__ - inductor                  -->   rule
+07/26/2022 09:36:23 - INFO - __main__ - log_dir                   -->   logs_new_new_new_new/
+07/26/2022 09:36:23 - INFO - __main__ - log_name                  -->   semeval-k*k+mc+gs+dpp
+07/26/2022 09:36:23 - INFO - __main__ - mcgs                      -->   True
+07/26/2022 09:36:23 - INFO - __main__ - mlm_training              -->   True
+07/26/2022 09:36:23 - INFO - __main__ - task                      -->   semeval
+07/26/2022 09:36:23 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/26/2022 09:37:57 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/26/2022 09:37:57 - INFO - __main__ - bart_training             -->   True
+07/26/2022 09:37:57 - INFO - __main__ - device                    -->   6
+07/26/2022 09:37:57 - INFO - __main__ - dpp                       -->   True
+07/26/2022 09:37:57 - INFO - __main__ - group_beam                -->   True
+07/26/2022 09:37:57 - INFO - __main__ - if_then                   -->   False
+07/26/2022 09:37:57 - INFO - __main__ - inductor                  -->   rule
+07/26/2022 09:37:57 - INFO - __main__ - log_dir                   -->   logs_new_new_new_new/
+07/26/2022 09:37:57 - INFO - __main__ - log_name                  -->   semeval-k*k+mc+gs+dpp
+07/26/2022 09:37:57 - INFO - __main__ - mcgs                      -->   True
+07/26/2022 09:37:57 - INFO - __main__ - mlm_training              -->   True
+07/26/2022 09:37:57 - INFO - __main__ - task                      -->   semeval
+07/26/2022 09:37:57 - INFO - __main__ - **************** MODEL CONFIGURATION ****************
+07/26/2022 09:39:41 - INFO - __main__ - ***********Input************
+07/26/2022 09:39:41 - INFO - __main__ - much of the <mask> evaporated from the <mask> without ever reaching the ground .
+07/26/2022 09:39:41 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:39:41 - INFO - __main__ - <mask>-synchronous orbits are the most common method of orbital insertion for <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask>, in turn, is in the process of being absorbed by <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask>'s orbit is inclined to the north-northwest, and the star is approximately from <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask>'s energy is the same as that of <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask>'s body is a massive, red giant, with a mass of, comparable to <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask> is a small, yellow-white star that is approximately from <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask> is a planet orbiting the star, <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask> has been a major influence on the development of <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask> and moon are the only stars that are visible to <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - <mask> is a planet orbiting the star <mask>.
+07/26/2022 09:39:41 - INFO - __main__ - ****************************
+07/26/2022 09:39:41 - INFO - __main__ - *********References*********
+07/26/2022 09:39:41 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/26/2022 09:39:41 - INFO - __main__ - ****************************
+07/26/2022 09:39:47 - INFO - __main__ - ***********Input************
+07/26/2022 09:39:47 - INFO - __main__ - dolf oehler , a leader in the leftist <mask> of heine <mask> since the 1970s , gathered a group of likeminded critics for this symposium .
+07/26/2022 09:39:47 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:39:47 - INFO - __main__ - <mask>-era lutheranism was a major influence on <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - <mask> was a major factor in the development of <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - <mask> theology was a major influence on the development of lutheranism in <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - <mask> is an important part of the history of <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - <mask> in the low countries and <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - <mask> had been a long process in <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - <mask> and the reformation in <mask>.
+07/26/2022 09:39:47 - INFO - __main__ - ****************************
+07/26/2022 09:39:47 - INFO - __main__ - *********References*********
+07/26/2022 09:39:47 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/26/2022 09:39:47 - INFO - __main__ - ****************************
+07/26/2022 09:39:51 - INFO - __main__ - ***********Input************
+07/26/2022 09:39:51 - INFO - __main__ - the cornish pirates have signed a <mask> to tackle <mask> as part of their commitment to save energy and reduce their environmental footprint .
+07/26/2022 09:39:51 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:39:51 - INFO - __main__ - <mask> was a major contributor to the development of the <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> was a major contributor to the development of <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> to the future: a new approach to <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> to the future: a new approach to climate change <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> to change: the challenge of <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> to be a member of <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> to be a leader in <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> is a form of crowdfunding for <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> for the study of <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - <mask> for the development of a new method of measuring <mask>.
+07/26/2022 09:39:51 - INFO - __main__ - ****************************
+07/26/2022 09:39:51 - INFO - __main__ - *********References*********
+07/26/2022 09:39:51 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/26/2022 09:39:51 - INFO - __main__ - ****************************
+07/26/2022 09:39:56 - INFO - __main__ - ***********Input************
+07/26/2022 09:39:56 - INFO - __main__ - the <mask> of the <mask> is lined with more than 3 cm thick castable refractory material .
+07/26/2022 09:39:56 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:39:56 - INFO - __main__ - <mask>: a section of the north side of <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> of the north <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> of the north side <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> has a large number of restaurants and bars, including a <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask>: a section of the north side of the <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask>, which is located on the north side of <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> – a location on the east side of <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> was originally a small village, but was later incorporated into <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> of the <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - <mask> has a large number of restaurants and bars, including <mask>.
+07/26/2022 09:39:56 - INFO - __main__ - ****************************
+07/26/2022 09:39:56 - INFO - __main__ - *********References*********
+07/26/2022 09:39:56 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/26/2022 09:39:56 - INFO - __main__ - ****************************
+07/26/2022 09:40:00 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:00 - INFO - __main__ - the <mask> , made up of one or more <mask> , encloses an ovary that contains the ovules , or potential seeds .
+07/26/2022 09:40:00 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:00 - INFO - __main__ - <mask>-manifolds are a special case of <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - <mask> is the set of all points in <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - <mask> wall cells are cells in the <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - <mask> glands are located on the <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - <mask> gland cells are the cells that produce the <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - <mask> cells) and the <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - <mask> cells are the cells that produce the <mask>.
+07/26/2022 09:40:00 - INFO - __main__ - ****************************
+07/26/2022 09:40:00 - INFO - __main__ - *********References*********
+07/26/2022 09:40:00 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/26/2022 09:40:00 - INFO - __main__ - ****************************
+07/26/2022 09:40:05 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:05 - INFO - __main__ - <mask> appear by <mask> when circumstances prevent their appearance in person .
+07/26/2022 09:40:05 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:05 - INFO - __main__ - <mask> were filmed on <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> were invited to participate in the event via <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> were able to meet with him via <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> is available for viewing on <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> have been featured on the show on <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> are able to communicate with each other via <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> are a group of friends who meet on <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> was filmed in a studio and was recorded over <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> is a video game developed by <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - <mask> is a series of video games that are played over <mask>.
+07/26/2022 09:40:05 - INFO - __main__ - ****************************
+07/26/2022 09:40:05 - INFO - __main__ - *********References*********
+07/26/2022 09:40:05 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/26/2022 09:40:05 - INFO - __main__ - ****************************
+07/26/2022 09:40:08 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:08 - INFO - __main__ - most of the <mask> has been about the <mask> he used .
+07/26/2022 09:40:08 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:08 - INFO - __main__ - <mask>: the best of the best is a compilation <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask>, which was released as a double a-side with the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask>, and the band's debut <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - biblio-<mask>: a guide to the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask>s are not to be confused with a non-<mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask>: the most important part of the book is the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask> translation is a term used to refer to translation of the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask> study groups are organized to study the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask> studies is the study of the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - <mask> reading: the students are encouraged to read the <mask>.
+07/26/2022 09:40:08 - INFO - __main__ - ****************************
+07/26/2022 09:40:08 - INFO - __main__ - *********References*********
+07/26/2022 09:40:08 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/26/2022 09:40:08 - INFO - __main__ - ****************************
+07/26/2022 09:40:14 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:14 - INFO - __main__ - a <mask> of pygmy <mask> is now a critical economic mainstay , even as generations of migrants develop innovative tourism products and create new export markets .
+07/26/2022 09:40:14 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:14 - INFO - __main__ - <mask>: the last days of the hopi <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask>: fort sumter, site of the ute <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask>, which is a site of cultural significance for the hopi <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask>, the site is a sacred site for the hopi <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask> of the ute <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask> is a national park, which is home to the hopi <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask> in the area, it is a sacred site for the hopi <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask> for the protection of the site from the encroachment of <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask> officials have stated that the park is not a refuge for <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - <mask> is a popular destination for tourists and <mask>.
+07/26/2022 09:40:14 - INFO - __main__ - ****************************
+07/26/2022 09:40:14 - INFO - __main__ - *********References*********
+07/26/2022 09:40:14 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/26/2022 09:40:14 - INFO - __main__ - ****************************
+07/26/2022 09:40:19 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:19 - INFO - __main__ - a human <mask> was found in a <mask> of menudo soup .
+07/26/2022 09:40:19 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:19 - INFO - __main__ - <mask>, the only known <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask>, who is a <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask>, the only known living <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask>'s body was found to be <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask> was the last surviving <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask> was a very popular name for a <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask>, the only species of fruit fly that is not <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask> melanogaster is a species of <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask> melanogaster is a <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - <mask> has been shown to be a <mask>.
+07/26/2022 09:40:19 - INFO - __main__ - ****************************
+07/26/2022 09:40:19 - INFO - __main__ - *********References*********
+07/26/2022 09:40:19 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/26/2022 09:40:19 - INFO - __main__ - ****************************
+07/26/2022 09:40:24 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:24 - INFO - __main__ - skype , a free software , allows a <mask> of multiple computer <mask> to join in an online conference call without incurring any telephone costs .
+07/26/2022 09:40:24 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:24 - INFO - __main__ - <mask>: the user can connect to a network of <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask>-defined ip addresses are used to define <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask>-based systems are often referred to as <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask> names and passwords are stored in the database and can be used to identify <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask> data is stored in the database, and the data is then transferred to other <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask> authentication is a method of authentication that allows users to authenticate themselves using their own <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask> and can be configured to be either local or remote <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask> accounts are not allowed to be used to access other <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask>-based systems are often referred to as "<mask>.
+07/26/2022 09:40:24 - INFO - __main__ - <mask> access is provided by a number of <mask>.
+07/26/2022 09:40:24 - INFO - __main__ - ****************************
+07/26/2022 09:40:24 - INFO - __main__ - *********References*********
+07/26/2022 09:40:24 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/26/2022 09:40:24 - INFO - __main__ - ****************************
+07/26/2022 09:40:30 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:30 - INFO - __main__ - two of the <mask> resulted in fatal co <mask> ( cohb levels of 55 % and 49 % ) .
+07/26/2022 09:40:30 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:30 - INFO - __main__ - <mask> are often used in combination with <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask>, which is a type of <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> is the most common form of <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> can be used to determine the presence of <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> are often associated with <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> is the most common cause of <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> is a major cause of <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> has been shown to interact with <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> can be used as a treatment for <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - <mask> has been shown to be a model organism for <mask>.
+07/26/2022 09:40:30 - INFO - __main__ - ****************************
+07/26/2022 09:40:30 - INFO - __main__ - *********References*********
+07/26/2022 09:40:30 - INFO - __main__ - ['<mask> causes <mask>.']
+07/26/2022 09:40:30 - INFO - __main__ - ****************************
+07/26/2022 09:40:35 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:35 - INFO - __main__ - both her and her <mask> of pampered beverly hills <mask> learn valuable lessons in character , courage , and friendship with a super happy ending .
+07/26/2022 09:40:35 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:35 - INFO - __main__ - <mask>, who is a former member of the band <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> was a member of the band <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> and the other members of the group are all <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> is a fictional character in the television series <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> has been a frequent guest on the television show <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask>'s name is derived from the name of the local <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> was named after the iroquois <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> members were called "tribes" or "tribe" <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> is a name for a group of <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - <mask> chiefs were often called "chiefs" by <mask>.
+07/26/2022 09:40:35 - INFO - __main__ - ****************************
+07/26/2022 09:40:35 - INFO - __main__ - *********References*********
+07/26/2022 09:40:35 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/26/2022 09:40:35 - INFO - __main__ - ****************************
+07/26/2022 09:40:39 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:39 - INFO - __main__ - yet this signing <mask> issued by the <mask> yesterday is the clearest signal yet that the administration wants to hold this option in reserve .
+07/26/2022 09:40:39 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:39 - INFO - __main__ - <mask>, president's office, <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> to secretary of the interior, <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> to president hoover from <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> on the establishment of a <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> on the creation of the new <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> on a new <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> of the secretary of <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> of the president, <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> of intent to petition, <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - <mask> from secretary of the interior, <mask>.
+07/26/2022 09:40:39 - INFO - __main__ - ****************************
+07/26/2022 09:40:39 - INFO - __main__ - *********References*********
+07/26/2022 09:40:39 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/26/2022 09:40:39 - INFO - __main__ - ****************************
+07/26/2022 09:40:44 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:44 - INFO - __main__ - the recent <mask> has been caused by the environmentally-induced <mask> of fish catches from the black sea .
+07/26/2022 09:40:44 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:44 - INFO - __main__ - <mask>: the death rate is estimated at 50%.el niño <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask> has been shown to reduce the risk of <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask>: the population of the city was reduced by <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask>: the number of casualties was <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask>: the death rate is estimated at 50%.black death <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask>: the death rate is estimated at <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask>, a disease that killed <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask> was the most severe, with mortality rates of <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask> had an impact on the population of the city, which was reduced by <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - <mask> and the subsequent famine reduced the population by <mask>.
+07/26/2022 09:40:44 - INFO - __main__ - ****************************
+07/26/2022 09:40:44 - INFO - __main__ - *********References*********
+07/26/2022 09:40:44 - INFO - __main__ - ['<mask> causes <mask>.']
+07/26/2022 09:40:44 - INFO - __main__ - ****************************
+07/26/2022 09:40:49 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:49 - INFO - __main__ - <mask> consisted of <mask> , dragoons and chevauxlegers .
+07/26/2022 09:40:49 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:49 - INFO - __main__ - <mask>, the 3rd regiment <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask>, the 1st marines, was the only unit to be fully <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask> was to be the only unit to be fully equipped with <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask> is a unit of <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask>, the 2nd <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask> was to be equipped with <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask>, 1st/ regiment 1st <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - <mask> was to be equipped with a <mask>.
+07/26/2022 09:40:49 - INFO - __main__ - ****************************
+07/26/2022 09:40:49 - INFO - __main__ - *********References*********
+07/26/2022 09:40:49 - INFO - __main__ - ['<mask> is the collection of <mask>.']
+07/26/2022 09:40:49 - INFO - __main__ - ****************************
+07/26/2022 09:40:54 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:54 - INFO - __main__ - there is a rubbery silicone <mask> , created by an american <mask> for a whispered 5,000 , pounds for exploring 3d visualisation and ways of removing tremor .
+07/26/2022 09:40:54 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:54 - INFO - __main__ - <mask>, however, is not <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> is the most common form of <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> was built by the same company as the original <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> is a white, middle-aged <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> is a small, white, <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask>, however, is not a native <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> is the most common form of the <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> data is available for all <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> can be used to determine whether a person is <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - <mask> and ct scans showed that he was not <mask>.
+07/26/2022 09:40:54 - INFO - __main__ - ****************************
+07/26/2022 09:40:54 - INFO - __main__ - *********References*********
+07/26/2022 09:40:54 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/26/2022 09:40:54 - INFO - __main__ - ****************************
+07/26/2022 09:40:59 - INFO - __main__ - ***********Input************
+07/26/2022 09:40:59 - INFO - __main__ - sensitive and robust , this active <mask> features a small metal and rubber button <mask> with a preamped pvdf film sensor inside .
+07/26/2022 09:40:59 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:40:59 - INFO - __main__ - <mask>s were designed to be interchangeable between a single camera and a digital <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask>s have been developed to address the shortcomings of the <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask>s are typically made by a company that is owned by the <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask>s are often used in conjunction with other digital cameras, such as digital <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask>'s were the only ones to be built by the <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask> lenses are a type of digital camera that is a digital <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask>s are used to measure the size of the image and the resolution of the <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask>-based cameras are often used to capture images with a <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask> is the most common type of <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - <mask> has been shown to be more effective than conventional <mask>.
+07/26/2022 09:40:59 - INFO - __main__ - ****************************
+07/26/2022 09:40:59 - INFO - __main__ - *********References*********
+07/26/2022 09:40:59 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/26/2022 09:40:59 - INFO - __main__ - ****************************
+07/26/2022 09:41:05 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:05 - INFO - __main__ - the <mask> has assembled a <mask> of precious and base metal exploration prospects in ontario , saskatchewan , and the north west territories .
+07/26/2022 09:41:05 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:05 - INFO - __main__ - <mask>: the s&p 500 index, <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask>-listed companies are listed in this <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask> is an open-source software <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask> is a member of the internet exchange <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask> has a number of other companies listed on its <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask>'s current fleet is shown in the following <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask> is the only one of the schools to have a <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask> has been a major contributor to the development of the internet and <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask>: the s&p 500 index <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - <mask> is a member of the internet exchange list <mask>.
+07/26/2022 09:41:05 - INFO - __main__ - ****************************
+07/26/2022 09:41:05 - INFO - __main__ - *********References*********
+07/26/2022 09:41:05 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/26/2022 09:41:05 - INFO - __main__ - ****************************
+07/26/2022 09:41:10 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:10 - INFO - __main__ - you placed two bare ends of the <mask> into a <mask> filled halfway with distilled water .
+07/26/2022 09:41:10 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:10 - INFO - __main__ - <mask> was used in the packaging of <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> is the most common material used in <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> is a plastic container used in <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> and other plastics are commonly used in <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> is the name of a type of <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> is a musical instrument used in <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> and percussion instruments are often used in the production of <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> is the only brand of <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> is a brand of <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - <mask> and other religious books are often placed in <mask>.
+07/26/2022 09:41:10 - INFO - __main__ - ****************************
+07/26/2022 09:41:10 - INFO - __main__ - *********References*********
+07/26/2022 09:41:10 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/26/2022 09:41:10 - INFO - __main__ - ****************************
+07/26/2022 09:41:15 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:15 - INFO - __main__ - many <mask> have come from popular <mask> and tend to appear in different forms .
+07/26/2022 09:41:15 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:15 - INFO - __main__ - <mask> women were not allowed to marry men in <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> people are the largest ethnic group in <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> is a language of <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> culture is a major influence on the culture of <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> are the largest ethnic group in <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> language is the official language of the country, and the majority of the population speaks <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> is the official language, and all official documents are written in <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> is the official language of the country, and the majority of the population speaks <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> cuisine is a fusion of western cuisine and <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - <mask> and buddhism are the major religions of <mask>.
+07/26/2022 09:41:15 - INFO - __main__ - ****************************
+07/26/2022 09:41:15 - INFO - __main__ - *********References*********
+07/26/2022 09:41:15 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/26/2022 09:41:15 - INFO - __main__ - ****************************
+07/26/2022 09:41:20 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:20 - INFO - __main__ - the aircraft was written off in the <mask> due to the severe <mask> caused by the klm aircraft , and the resulting fire .
+07/26/2022 09:41:20 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:20 - INFO - __main__ - <mask>-based companies are required to provide a full range of services to help victims of <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> police officers were called to assist in the search for <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> legislation has been passed to protect the environment from <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> authorities have been criticised for failing to take action against the perpetrators of the <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> is the only country to have a <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> have no laws against the <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> has a very high rate of <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> has a long history of using <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> has a long history of <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - <mask> does not have a national law on <mask>.
+07/26/2022 09:41:20 - INFO - __main__ - ****************************
+07/26/2022 09:41:20 - INFO - __main__ - *********References*********
+07/26/2022 09:41:20 - INFO - __main__ - ['<mask> causes <mask>.']
+07/26/2022 09:41:20 - INFO - __main__ - ****************************
+07/26/2022 09:41:25 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:25 - INFO - __main__ - the <mask> is france 's largest producer of sparkling <mask> outside of the champagne region .
+07/26/2022 09:41:25 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:25 - INFO - __main__ - <mask>-style wines are made from the grapes grown in <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask>, a brand name for sparkling wine produced in <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask>'s wine is produced by the winery of <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask> wines are made from grapes grown in the region of <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask> wine is produced by the production of <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask> was the son of john and henrietta <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask> is the capital of the department of <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - <mask> is produced by the winery <mask>.
+07/26/2022 09:41:25 - INFO - __main__ - ****************************
+07/26/2022 09:41:25 - INFO - __main__ - *********References*********
+07/26/2022 09:41:25 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/26/2022 09:41:25 - INFO - __main__ - ****************************
+07/26/2022 09:41:28 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:28 - INFO - __main__ - the closely guarded raffles <mask> was locked in a <mask> that still remains onsite today .
+07/26/2022 09:41:28 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:28 - INFO - __main__ - <mask>, who was a member of <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask>'s work is included in the museum's <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask>'s work has been featured in the book <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> was the author of the book <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> was a member of the board of directors of <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> is a member of the band <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> is a former member of the band <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> has since been working on a new album called <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> has been a regular contributor to the magazine <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - <mask> has been a member of the band <mask>.
+07/26/2022 09:41:28 - INFO - __main__ - ****************************
+07/26/2022 09:41:28 - INFO - __main__ - *********References*********
+07/26/2022 09:41:28 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/26/2022 09:41:28 - INFO - __main__ - ****************************
+07/26/2022 09:41:33 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:33 - INFO - __main__ - i grew up with <mask> in a <mask> .
+07/26/2022 09:41:33 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:33 - INFO - __main__ - <mask> weren't allowed to be <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask>, i'm from <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask>, i'm from a <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask>'s mom was a nurse in <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask>'s family had been in <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask>'s eyes widened as she saw the name of <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask>'s eyes widened as she saw the name <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask> was a native of <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask> had been born in a smallritish village <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - <mask> had been born in a <mask>.
+07/26/2022 09:41:33 - INFO - __main__ - ****************************
+07/26/2022 09:41:33 - INFO - __main__ - *********References*********
+07/26/2022 09:41:33 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/26/2022 09:41:33 - INFO - __main__ - ****************************
+07/26/2022 09:41:37 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:37 - INFO - __main__ - the brick is aligned with the <mask> of the repaired <mask> .
+07/26/2022 09:41:37 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:37 - INFO - __main__ - <mask>, and the other is the same as <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask>, and the north-west, and <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask> of the city is the city of <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask> is a common name for the entire region <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask> and south: <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask>, the l, l, and <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask> is a sub-unit of the <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask> has been shown to interact with <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask>: the main line is <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - <mask> is a sub-unit of <mask>.
+07/26/2022 09:41:37 - INFO - __main__ - ****************************
+07/26/2022 09:41:37 - INFO - __main__ - *********References*********
+07/26/2022 09:41:37 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/26/2022 09:41:37 - INFO - __main__ - ****************************
+07/26/2022 09:41:41 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:41 - INFO - __main__ - a <mask> who prepares baked <mask> as a profession is called a baker .
+07/26/2022 09:41:41 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:41 - INFO - __main__ - <mask> people have been known to use <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> is the official language of <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask>-style rice cakes are similar to <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> rice cakes are similar to <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> people are known to have used the term <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> is a brand of <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> cuisine has been influenced by <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> children were given a bowl of <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> children were encouraged to learn to read and write <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - <mask> characters are used in the packaging of <mask>.
+07/26/2022 09:41:41 - INFO - __main__ - ****************************
+07/26/2022 09:41:41 - INFO - __main__ - *********References*********
+07/26/2022 09:41:41 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/26/2022 09:41:41 - INFO - __main__ - ****************************
+07/26/2022 09:41:45 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:45 - INFO - __main__ - unit direct injection also injects fuel directly into the <mask> of the <mask> .
+07/26/2022 09:41:45 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:45 - INFO - __main__ - <mask> was replaced by the more powerful <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask> engines were replaced by <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask>, v8, and <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask> was replaced by a new <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask> is an alternative to <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask> is a variant of <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask> is a more powerful version of <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - <mask> has been replaced by a new <mask>.
+07/26/2022 09:41:45 - INFO - __main__ - ****************************
+07/26/2022 09:41:45 - INFO - __main__ - *********References*********
+07/26/2022 09:41:45 - INFO - __main__ - ['<mask> is the component of <mask>.']
+07/26/2022 09:41:45 - INFO - __main__ - ****************************
+07/26/2022 09:41:50 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:50 - INFO - __main__ - <mask> start by reading <mask> - called blueprints - that show how electricity flows .
+07/26/2022 09:41:50 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:50 - INFO - __main__ - <mask> in the world, <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask>’s literature: a guide to the literature and <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask>, youth and the environment: a guide to <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask>'s literature: a guide to the literature and <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask>'s literature is a major part of the curriculum of <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask>'s books of the period, and <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask> in the world: the development of electricity <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask> are encouraged to participate in the development of their <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask> and their families are the main beneficiaries of <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - <mask> and the future: a guide to <mask>.
+07/26/2022 09:41:50 - INFO - __main__ - ****************************
+07/26/2022 09:41:50 - INFO - __main__ - *********References*********
+07/26/2022 09:41:50 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/26/2022 09:41:50 - INFO - __main__ - ****************************
+07/26/2022 09:41:55 - INFO - __main__ - ***********Input************
+07/26/2022 09:41:55 - INFO - __main__ - the most common <mask> were about <mask> and recycling .
+07/26/2022 09:41:55 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:41:55 - INFO - __main__ - <mask> were raised about the environmental impact of the project by <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> have been raised by <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> as to whether or not to use a new name for <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> are being asked by <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> about the use of pesticides and other chemicals in the environment, and <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> about the environmental impact of the project were raised by <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> to a question about <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> the questions on <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> the questions of <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - <mask> a question about <mask>.
+07/26/2022 09:41:55 - INFO - __main__ - ****************************
+07/26/2022 09:41:55 - INFO - __main__ - *********References*********
+07/26/2022 09:41:55 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/26/2022 09:41:55 - INFO - __main__ - ****************************
+07/26/2022 09:42:01 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:01 - INFO - __main__ - as the <mask> sailed away from the <mask> one of the crew felt increasingly uneasy about some of the signs he observed .
+07/26/2022 09:42:01 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:01 - INFO - __main__ - <mask> troops were deployed to <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> military personnel were stationed in <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> is the largest foreign investor in <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> forces were sent to the southern <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> was the largest ship ever built in <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> was named after the island of the same name in <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> troops were sent to the islands of the northern <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> rule was a major factor in the development of <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> officials had been warned of the dangers of the typhoon in the southern <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - <mask> colonial rule was a period of political instability in the northern <mask>.
+07/26/2022 09:42:01 - INFO - __main__ - ****************************
+07/26/2022 09:42:01 - INFO - __main__ - *********References*********
+07/26/2022 09:42:01 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/26/2022 09:42:01 - INFO - __main__ - ****************************
+07/26/2022 09:42:06 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:06 - INFO - __main__ - i 'm importing old document <mask> into the new <mask> .
+07/26/2022 09:42:06 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:06 - INFO - __main__ - <mask>, youre not going to believe this, <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask>, i'm sorry <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask> and i were in the same class as <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask>.b   <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask> is    <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask> wasn't sure what to say to <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask>, and the file <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask> is the default format for <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask> can be used to create a document from <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - <mask>.sv   <mask>.
+07/26/2022 09:42:06 - INFO - __main__ - ****************************
+07/26/2022 09:42:06 - INFO - __main__ - *********References*********
+07/26/2022 09:42:06 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/26/2022 09:42:06 - INFO - __main__ - ****************************
+07/26/2022 09:42:12 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:12 - INFO - __main__ - he gave two <mask> to each <mask> .
+07/26/2022 09:42:12 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:12 - INFO - __main__ - <mask> is a common prefix for males and females in <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> are used to indicate the number of times a person is <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> were presented in a variety of categories, including <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> were given to the most outstanding <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> and other awards are given to the best <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> were often made to look like <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> are not allowed to be named after an <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> were the descendants of a <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> are considered to be <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - <mask> is a <mask>.
+07/26/2022 09:42:12 - INFO - __main__ - ****************************
+07/26/2022 09:42:12 - INFO - __main__ - *********References*********
+07/26/2022 09:42:12 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/26/2022 09:42:12 - INFO - __main__ - ****************************
+07/26/2022 09:42:18 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:18 - INFO - __main__ - the first native tea <mask> were those made in the early thirteenth century by the <mask> to-shiro at his kiln in seto , aichi prefecture .
+07/26/2022 09:42:18 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:18 - INFO - __main__ - <mask>-speaking students are required to take a course in <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> word order is a result of the influence of old <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> people are not allowed to speak or write in <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> language is the official language of the country, and the majority of the population speaks <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> is the official language, and all official documents are written in <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> is the official language of the country, and the majority of the population speaks <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> is the official language of <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> has a number of loanwords from <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> cuisine is a major part of <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - <mask> cuisine is a fusion of western cuisine and <mask>.
+07/26/2022 09:42:18 - INFO - __main__ - ****************************
+07/26/2022 09:42:18 - INFO - __main__ - *********References*********
+07/26/2022 09:42:18 - INFO - __main__ - ['<mask> is the producer of <mask>.']
+07/26/2022 09:42:18 - INFO - __main__ - ****************************
+07/26/2022 09:42:22 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:22 - INFO - __main__ - entrepreneur creates a <mask> over 'amber alert ' <mask> .
+07/26/2022 09:42:22 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:22 - INFO - __main__ - <mask>: the user can create a <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> systems can be used to monitor the movement of objects in the <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> is the most common form of <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> footage of the incident was released on <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> cameras are installed in the main building and the main entrance is now <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> and video cameras are available for use in the station and <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> systems can be used to monitor the movement of objects in <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> printing is the process of printing a digital image in <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> modeling is a technique used to create a <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - <mask> cameras are installed in the main building and the main entrance is <mask>.
+07/26/2022 09:42:22 - INFO - __main__ - ****************************
+07/26/2022 09:42:22 - INFO - __main__ - *********References*********
+07/26/2022 09:42:22 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/26/2022 09:42:22 - INFO - __main__ - ****************************
+07/26/2022 09:42:28 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:28 - INFO - __main__ - <mask> support by <mask> has a long tradition in open and distance learning .
+07/26/2022 09:42:28 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:28 - INFO - __main__ - <mask>, the official of <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> resources are available from the library of <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> research and teaching at <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> media is a major part of <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> library of <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> and university research is conducted at <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask>: the official website of <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> students are encouraged to participate in <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask> courses are offered by <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - <mask>-based learning is a term used by <mask>.
+07/26/2022 09:42:28 - INFO - __main__ - ****************************
+07/26/2022 09:42:28 - INFO - __main__ - *********References*********
+07/26/2022 09:42:28 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/26/2022 09:42:28 - INFO - __main__ - ****************************
+07/26/2022 09:42:33 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:33 - INFO - __main__ - hiroshima has rejected the demands of some citizens and victims groups that the newly renovated museum include an exhibition on japan 's `` aggressive role '' in world war ii , alongside the gruesome displays of the <mask> and devastation caused by the <mask> .
+07/26/2022 09:42:33 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:33 - INFO - __main__ - <mask>: a history of the <mask>.
+07/26/2022 09:42:33 - INFO - __main__ - <mask> survivors are often referred to as "<mask>.
+07/26/2022 09:42:33 - INFO - __main__ - <mask> memorial day is a holiday commemorating the victims of the <mask>.
+07/26/2022 09:42:33 - INFO - __main__ - <mask> denial: a critical approach to the <mask>.
+07/26/2022 09:42:33 - INFO - __main__ - <mask> denial is the denial of the <mask>.
+07/26/2022 09:42:33 - INFO - __main__ - <mask> denial is a term used to describe the denial of the <mask>.
+07/26/2022 09:42:33 - INFO - __main__ - ****************************
+07/26/2022 09:42:33 - INFO - __main__ - *********References*********
+07/26/2022 09:42:33 - INFO - __main__ - ['<mask> causes <mask>.']
+07/26/2022 09:42:33 - INFO - __main__ - ****************************
+07/26/2022 09:42:38 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:38 - INFO - __main__ - the <mask> was in a <mask> on the back of the wagon , and cold as it was , mr. huy waded to the wagon and fed it that night and the next morning .
+07/26/2022 09:42:38 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:38 - INFO - __main__ - <mask>, i'm sorry, <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask>'s eyes widened as he looked at <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask>'s eyes were on the door, and he looked at <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask> wasn't sure what to say to <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask> looked at the man, then at <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask>, youre a very good man, <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask>, he said, and gestured for <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask>'s eyes were on <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask> had been the one who 'd told him about <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - <mask> and katie were in the back, with <mask>.
+07/26/2022 09:42:38 - INFO - __main__ - ****************************
+07/26/2022 09:42:38 - INFO - __main__ - *********References*********
+07/26/2022 09:42:38 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/26/2022 09:42:38 - INFO - __main__ - ****************************
+07/26/2022 09:42:43 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:43 - INFO - __main__ - in ionic conduction charge carriers are affected by the electromagnetic <mask> from the <mask> by being attracted or repelled by the electric field .
+07/26/2022 09:42:43 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:43 - INFO - __main__ - <mask>'s mission is to study and study the processes that influence the evolution of life on <mask>.
+07/26/2022 09:42:43 - INFO - __main__ - <mask>'s mission is to provide a safe and reliable means of communication between the spacecraft and <mask>.
+07/26/2022 09:42:43 - INFO - __main__ - <mask> is the only known non-magnetic field on <mask>.
+07/26/2022 09:42:43 - INFO - __main__ - <mask> is a method of measuring the magnetic field of the magnetic fields of <mask>.
+07/26/2022 09:42:43 - INFO - __main__ - <mask> has been used in the study of the evolution of life on <mask>.
+07/26/2022 09:42:43 - INFO - __main__ - <mask> has been shown to be a major factor in the formation of the ozone layer on <mask>.
+07/26/2022 09:42:43 - INFO - __main__ - ****************************
+07/26/2022 09:42:43 - INFO - __main__ - *********References*********
+07/26/2022 09:42:43 - INFO - __main__ - ['<mask> causes <mask>.']
+07/26/2022 09:42:43 - INFO - __main__ - ****************************
+07/26/2022 09:42:49 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:49 - INFO - __main__ - the <mask> are concerned with <mask> of speaking the language .
+07/26/2022 09:42:49 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:49 - INFO - __main__ - <mask> were not allowed to use <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> have a strong belief in <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> believe that god created the world through <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> believe in <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask>-speaking people are often referred to as <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask>, and the word "france" is used to describe <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> literature, in particular, has been a major influence on the development of <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> is the official language, and the term "french" is used to describe <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> culture has been a source of controversy, with some critics questioning <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - <mask> cuisine is a fusion of the various cuisines of <mask>.
+07/26/2022 09:42:49 - INFO - __main__ - ****************************
+07/26/2022 09:42:49 - INFO - __main__ - *********References*********
+07/26/2022 09:42:49 - INFO - __main__ - ['the topic of <mask> is <mask>.']
+07/26/2022 09:42:49 - INFO - __main__ - ****************************
+07/26/2022 09:42:52 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:52 - INFO - __main__ - the bottles have leaked <mask> into the <mask> .
+07/26/2022 09:42:52 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:52 - INFO - __main__ - <mask>, which is the highest percentage of any company in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask>, the largest private employer in the whole of <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> of the film was shot in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> of the company's products are manufactured in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> of its products are manufactured and sold in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> of all the students are from <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> of all the products are manufactured in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> is a registered charity registered in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> free of charge to all students and staff in <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - <mask> certified by ofsted <mask>.
+07/26/2022 09:42:52 - INFO - __main__ - ****************************
+07/26/2022 09:42:52 - INFO - __main__ - *********References*********
+07/26/2022 09:42:52 - INFO - __main__ - ['<mask> was delievered to <mask>.']
+07/26/2022 09:42:52 - INFO - __main__ - ****************************
+07/26/2022 09:42:56 - INFO - __main__ - ***********Input************
+07/26/2022 09:42:56 - INFO - __main__ - the <mask> is going away from the <mask> , pushing its cars to gain elevation .
+07/26/2022 09:42:56 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:42:56 - INFO - __main__ - <mask>, and the "g"1" model, <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask>'s main competitors were the bmw m3 and <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask> is a member of the international gt club <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask> is a racing class that is similar to <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask>, and the "<mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask>'s main competitors were the bmw m3 <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask> was the only one of the original <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask> is a member of the international <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask> traffic is not permitted in the northern <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - <mask> is a name for a number of roads in the northern <mask>.
+07/26/2022 09:42:56 - INFO - __main__ - ****************************
+07/26/2022 09:42:56 - INFO - __main__ - *********References*********
+07/26/2022 09:42:56 - INFO - __main__ - ['<mask> is originated from <mask>.']
+07/26/2022 09:42:56 - INFO - __main__ - ****************************
+07/26/2022 09:43:01 - INFO - __main__ - ***********Input************
+07/26/2022 09:43:01 - INFO - __main__ - they chose a <mask> that oven bakes the paint in a down draft paint <mask> .
+07/26/2022 09:43:01 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:43:01 - INFO - __main__ - <mask>-related injuries were reported, but no deaths were attributed to <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask>'s are often referred to as "<mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask> was the only major party to support the <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask> units were not allowed to use the same weapons as the regular <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask> is a member of the family of <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask> is a form of the same concept as the term <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask> is a form of the same concept as the <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - <mask> has been shown to interact with the protein <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - ppv and <mask> are often used interchangeably, and are often referred to as <mask>.
+07/26/2022 09:43:01 - INFO - __main__ - ****************************
+07/26/2022 09:43:01 - INFO - __main__ - *********References*********
+07/26/2022 09:43:01 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/26/2022 09:43:01 - INFO - __main__ - ****************************
+07/26/2022 09:43:05 - INFO - __main__ - ***********Input************
+07/26/2022 09:43:05 - INFO - __main__ - the <mask> carefully chose <mask> to be used in a nihilistic approach to style .
+07/26/2022 09:43:05 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:43:05 - INFO - __main__ - <mask>, however, were not interested in the <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask>, however, were not interested in <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> were known to use the term "pagan" in <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> used the term "pagan" to refer to <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> had to be taught to read and write in <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> had a strong belief that the jews were <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> did not want to be seen as <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> did not want to be seen as a <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> believed that the jews were inferior to <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - <mask> and other racial groups were not allowed to speak <mask>.
+07/26/2022 09:43:05 - INFO - __main__ - ****************************
+07/26/2022 09:43:05 - INFO - __main__ - *********References*********
+07/26/2022 09:43:05 - INFO - __main__ - ['<mask> is the instrument of <mask>.']
+07/26/2022 09:43:05 - INFO - __main__ - ****************************
+07/26/2022 09:43:10 - INFO - __main__ - ***********Input************
+07/26/2022 09:43:10 - INFO - __main__ - the cost of <mask> delivered in a vessel <mask> is always high .
+07/26/2022 09:43:10 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:43:10 - INFO - __main__ - <mask>'s main product is <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> was originally developed as a replacement for <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> is a major source of <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> has been used in the development of <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> is a member of <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask>, and the united kingdom <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask>) is a <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> and the united kingdom <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> is the only major carrier of <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - <mask> is a major source of income for the <mask>.
+07/26/2022 09:43:10 - INFO - __main__ - ****************************
+07/26/2022 09:43:10 - INFO - __main__ - *********References*********
+07/26/2022 09:43:10 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/26/2022 09:43:10 - INFO - __main__ - ****************************
+07/26/2022 09:43:15 - INFO - __main__ - ***********Input************
+07/26/2022 09:43:15 - INFO - __main__ - the <mask> was full of furry orange-and-black <mask> -- kittens .
+07/26/2022 09:43:15 - INFO - __main__ - *********Hypothesis*********
+07/26/2022 09:43:15 - INFO - __main__ - <mask>: the house is a <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask>, who is a <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> was a member of the group <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> of the <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> of the dead is a novel by <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> is a small, dark-haired <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> dogs are usually a mix of a purebred <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> cats have a similar temperament to <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> cats are often used as a companion dog to a <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - <mask> cats are often referred to as <mask>.
+07/26/2022 09:43:15 - INFO - __main__ - ****************************
+07/26/2022 09:43:15 - INFO - __main__ - *********References*********
+07/26/2022 09:43:15 - INFO - __main__ - ['<mask> is contained in <mask>.']
+07/26/2022 09:43:15 - INFO - __main__ - ****************************
+07/26/2022 09:43:15 - INFO - __main__ - Task: semeval
+07/26/2022 09:43:15 - INFO - __main__ - bleu-4: 9.946615060045412e-80
+07/26/2022 09:43:15 - INFO - __main__ - bleu-3: 0.006032770748618602
+07/26/2022 09:43:15 - INFO - __main__ - bleu-2: 0.05322199952908493
+07/26/2022 09:43:15 - INFO - __main__ - bleu-1: 0.3008766854262897
+07/26/2022 09:43:15 - INFO - __main__ - METEOR: 0.26603449632605297
+07/26/2022 09:43:15 - INFO - __main__ - ROUGE-L: 0.38621681536157687
+07/26/2022 09:43:15 - INFO - __main__ - entailment score(mean-mean): 0.07844617476458533
+07/26/2022 09:43:15 - INFO - __main__ - entailment score(mean-max): 0.35039059813651774
+07/26/2022 09:43:15 - INFO - __main__ - entailment score(mean-min): 0.001942872610420131
+07/26/2022 09:43:15 - INFO - __main__ - self-BLEU-2: 0.8732342886825187
+07/26/2022 09:43:15 - INFO - __main__ - avg: 0.16873046123193716
+07/26/2022 09:43:15 - INFO - __main__ - *******************************************************
+07/26/2022 09:43:15 - INFO - __main__ - *******************************************************
+07/26/2022 09:43:15 - INFO - __main__ - *******************************************************

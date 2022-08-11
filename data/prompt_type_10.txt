@@ -3,3 +3,7 @@ country
 organization
 work
 event
+thing
+location
+city
+group

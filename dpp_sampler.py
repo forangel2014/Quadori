@@ -1,7 +1,8 @@
 import torch
 import numpy as np
 from dpp.dpp import dpp
-from transformers import BertModel, BertTokenizer, GPT2LMHeadModel, GPT2Tokenizer
+from transformers import BertModel, BertTokenizer, GPT2LMHeadModel, GPT2Tokenizer, RobertaTokenizer, RobertaModel
+import torch
 from sklearn.cluster import KMeans, AgglomerativeClustering
 
 class DPPsampler():
@@ -9,10 +10,19 @@ class DPPsampler():
     def __init__(self, device, model_dir=None):
 
         self.device = device
+        
+        
         self.model_name = 'bert-base-uncased' if model_dir is None else model_dir
-        self.rescorer_name = "gpt2"
         self.tokenizer = BertTokenizer.from_pretrained(self.model_name)
         self.model = BertModel.from_pretrained(self.model_name).eval().cuda(self.device)
+        
+        '''
+        self.model_name = 'roberta-base' if model_dir is None else model_dir
+        self.tokenizer = RobertaTokenizer.from_pretrained(self.model_name)
+        self.model = RobertaModel.from_pretrained(self.model_name).eval().cuda(self.device)
+        '''
+        
+        self.rescorer_name = "gpt2"
         self.rescorer_tokenizer = GPT2Tokenizer.from_pretrained(self.rescorer_name)
         self.rescorer = GPT2LMHeadModel.from_pretrained(self.rescorer_name).eval().cuda(self.device)
 
@@ -50,6 +60,7 @@ class DPPsampler():
     def get_L(self, sents):
         repr_raw = self.get_repr(sents)
         repr_norm = repr_raw/torch.norm(repr_raw, dim=1, keepdim=True)
+        #scores = torch.softmax(torch.tensor([sent[1] for sent in sents]).cuda(self.device), axis=0)
         scores = torch.tensor([sent[1] for sent in sents]).cuda(self.device)
         #scores = torch.tensor([1 for sent in sents]).cuda(self.device)
         repr = torch.matmul(torch.diag(scores.to(repr_norm.dtype)), repr_norm)

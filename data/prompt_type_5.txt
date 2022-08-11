@@ -1,0 +1,5 @@
+person
+country
+organization
+work
+event

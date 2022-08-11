@@ -11,8 +11,9 @@ from transformers import (AutoModelForSeq2SeqLM, AutoTokenizer,
 
 from dpp_sampler import DPPsampler
 from src.bart_with_group_beam import BartForConditionalGeneration_GroupBeam
+from src.bart_with_weighted_group_beam import BartForConditionalGeneration_WeightedGroupBeam
 from src.utils import (construct_template, filter_words,
-                       formalize_tA, post_process_template, align, dict_add)
+                       formalize_tA, post_process_template, align, align_c, dict_add)
 
 ORION_HYPO_GENERATOR = 'chenxran/orion-hypothesis-generator'
 ORION_INS_GENERATOR = 'chenxran/orion-instance-generator'
@@ -39,11 +40,13 @@ class BartInductor(object):
         continue_pretrain_instance_generator=True,
         continue_pretrain_hypo_generator=True,
         if_then=False,
+        prompt=True,
         mcgs=True,
         dpp=True
     ):
         self.device = device
         self.if_then = if_then
+        self.prompt = prompt
         self.mcgs = mcgs
         self.dpp = dpp
         self.orion_instance_generator_path = 'facebook/bart-large' if not continue_pretrain_instance_generator else ORION_INS_GENERATOR
@@ -95,11 +98,15 @@ class BartInductor(object):
 
     def generate(self, inputs, k=10, topk=10):
         with torch.no_grad():
-            #tB_probs = self.generate_rule(inputs, k)
-            tB_probs = self.generate_rule_improved(inputs, k)
-            #tB_probs = self.generate_rule_prompt(inputs, k)
+            tB_probs = self.generate_rule(inputs, k)
+            '''
+            if self.prompt:
+                tB_probs = self.generate_rule_prompt(inputs, k)
+            else:
+                tB_probs = self.generate_rule_improved(inputs, k)
+            '''
+            
             ret = [t[0].replace('<ent0>','<mask>').replace('<ent1>','<mask>') for t in tB_probs]
-
             new_ret = []
             for temp in ret:
                 temp = self.clean(temp.strip())
@@ -215,7 +222,7 @@ class BartInductor(object):
                                             #length_penalty= 0.8,
                                             #early_stopping=True, bad_words_ids=bad_words_ids, no_repeat_ngram_size=2,
                                             output_scores=True,
-                                            do_sample=True, # MC instand of beam search
+                                            do_sample=self.mcgs,#True, # MC instand of beam search
                                             return_dict_in_generate=True)
         summary_ids = generated_ret['sequences']
         if softmax:
@@ -235,7 +242,9 @@ class BartInductor(object):
 
             words_i = align(tA, txt)
             if '' in words_i:
-                continue
+                words_i = align_c(tA, txt)
+                if '' in words_i:
+                    continue
     
             ret.append([words_i, prob])
 
@@ -372,7 +381,7 @@ class BartInductor(object):
         tA = tA.replace('<mask>', ' <mask> ').replace('  ', ' ')
          
         words_prob = self.generate_ins(tA, k, softmax=True)#self.extract_words_for_tA_bart(tA, k*10, softmax=True) 
-        words_prob = filter_words(words_prob)#[:k]
+        #words_prob = filter_words(words_prob)#[:k]
 
         sents = [[tA.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), word[1]] for word in words_prob]
 
@@ -380,24 +389,88 @@ class BartInductor(object):
         rhs_scores = self.extract_templateBs_batch_global_score(words_prob, tA, k, softmax=True)
         #rhs_scores_abs = self.extract_templateBs_batch_global_score_beam_search(words_prob, tA, k, softmax=True)
         #rhs_scores = dict_add(rhs_scores_abs, rhs_scores_agb)
+        
+        
+
+        #rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key] > 0]
+        #rhs_text = [[t[0].replace('<ent0>', 'A').replace('<ent1>', 'B'), t[1]] for t in rhs_ls]
+        # full-text
+        rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key][1] > 0]
+        rhs_text = [rhs_scores[key] for key in rhs_scores.keys() if rhs_scores[key][1] > 0]
+        
+        # rescoring!
+        #rhs_res = self.dpp_sampler.rescoring(rhs_text)
+        #rhs_text = [[r[0], r[1]*r[2]] for r in rhs_res]
+        
+        # softmax
+        #scores = [r[1] for r in rhs_text]
+        #probs = torch.softmax(torch.tensor(scores), dim=0).tolist()
+        #rhs_text = [[rhs_text[i][0], probs[i]] for i in range(len(rhs_text))]    
+    
+        # DPP
+        if self.dpp:
+            if len(rhs_text) > 0:
+                selected_ids = self.dpp_sampler.dpp(rhs_text, k)
+                ret = [rhs_ls[id] for id in selected_ids]
+            else:
+                ret = [['no proper relation hypothesis', 0]]
+        else:
+            ret = rhs_ls    
+
+        ret = sorted(ret, key=lambda x: x[1], reverse=True)[:k]
+        if self.if_then:
+            for i, temp in enumerate(ret):
+                sentence = temp[0]
+                if "then" in sentence:
+                    sentence = sentence.split("then")[-1]
+                else:
+                    sentence = sentence.replace("if", "")
+                ret[i][0] = sentence
+        return ret
+
+    def generate_rule_prompt(self, tA, k=10):
+        tA = formalize_tA(tA)
+        tA = tA.replace('<mask>', ' <mask> ').replace('  ', ' ').strip()
+
+        with open('./data/prompt_type_10.txt') as f:
+            lines = f.readlines()
+            types = [line[:-1] for line in lines]
+        prompts = ['the ' + type + ' ' for type in types] + ['']
+        #combinations = sum([[[p, q] for q in prompts] for p in prompts], [])
 
         '''
-        # clusting ins (SOTA:K5)
+        # select prompts
+        prompt_texts = [[tA.replace('<mask>', p[0], 1).replace('  ', ' '), 0] for p in prompts]
+        prompt_scores = self.dpp_sampler.rescoring(prompt_texts)
+        prompts_ids = np.argsort(prompt_scores)[-4:]
+        prompts = [prompts[id] for id in prompts_ids] + ['']
+        '''
         
-        n_clusters = 5
         clusters = []
-        rhs_scores = {}
-        labels = self.dpp_sampler.Kmeans_clusting(sents, n_clusters) if len(sents) > n_clusters else list(range(len(sents)))
-        for n in range(n_clusters):
-            clusters.append([words_prob[i] for i in range(len(sents)) if labels[i] == n])
+        for prompt in prompts:
+            text = tA.replace('<mask>', prompt + '<mask>', 1)#.replace('<mask>', prompt[1] + ' <mask>', 1)
+            words_prob = self.generate_ins(text, k, softmax=True)
+            words_prob = filter_words(words_prob)#[:k]
+            
+            # rescoring
+            #full_texts = [[text.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), word[1]] for word in words_prob]
+            #words_scores = self.dpp_sampler.rescoring(full_texts)
+            #words_prob = [[words_prob[i][0], words_prob[i][1]*words_scores[i]] for i in range(len(words_prob))]
+                 
+            
+            clusters.append(words_prob)
+
+
+        #rhs_scores = self.extract_templateBs_batch_global_score(words_prob, tA, k, softmax=True)
+
         
-        #rhs_scores = {}
+        rhs_scores = {}
         for cluster in clusters:
             if len(cluster) > 0:
                 new_rhs = self.extract_templateBs_batch_global_score(cluster, tA, k, softmax=True)
                 rhs_scores = dict_add(rhs_scores, new_rhs)
                 #rhs_scores.update(self.generate_rhs_cluster_group_beam(cluster, tA, k, softmax=True))
-        '''
+        
 
         #rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key] > 0]
         #rhs_text = [[t[0].replace('<ent0>', 'A').replace('<ent1>', 'B'), t[1]] for t in rhs_ls]
@@ -435,130 +508,6 @@ class BartInductor(object):
                 ret[i][0] = sentence
         return ret
 
-    def generate_rule_prompt(self, tA, k=10):
-        tA = formalize_tA(tA)
-        tA = tA.replace('<mask>', ' <mask> ').replace('  ', ' ').strip()
-
-        with open('./data/prompt_type_20.txt') as f:
-            lines = f.readlines()
-            types = [line[:-1] for line in lines]
-        prompts = ['the ' + type + ' ' for type in types] #+ ['']
-        #combinations = sum([[[p, q] for q in prompts] for p in prompts], [])
-
-        # select prompts
-        prompt_texts = [[tA.replace('<mask>', p[0], 1), 0] for p in prompts]
-        prompt_scores = self.dpp_sampler.rescoring(prompt_texts)
-        prompts_ids = np.argsort(prompt_scores)[-5:]
-        prompts = [prompts[id] for id in prompts_ids] + ['']
-
-        
-        clusters = []
-        for prompt in prompts:
-            text = tA.replace('<mask>', prompt + '<mask>', 1)#.replace('<mask>', prompt[1] + ' <mask>', 1)
-            words_prob = self.generate_ins(text, k*2, softmax=True)
-            words_prob = filter_words(words_prob)#[:k]
-            
-            # rescoring
-            #full_texts = [[text.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), word[1]] for word in words_prob]
-            #words_scores = self.dpp_sampler.rescoring(full_texts)
-            #words_prob = [[words_prob[i][0], words_prob[i][1]*words_scores[i]] for i in range(len(words_prob))]
-                 
-            
-            clusters.append(words_prob)
-
-        # softmax
-        #scores = [word[1] for word in clusters]
-        #probs = torch.softmax(torch.tensor(scores), dim=0).tolist()
-        #clusters = [[clusters[i][0], probs[i]] for i in range(len(clusters))]       
-        
-        #sents = [[tA.replace('<mask>', word[0][0], 1).replace('<mask>', word[0][1], 1), word[1]] for word in words_prob]
-
-        # -clusting
-        #rhs_scores = self.extract_templateBs_batch_global_score(clusters, tA, k, softmax=True)
-        
-        rhs_scores = {}
-        for cluster in clusters:
-            if len(cluster) > 0:
-                new_rhs = self.extract_templateBs_batch_global_score(cluster, tA, k, softmax=True)
-                rhs_scores = dict_add(rhs_scores, new_rhs)
-                #rhs_scores.update(self.generate_rhs_cluster_group_beam(cluster, tA, k, softmax=True))
-
-        #rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key] > 0]
-        #rhs_text = [[t[0].replace('<ent0>', 'A').replace('<ent1>', 'B'), t[1]] for t in rhs_ls]
-        rhs_ls = [[key, rhs_scores[key]] for key in rhs_scores.keys() if rhs_scores[key][1] > 0]
-        rhs_text = [rhs_scores[key] for key in rhs_scores.keys() if rhs_scores[key][1] > 0]
-        
-        # rescoring
-        #rhs_res = self.dpp_sampler.rescoring(rhs_text)
-        #rhs_text = [[r[0], r[1]*r[2]] for r in rhs_res]
-    
-        if len(rhs_text) > 0:
-            selected_ids = self.dpp_sampler.dpp(rhs_text, k)
-            ret = [rhs_ls[id] for id in selected_ids]
-        else:
-            ret = [['no proper relation hypothesis', 0]]
-
-        ret = sorted(ret, key=lambda x: x[1], reverse=True)[:k]
-        if self.if_then:
-            for i, temp in enumerate(ret):
-                sentence = temp[0]
-                if "then" in sentence:
-                    sentence = sentence.split("then")[-1]
-                else:
-                    sentence = sentence.replace("if", "")
-                ret[i][0] = sentence
-        return ret
-
-    def generate_rhs(self, words_prob, tA, k):
-        rhs_scores = {}
-        for word_prob in words_prob:
-            rh_candidates = self.generate_rh(word_prob, tA, k)
-            for candidate in rh_candidates.items():
-                if candidate[0] not in rhs_scores.keys():
-                    rhs_scores.update({candidate[0]:candidate[1]})
-                else:
-                    rhs_scores.update({candidate[0]:candidate[1]+rhs_scores[candidate[0]]})
-
-        return rhs_scores
-
-    def generate_rh(self, scored_ins, tA, k):
-        ins, score = scored_ins
-        template = construct_template(ins, tA, self.if_then)
-        num_beams = k
-        generated_ids = self.tokenizer(template, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
-        generated_ret = self.orion_hypothesis_generator.generate(generated_ids, num_beams=num_beams,
-                                            num_beam_groups=num_beams,
-                                            max_length=28, #template_length+5,
-                                            num_return_sequences=num_beams, min_length=3,
-                                            diversity_penalty=1.0,
-                                            early_stopping=True,
-                                            #length_penalty = 0.1,
-                                            bad_words_ids=self.bad_words_ids,
-                                            #no_repeat_ngram_size=2,
-                                            output_scores=True,
-                                            return_dict_in_generate=True, decoder_ori_input_ids = generated_ids,
-                                            top_p=0.95,
-                                            )
-        summary_ids = generated_ret['sequences']
-        scores = generated_ret['sequences_scores'] + score
-        txts = [self.tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in summary_ids]
-        ret = {}
-        for i, txt in enumerate(txts):
-            txt = txt.lower()
-            txt = post_process_template(txt)
-            score_rh = scores[i].tolist()
-            words_ii_matched = [word.lower() for word in ins] #extract_similar_words(txt, words_ii)
-            if words_ii_matched is None:
-                score_rh = -1000.0
-            else:
-                for j, word in enumerate(words_ii_matched):
-                    if word not in txt:
-                        score_rh = -1000.0
-                    else:
-                        txt = txt.replace(word, '<ent{}>'.format(j), 1)
-            ret.update({txt:np.exp(score_rh)})
-        return ret
-
     def extract_templateBs_batch_global_score(self, words_prob, tA, k, softmax=False):
         words_prob_sorted = []
         for (words, probA, *_) in words_prob:
@@ -572,12 +521,12 @@ class BartInductor(object):
         ret = {}
         num_beams = k
         scores = []
+        weights = []
         for enum, (words, probA, *_) in enumerate(words_prob_sorted):
             template = construct_template(words, tA, self.if_then)
             templates.extend(template)
             scores.append(probA)
-            #model_kwargs = {'weights':torch.tensor(scores).cuda(self.device)}
-            weights = torch.tensor(scores).cuda(self.device)
+            weights.append(probA)
             for t in template:
                 index_words[len(index_words)] = '\t'.join(words)
             # index_words[len(templates)-1] = '\t'.join(words)
@@ -592,7 +541,7 @@ class BartInductor(object):
                                                     #length_penalty = 0.1,
                                                     bad_words_ids=self.bad_words_ids,
                                                     #no_repeat_ngram_size=2,
-                                                    output_scores=True,
+                                                    output_scores=True,#torch.tensor(weights).cuda(self.device),#True,
                                                     return_dict_in_generate=True, decoder_ori_input_ids = generated_ids,
                                                     top_p=0.95,
                                                     #**model_kwargs
@@ -649,6 +598,7 @@ class BartInductor(object):
 
                 templates.clear()
                 index_words.clear()
+                weights.clear()
 
         return ret #sorted(ret, key=lambda x: ret[x], reverse=True)
 
@@ -802,7 +752,8 @@ class BartInductor(object):
         return ret #sorted(ret, key=lambda x: ret[x], reverse=True)
 '''
 class CometInductor(object):
-    def __init__(self):
+    def __init__(self, device):
+        self.device = device
         self.model = AutoModelForSeq2SeqLM.from_pretrained("adamlin/comet-atomic_2020_BART").cuda(self.device).eval() # .half()
         self.tokenizer = AutoTokenizer.from_pretrained("adamlin/comet-atomic_2020_BART")
         self.task = "summarization"

@@ -205,3 +205,44 @@ def align(tA, text):
     #print([word1, word2])
 
     return [word1, word2]
+
+def align_c(tA, text):
+    
+    tA = clean(tA)
+    text = clean(text)
+
+    idxs = []
+    spans = tA.split('<mask>')
+    text_tokens = list(text)#text.split(' ')
+    n = len(text_tokens)
+    last_idx = 0
+    for span in spans:
+        if span == '':
+            idxs.append([])
+            continue
+        span = span.strip()
+        max_dis = 0
+        span_tokens = list(span)#span.split(' ')
+        idx = [last_idx, last_idx]
+        for i in range(last_idx, n):
+            for j in range(i, n+1):
+                dis = jaccard(span_tokens, text_tokens[i:j])
+                if dis > max_dis:
+                    max_dis = dis
+                    idx = [i, j]
+        idxs.append(idx)
+        last_idx = idx[1]
+    
+    assert len(idxs) == 3
+    idx11 = idxs[0][1] if len(idxs[0]) > 0 else 0
+    idx12 = idxs[1][0]
+    idx21 = idxs[1][1]
+    idx22 = idxs[2][0] if len(idxs[2]) > 0 and idxs[2][0] > idx21 else n+1
+    word1 = ''.join(text_tokens[idx11:idx12]).strip()
+    word2 = ''.join(text_tokens[idx21:idx22]).strip()
+
+    #print(tA)
+    #print(text)
+    #print([word1, word2])
+
+    return [word1, word2]

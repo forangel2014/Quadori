@@ -52,11 +52,12 @@ class RelationExtractionEvaluator(object):
                 continue_pretrain_instance_generator=self.args.mlm_training,
                 continue_pretrain_hypo_generator=self.args.bart_training,
                 if_then=self.args.if_then,
+                prompt=args.prompt,
                 mcgs=args.mcgs,
                 dpp=args.dpp
             )
         elif self.args.inductor == 'comet':
-            self.inductor = CometInductor()
+            self.inductor = CometInductor(self.device)
 
     def clean(self, text):
         segments = text.split('<mask>')
@@ -216,6 +217,7 @@ class RelationExtractionEvaluator(object):
                                 
                             try:
                                 self.metrics['entailment score(mean-max)'].append(max(entailment_scores))
+                                logger.info("most entailed hypothesis: {}".format(hypothesis[np.argmax(entailment_scores)]))
                                 self.metrics['entailment score(mean-min)'].append(min(entailment_scores))
                             except:
                                 logger.warning("Skip entailment score in example: {}.".format(inputs))
@@ -282,11 +284,12 @@ if __name__ == '__main__':
     parser.add_argument("--group_beam", type=bool, default=False)
     parser.add_argument("--mlm_training", type=bool, default=False)
     parser.add_argument("--bart_training", type=bool, default=False)
-    parser.add_argument("--mcgs", type=bool, default=True)
-    parser.add_argument("--dpp", type=bool, default=True)
+    parser.add_argument("--prompt", type=bool, default=False)
+    parser.add_argument("--mcgs", type=bool, default=False)
+    parser.add_argument("--dpp", type=bool, default=False)
     parser.add_argument("--if_then", type=bool, default=False)
     parser.add_argument("--task", type=str, default='openrule155')
-    parser.add_argument("--log_dir", type=str, default='logs_new_new_new/')
+    parser.add_argument("--log_dir", type=str, default='logs_new_new_new_new_new/')
     parser.add_argument("--log_name", type=str, default='default_log')
     parser.add_argument("--device", type=str, default='0')
     args = parser.parse_args()

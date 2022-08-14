@@ -11,7 +11,6 @@ from transformers import (AutoModelForSeq2SeqLM, AutoTokenizer,
 
 from dpp_sampler import DPPsampler
 from src.bart_with_group_beam import BartForConditionalGeneration_GroupBeam
-from src.bart_with_weighted_group_beam import BartForConditionalGeneration_WeightedGroupBeam
 from src.utils import (construct_template, filter_words,
                        formalize_tA, post_process_template, align, align_c, dict_add)
 
@@ -41,13 +40,13 @@ class BartInductor(object):
         continue_pretrain_hypo_generator=True,
         if_then=False,
         prompt=True,
-        mcgs=True,
+        ssts=True,
         dpp=True
     ):
         self.device = device
         self.if_then = if_then
         self.prompt = prompt
-        self.mcgs = mcgs
+        self.ssts = ssts
         self.dpp = dpp
         self.orion_instance_generator_path = 'facebook/bart-large' if not continue_pretrain_instance_generator else ORION_INS_GENERATOR
         self.orion_hypothesis_generator_path = 'facebook/bart-large' if not continue_pretrain_hypo_generator else ORION_HYPO_GENERATOR
@@ -98,13 +97,13 @@ class BartInductor(object):
 
     def generate(self, inputs, k=10, topk=10):
         with torch.no_grad():
-            tB_probs = self.generate_rule(inputs, k)
-            '''
+            #tB_probs = self.generate_rule(inputs, k)
+            
             if self.prompt:
                 tB_probs = self.generate_rule_prompt(inputs, k)
             else:
                 tB_probs = self.generate_rule_improved(inputs, k)
-            '''
+            
             
             ret = [t[0].replace('<ent0>','<mask>').replace('<ent1>','<mask>') for t in tB_probs]
             new_ret = []
@@ -222,7 +221,7 @@ class BartInductor(object):
                                             #length_penalty= 0.8,
                                             #early_stopping=True, bad_words_ids=bad_words_ids, no_repeat_ngram_size=2,
                                             output_scores=True,
-                                            do_sample=self.mcgs,#True, # MC instand of beam search
+                                            do_sample=self.ssts,#True, # MC instand of beam search
                                             return_dict_in_generate=True)
         summary_ids = generated_ret['sequences']
         if softmax:

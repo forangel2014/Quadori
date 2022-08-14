@@ -14,16 +14,6 @@ from transformers import (AutoConfig, AutoModel,
                           AutoModelForSequenceClassification, AutoTokenizer,
                           BertForSequenceClassification, BertModel)
 
-if not os.path.exists('logs_ours/'):
-    os.mkdir('logs_ours/')
-
-logging.basicConfig(
-    filename='logs_ours/expbert-{}.log'.format(str(datetime.now())),
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
-    datefmt='%m/%d/%Y %H:%M:%S',
-    level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 
 TASK2PATH = {
     "disease-train": "data/disease/train.txt",
@@ -33,15 +23,15 @@ TASK2PATH = {
 }
 
 ANNOTATED_EXP = {
-    "spouse": "data/exp/expbert_spouse_explanation.txt",
-    "disease": "data/exp/expbert_disease_explanation.txt",
+    "spouse": "data/exp/expbert_spouse_20.txt",
+    "disease": "data/exp/expbert_disease_20.txt",
 }
 
 GENERATED_EXP = {
-    #"spouse": "data/exp/orion_spouse_explanation.txt",
-    #"disease": "data/exp/orion_disease_explanation.txt",
-    "spouse": "data/exp/ours_spouse_explanation.txt",
-    "disease": "data/exp/ours_disease_explanation.txt",
+    #"spouse": "data/exp/orion_spouse_20.txt",
+    #"disease": "data/exp/orion_disease_20.txt",
+    "spouse": "data/exp/ours_spouse_20.txt",
+    "disease": "data/exp/ours_disease_20.txt",
 }
 
 
@@ -69,6 +59,7 @@ class ExpBERT(nn.Module):
     def __init__(self, args, exp_num):
         super(ExpBERT, self).__init__()
         self.args = args
+        self.device = args.device
         self.exp_num = exp_num
         self.config = AutoConfig.from_pretrained(args.model)
         self.model = AutoModel.from_pretrained(args.model, config=self.config)
@@ -79,12 +70,12 @@ class ExpBERT(nn.Module):
     
     def forward(self, inputs):
         for k, v in inputs["encoding"].items():
-            inputs["encoding"][k] = v.cuda('cuda:4')
+            inputs["encoding"][k] = v.cuda(self.device)
         pooler_output = self.model(**inputs["encoding"]).last_hidden_state[:, 0, :].reshape(1, self.exp_num * self.config.hidden_size)
         pooler_output = self.dropout(pooler_output)
         logits = self.linear(pooler_output)
 
-        loss = self.criterion(logits, torch.LongTensor([inputs["label"]]).cuda('cuda:4'))
+        loss = self.criterion(logits, torch.LongTensor([inputs["label"]]).cuda(self.device))
         prediction = torch.argmax(logits) 
 
         return {
@@ -182,6 +173,7 @@ class Trainer(object):
         self.args = args
         print_config(args)
         self.tokenizer = AutoTokenizer.from_pretrained(self.args.model)
+        self.device = args.device
         
         TASK2EXP = GENERATED_EXP if args.generated_rules else ANNOTATED_EXP
         with open(TASK2EXP[args.task], "r", encoding="utf-8") as file:
@@ -189,7 +181,7 @@ class Trainer(object):
 
         self.train_dataset = REDataset(TASK2PATH['{}-train'.format(args.task)], exp, self.tokenizer)
         self.test_dataset = REDataset(TASK2PATH['{}-test'.format(args.task)], exp, self.tokenizer)
-        self.model = AutoModelForSequenceClassification.from_pretrained(args.model).cuda('cuda:4') if self.args.no_exp else ExpBERT(args, len(exp)).cuda('cuda:4')
+        self.model = AutoModelForSequenceClassification.from_pretrained(args.model).cuda(self.device) if self.args.no_exp else ExpBERT(args, len(exp)).cuda(self.device)
 
         self.train_loader = DataLoader(
             self.train_dataset,
@@ -222,7 +214,7 @@ class Trainer(object):
                     self.model.zero_grad()
                     if self.args.no_exp:
                         for k, v in examples.items():
-                            examples[k] = v.cuda('cuda:4')
+                            examples[k] = v.cuda(self.device)
                         outputs = self.model(**examples)
                         outputs.loss.backward()
 
@@ -247,7 +239,7 @@ class Trainer(object):
                 for step, examples in enumerate(self.test_loader):
                     if self.args.no_exp:
                         for k, v in examples.items():
-                            examples[k] = v.cuda('cuda:4')
+                            examples[k] = v.cuda(self.device)
                         outputs = self.model(**examples)
                         loss.append(outputs.loss.float())
                         labels.extend(examples["labels"].tolist())
@@ -275,8 +267,21 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", type=int, default=5)
     parser.add_argument("--no_exp", type=bool, default=False)
     parser.add_argument("--generated_rules", type=bool, default=False)
+    parser.add_argument("--log_name", type=str, default="default")
+    parser.add_argument("--device", type=str, default="0")
 
     args = parser.parse_args()
+    args.device = 'cuda:' + args.device
+
+    if not os.path.exists('logs_ours/'):
+        os.mkdir('logs_ours/')
+
+    logging.basicConfig(
+        filename='logs_ours/{}.log'.format(args.log_name),
+        format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
+        datefmt='%m/%d/%Y %H:%M:%S',
+        level=logging.INFO)
+    logger = logging.getLogger(__name__)
 
     for seed in range(42, 47):
         set_random_seed(seed)

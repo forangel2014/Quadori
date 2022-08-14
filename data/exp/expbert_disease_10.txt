@@ -1,0 +1,10 @@
+{e1} is a cause of {e2}
+The symptoms of {e2} appeared after the administration of {e1}
+{e2} developed after {e1}
+Patients developed {e2} after being treated with {e1}
+{e1} contributes indirectly to {e2}
+{e1} has been associated with the development of {e2}
+Symptoms of {e2} abated after withdrawal of {e1}
+A greater risk of {e2} was found in the {e1} group compared to a placebo
+{e2} is a side effect of {e1}
+{e2} has been reported to occur with {e1}

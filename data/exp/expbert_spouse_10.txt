@@ -1,0 +1,10 @@
+{e1} is married to {e2}
+{e1} and {e2} are partners
+{e1} and {e2} share a home
+{e1} and {e2} are a couple
+{e1} and {e2} share the same surname
+{e1} is engaged to {e2}
+{e1} and {e2} have a marriage license
+{e1}'s husband is {e2}
+{e1}'s wife is {e2}
+{e1} and {e2} are married

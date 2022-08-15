@@ -54,11 +54,9 @@ class BartInductor(object):
         if group_beam:
             self.orion_hypothesis_generator = BartForConditionalGeneration_GroupBeam.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval().half()
             self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval().half()   
-            #self.bs_generator = BartForConditionalGeneration.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval()
         else:
             self.orion_hypothesis_generator = BartForConditionalGeneration.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval()#.half()
             self.orion_instance_generator = BartForConditionalGeneration.from_pretrained(self.orion_instance_generator_path).cuda(self.device).eval()#.half()
-            #self.bs_generator = BartForConditionalGeneration.from_pretrained(self.orion_hypothesis_generator_path).cuda(self.device).eval()#.half()
     
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large")
         self.word_length = 2
@@ -671,85 +669,7 @@ class BartInductor(object):
                 ret[template][1] += prob
 
         return ret #sorted(ret, key=lambda x: ret[x], reverse=True)
-'''
-    def extract_templateBs_batch_global_score_beam_search(self, words_prob, tA, k, softmax=False):
-        words_prob_sorted = []
-        for (words, probA, *_) in words_prob:
-            tokenized_word = self.tokenizer(words[0])
-            words_prob_sorted.append([words, probA, len(tokenized_word['input_ids'])])
-        words_prob_sorted.sort(key=lambda x:x[2])
 
-        batch_size = 8
-        templates = []
-        scores = []
-        index_words = {}
-        ret = {}
-        num_beams = k
-        for enum, (words, probA, *_) in enumerate(words_prob_sorted):
-            template = construct_template(words, tA, self.if_then)
-            templates.extend(template)
-            scores.append(probA)
-            for t in template:
-                index_words[len(index_words)] = '\t'.join(words)
-            # index_words[len(templates)-1] = '\t'.join(words)
-            if (len(templates) == batch_size) or enum==len(words_prob_sorted)-1 or (words_prob_sorted[enum+1][2]!=words_prob_sorted[enum][2]):
-                generated_ids = self.tokenizer(templates, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
-                generated_ret = self.bs_generator.generate(generated_ids, num_beams=num_beams,
-                                                    num_beam_groups=num_beams,
-                                                    max_length=28, #template_length+5,
-                                                    num_return_sequences=num_beams, min_length=3,
-                                                    diversity_penalty=1.0,
-                                                    early_stopping=True,
-                                                    #length_penalty = 0.1,
-                                                    bad_words_ids=self.bad_words_ids,
-                                                    #no_repeat_ngram_size=2,
-                                                    output_scores=True,
-                                                    return_dict_in_generate=True, decoder_ori_input_ids = generated_ids,
-                                                    top_p=0.95,
-                                                    )
-                summary_ids = generated_ret['sequences'].reshape((len(templates),num_beams,-1))
-                if softmax:
-                    probs = F.softmax(generated_ret['sequences_scores'].reshape((len(templates),num_beams)),dim=1)
-                else:
-                    probs = generated_ret['sequences_scores'].reshape((len(templates),num_beams))
-                for ii in range(summary_ids.size(0)):
-                    txts = [self.tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in summary_ids[ii]]
-                    ii_template = []
-                    words_ii = index_words[ii].split('\t')
-                    for i, txt in enumerate(txts):
-                        prob = probs[ii][i].item() * scores[ii] #
-
-                        txt = txt.lower()
-                        txt = post_process_template(txt)
-
-                        words_ii_matched = [word.lower() for word in words_ii] #extract_similar_words(txt, words_ii)
-                        if words_ii_matched is None:
-                            prob = 0.0
-                        else:
-                            for j, word in enumerate(words_ii_matched):
-                                if word not in txt:
-                                    prob = 0.0
-                                else:
-                                    txt = txt.replace(word, '<ent{}>'.format(j), 1)
-                        
-                        if not txt.endswith('<ent1>.'):
-                            prob = 0.0
-
-                        if txt.count(' ')+1<=3:
-                            continue
-
-                        ii_template.append([txt, prob])
-                    # if print_it:
-                        # print(index_words[ii]+'\t'+str(convert_for_print(ii_template)))
-                    for template, prob in ii_template:
-                        if template not in ret:
-                            ret[template] = 0.0
-                        ret[template] += prob
-                templates.clear()
-                index_words.clear()
-
-        return ret #sorted(ret, key=lambda x: ret[x], reverse=True)
-'''
 class CometInductor(object):
     def __init__(self, device):
         self.device = device

@@ -1,4 +1,4 @@
-# Open Rule Induction
+# Quadori: high Quality and diversed open rule induction
 
 
 ![image](orion.png)

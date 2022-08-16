@@ -290,7 +290,7 @@ if __name__ == '__main__':
     parser.add_argument("--dpp", type=bool, default=False)
     parser.add_argument("--if_then", type=bool, default=False)
     parser.add_argument("--task", type=str, default='openrule155')
-    parser.add_argument("--log_dir", type=str, default='logs/')
+    parser.add_argument("--log_dir", type=str, default='logs_final/')
     parser.add_argument("--log_name", type=str, default='default_log')
     parser.add_argument("--device", type=str, default='0')
     args = parser.parse_args()

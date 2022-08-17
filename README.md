@@ -10,8 +10,8 @@ and diversity. We run experiments on the open rule induction dataset and relatio
 To install requirements:
 
 ```
-conda env create -f environment.yml
-conda activate orion
+conda env create -f environment.yml -n quadori
+conda activate quadori
 ```
 
 ## Download the Two Generator from Orion

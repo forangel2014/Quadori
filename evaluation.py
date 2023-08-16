@@ -11,7 +11,9 @@ from rouge_score.rouge_scorer import RougeScorer
 from tqdm import tqdm
 from src.distinct_n.distinct_n.metrics import distinct_n_corpus_level as distinct_n
 from entailment_eval import EntailmentScorer
-from inductor import BartInductor, CometInductor
+from inductor import BartInductor, CometInductor, LLMInductor
+# import nltk
+# nltk.download('wordnet')
 
 FILES = {
     'amie-yago2': 'data/RE-datasets/AMIE-yago2.txt',
@@ -45,7 +47,7 @@ class RelationExtractionEvaluator(object):
         self.args = args
         self.device = 'cuda:' + self.args.device
         self.entailment_scorer = EntailmentScorer(self.device)
-        if self.args.inductor == 'rule':
+        if self.args.inductor == 'orion' or self.args.inductor == 'quadori':
             self.inductor = BartInductor(
                 device=self.device,
                 group_beam=self.args.group_beam,
@@ -54,10 +56,13 @@ class RelationExtractionEvaluator(object):
                 if_then=self.args.if_then,
                 prompt=args.prompt,
                 ssts=args.ssts,
-                dpp=args.dpp
+                dpp=args.dpp,
+                inductor=self.args.inductor
             )
         elif self.args.inductor == 'comet':
             self.inductor = CometInductor(self.device)
+        elif self.args.inductor == 'llm':
+            self.inductor = LLMInductor(self.args.model, self.device)
 
     def clean(self, text):
         segments = text.split('<mask>')
@@ -213,8 +218,8 @@ class RelationExtractionEvaluator(object):
                                     self.metrics['entailment score(mean-mean)'].append(entailment_score)
                                     entailment_scores.append(entailment_score)
                                 except:
-                                    logger.warning("Skip entailment score in example: {}".format(inputs))
-                                    pass
+                                   logger.warning("Skip entailment score in example: {}".format(inputs))
+                                   pass
                                 
                             try:
                                 self.metrics['entailment score(mean-max)'].append(max(entailment_scores))
@@ -288,6 +293,7 @@ if __name__ == '__main__':
     parser.add_argument("--prompt", type=bool, default=False)
     parser.add_argument("--ssts", type=bool, default=False)
     parser.add_argument("--dpp", type=bool, default=False)
+    parser.add_argument("--model", type=str, default="chatgpt")
     parser.add_argument("--if_then", type=bool, default=False)
     parser.add_argument("--task", type=str, default='openrule155')
     parser.add_argument("--log_dir", type=str, default='logs_final/')
@@ -302,6 +308,7 @@ if __name__ == '__main__':
         filename=args.log_dir+args.log_name+'.log',
         format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
         datefmt='%m/%d/%Y %H:%M:%S',
+        filemode='w',
         level=logging.INFO)
     logger = logging.getLogger(__name__)
 

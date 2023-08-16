@@ -1,6 +1,8 @@
 name: quadori
 channels:
   - https://mirrors.ustc.edu.cn/anaconda/pkgs/main
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
@@ -52,6 +54,7 @@ dependencies:
   - mkl_random=1.2.2=py38h51133e4_0
   - ncurses=6.2=he6710b0_1
   - numexpr=2.7.3=py38h22e1b3c_1
+  - numpy-base=1.20.3=py38h74d4b33_0
   - openssl=1.1.1k=h27cfd23_0
   - orc=1.6.7=h973521d_2
   - parso=0.8.2=pyhd3eb1b0_0
@@ -204,4 +207,4 @@ dependencies:
     - werkzeug==1.0.1
     - widgetsnbextension==3.5.1
     - xxhash==2.0.2
-prefix: /data/sunwangtao/.conda/envs/quadori
+prefix: /home/chenxingran/anaconda3/envs/ori

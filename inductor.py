@@ -10,6 +10,7 @@ from transformers import (AutoModelForSeq2SeqLM, AutoTokenizer,
                           BartForConditionalGeneration, BartTokenizer)
 
 from dpp_sampler import DPPsampler
+from lm import LLM
 from src.bart_with_group_beam import BartForConditionalGeneration_GroupBeam
 from src.utils import (construct_template, filter_words,
                        formalize_tA, post_process_template, align, align_c, dict_add)
@@ -41,13 +42,15 @@ class BartInductor(object):
         if_then=False,
         prompt=True,
         ssts=True,
-        dpp=True
+        dpp=True,
+        inductor="quadori"
     ):
         self.device = device
         self.if_then = if_then
         self.prompt = prompt
         self.ssts = ssts
         self.dpp = dpp
+        self.inductor = inductor
         self.orion_instance_generator_path = 'facebook/bart-large' if not continue_pretrain_instance_generator else ORION_INS_GENERATOR
         self.orion_hypothesis_generator_path = 'facebook/bart-large' if not continue_pretrain_hypo_generator else ORION_HYPO_GENERATOR
 
@@ -95,12 +98,14 @@ class BartInductor(object):
 
     def generate(self, inputs, k=10, topk=10):
         with torch.no_grad():
-            #tB_probs = self.generate_rule(inputs, k)
+            if self.inductor == "orion":
+                tB_probs = self.generate_rule(inputs, k)
             
-            if self.prompt:
-                tB_probs = self.generate_rule_prompt(inputs, k)
-            else:
-                tB_probs = self.generate_rule_improved(inputs, k)
+            elif self.inductor == "quadori":
+                if self.prompt:
+                    tB_probs = self.generate_rule_prompt(inputs, k)
+                else:
+                    tB_probs = self.generate_rule_improved(inputs, k)
             
             
             ret = [t[0].replace('<ent0>','<mask>').replace('<ent1>','<mask>') for t in tB_probs]
@@ -505,6 +510,39 @@ class BartInductor(object):
                 ret[i][0] = sentence
         return ret
 
+    def generate_ins_from_hypo(self, tA, k=10):
+        if not self.prompt:
+            tA = formalize_tA(tA)
+            tA = tA.replace('<mask>', ' <mask> ').replace('  ', ' ')            
+            ins = self.generate_ins(tA, k, softmax=True)#self.extract_words_for_tA_bart(tA, k*10, softmax=True) 
+        else:
+            tA = formalize_tA(tA)
+            tA = tA.replace('<mask>', ' <mask> ').replace('  ', ' ').strip()
+            with open('./data/prompt_type_10.txt') as f:
+                lines = f.readlines()
+                types = [line[:-1] for line in lines]
+            prompts = ['the ' + type + ' ' for type in types] + ['']
+            ins = []
+            for prompt in prompts:
+                text = tA.replace('<mask>', prompt + '<mask>', 1)#.replace('<mask>', prompt[1] + ' <mask>', 1)
+                words_prob = self.generate_ins(text, k, softmax=True)
+                words_prob = filter_words(words_prob)#[:k]
+                ins.extend(words_prob)
+        return ins
+
+    def score_premise_through_ins(self, ins, tA, premise, k=10):
+        templates = []
+        targets = []
+        for i, prob in ins:
+            templates.append('<mask> {} <mask> {} <mask>'.format(i[0], i[1]))
+            #input_ids = self.tokenizer(template, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
+            targets.append(premise.replace('<mask>', i[0], 1).replace('<mask>', i[1], 1))
+            #target_ids = self.tokenizer(premise, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
+        input_ids = self.tokenizer(templates, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
+        target_ids = self.tokenizer(targets, padding="longest", return_tensors='pt')['input_ids'].cuda(self.device)
+        loss = self.orion_hypothesis_generator(input_ids, labels=target_ids)[0]
+        return loss
+
     def extract_templateBs_batch_global_score(self, words_prob, tA, k, softmax=False):
         words_prob_sorted = []
         for (words, probA, *_) in words_prob:
@@ -768,3 +806,37 @@ class CometInductor(object):
 
             return decs
 
+class LLMInductor(object):
+    def __init__(self, model, device):
+        self.device = device
+        self.model = LLM(model, device)
+
+    def generate(self, inputs, k, topk, mode="instruct"):
+
+        tA = inputs.replace('<mask>', 'A', 1).replace('<mask>', 'B', 1).replace('  ', ' ').strip('.').strip()
+        if mode == "few-shot":
+            prompt = "If A is a city of B, then A is a part of B.\n If A lives in B, then A is a citizen of B.\n If {}, then ".format(tA)
+            outputs = self.model(prompt, k=k, temp=2)[:topk]
+        elif mode =="instruct":
+            prompt = \
+"""Write 10 premises that entail the given hypothesis. 
+For example: 
+hypotheis: A is a part of B.
+premise: 
+1. A is a city of B.
+2. A is a member of B.
+...
+hypotheis: It was A who introduced the tomato to B.
+premise: 
+1. A is famous for introducing tomato to B.
+2. A is a people living in B.
+...
+Now please write 10 premises for this hypothesis.
+hypotheis: {}
+premise:
+""".format(tA)
+            outputs = self.model(prompt, k=1, temp=0, stop=['aaa'])[:topk]
+            outputs = outputs[0].split("\n")
+            outputs = [re.sub(r'^[0-9]+\.', '', output).strip() for output in outputs]
+        outputs = [output.replace('A', '<mask>', 1).replace('B', '<mask>', 1) for output in outputs]
+        return outputs

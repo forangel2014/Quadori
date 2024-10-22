@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from transformers import (AutoModelForSeq2SeqLM, AutoTokenizer,
                           BartForConditionalGeneration, BartTokenizer)
 
-from dpp_sampler import DPPsampler
+from dpp_sampler import DPPsampler, NewDPPsampler
 from lm import LLM
 from src.bart_with_group_beam import BartForConditionalGeneration_GroupBeam
 from src.utils import (construct_template, filter_words,
@@ -64,7 +64,7 @@ class BartInductor(object):
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large")
         self.word_length = 2
 
-        self.dpp_sampler = DPPsampler(device)
+        self.dpp_sampler = NewDPPsampler(device)
 
         self.stop_sub_list = ['he', 'she', 'this', 'that', 'and', 'it', 'which', 'who', 'whose', 'there', 'they', '.', 'its', 'one',
                                 'i', ',', 'the', 'nobody', 'his', 'her', 'also', 'only', 'currently', 'here', '()', 'what', 'where',
@@ -811,8 +811,7 @@ class LLMInductor(object):
         self.device = device
         self.model = LLM(model, device)
 
-    def generate(self, inputs, k, topk, mode="instruct"):
-
+    def generate(self, inputs, k, topk, mode="icl"):
         tA = inputs.replace('<mask>', 'A', 1).replace('<mask>', 'B', 1).replace('  ', ' ').strip('.').strip()
         if mode == "few-shot":
             prompt = "If A is a city of B, then A is a part of B.\n If A lives in B, then A is a citizen of B.\n If {}, then ".format(tA)
@@ -835,8 +834,135 @@ Now please write 10 premises for this hypothesis.
 hypotheis: {}
 premise:
 """.format(tA)
-            outputs = self.model(prompt, k=1, temp=0, stop=['aaa'])[:topk]
-            outputs = outputs[0].split("\n")
+            prompt = [{"role": "user", "content": prompt}]
+            outputs = None
+            while not outputs:
+                try:
+                    outputs = self.model(prompt, stop=['aaa'], temperature=0)
+                except:
+                    pass
+            outputs = outputs.split("\n")
             outputs = [re.sub(r'^[0-9]+\.', '', output).strip() for output in outputs]
-        outputs = [output.replace('A', '<mask>', 1).replace('B', '<mask>', 1) for output in outputs]
+            outputs = [output.replace('A', '<mask>', 1).replace('B', '<mask>', 1) for output in outputs]
+
+        elif mode =="icl":
+            prompt = [
+                {"role": "system", "content": "You are a helpful assistant. Your task is to write 10 premises that entail the given hypothesis. The premises should be of high quality and diverse. The premises should be commonsense and general, avoid involving specific information."},
+                {"role": "user", "content": "A is a part of B"},
+                {"role": "assistant", "content": 
+"""
+1. A is a city of B.
+2. A is a member of B.
+3. A is a organization in B.
+4. A is a people living in B.
+5. A is a component of B.
+6. A is a group in B.
+7. A is a region in B.
+8. A is a country in B.
+9. A is a continent in B.
+10. A is a planet in B.
+"""
+                },
+#                 {"role": "user", "content": "A works for B"},
+#                 {"role": "assistant", "content": 
+# """
+# 1. A is a employee of B.
+# 2. A is a member of B.
+# 3. A is a federal government agency under B.
+# 4. A is a career officer in B.
+# 5. A is a curator at B.
+# 6. A is a mentor of B.
+# 7. A is a director of B.
+# 8. A is a executive in B.
+# 9. A is a board member of B.
+# 10. A is the supervisee of B.
+# """}
+                {"role": "user", "content": "It was written by A of B around 1985.."},
+                {"role": "assistant", "content": 
+"""
+1. A is a known author from B.
+2. A works for B.
+3. A is a writer in B's history.
+4. A is a novelist hailing from B.
+...
+"""}
+            ]
+            prompt += [{"role": "user", "content": tA}]
+            outputs = None
+            while not outputs:
+                try:
+                    outputs = self.model(prompt, stop=['aaa'], temperature=0)
+                except:
+                    pass
+            outputs = outputs.split("\n")
+            outputs = [re.sub(r'^[0-9]+\.', '', output).strip() for output in outputs]
+            #outputs = [output for output in outputs if output.count('<mask>') >= 2]
+            outputs = [output.replace('A', '<mask>', 1).replace('B', '<mask>', 1) for output in outputs]
+
+        elif mode =="sim":
+            instance_generation_prompt = [
+                {"role": "system", "content": "You are a helpful assistant. Your task is to generate possible entities for A and B. The entities should be of high quality and diverse."},
+                {"role": "user", "content": "A is a part of B"},
+                {"role": "assistant", "content": 
+"""
+1. (Earth, Solar System).
+2. (Beijing, China).
+3. (Sri Lanka, South Asia).
+4. (Albania, European Union).
+5. (Washington D.C., USA).
+6. (Muscle, human body).
+7. (Mount Everest, Himalayas).
+8. (The Great Wall, China).
+9. (Paris, France).
+10. (iPhone, Apple Inc.).
+"""
+                }
+            ]
+            prompt = instance_generation_prompt + [{"role": "user", "content": tA}]
+            entities = self.model(prompt, stop=['aaa'], temperature=0)
+            # outputs = outputs.split("\n")
+            # outputs = [re.sub(r'^[0-9]+\.', '', output).strip() for output in outputs]
+            # outputs = [eval(output) for output in outputs[:-1]]
+            
+            premise_generation_prompt = [
+                {"role": "system", "content": "You are a helpful assistant. Your task is to generate possible premises that satisfying some of the entity pairs. The premises should be of high quality and diverse. Use <mask> to stand for the entity."},
+                {"role": "user", "content": 
+"""
+1. (Earth, Solar System).
+2. (Beijing, China).
+3. (Sri Lanka, South Asia).
+4. (Albania, European Union).
+5. (Washington D.C., USA).
+6. (Muscle, human body).
+7. (Mount Everest, Himalayas).
+8. (The Great Wall, China).
+9. (Paris, France).
+10. (iPhone, Apple Inc.).
+"""
+},
+                {"role": "assistant", "content": 
+"""
+1. <mask> is a city of <mask>.
+2. <mask> is a member of <mask>.
+3. <mask> is a organization in <mask>.
+4. <mask> is a people living in <mask>.
+5. <mask> is a component of <mask>.
+6. <mask> is a group in <mask>.
+7. <mask> is a region in <mask>.
+8. <mask> is a country in <mask>.
+9. <mask> is a continent in <mask>.
+10. <mask> is a planet in <mask>.
+"""
+                }
+            ]
+            prompt = premise_generation_prompt + [{"role": "user", "content": entities}]
+            outputs = None
+            while not outputs:
+                try:
+                    outputs = self.model(prompt, stop=['aaa'], temperature=0)
+                except:
+                    pass
+            outputs = outputs.split("\n")
+            outputs = [re.sub(r'^[0-9]+\.', '', output).strip() for output in outputs]
+
         return outputs
